@@ -1,0 +1,45 @@
+FULLMETAAchievement
+    [
+    "Allons plus loin"
+    "Faire le jeu dans le jeu avec la société et le développeur"
+    ]
+
+FIREPERISHAchievement   [ "Tout va bien"; "Laisser quelqu'un périr dans un incendie" ]
+
+MORETIMEAchievement     [ "Plus de temps"; "Jouer 10 ans avec 8 jours par mois" ]
+
+LIFETIMEAchievement     [ "Une vie"; "Jouer pendant 80 ans" ]
+
+FPSEASONAchievement     [ "Images par saison"; "Avoir plus de 500 employés" ]
+
+EMPLOYEESUITAchievement [ "Mauvaise entreprise"; "Se faire poursuivre par 10 employés en action collective" ]
+
+SPIFFBREAKAchievement
+    [
+    "C'est plutôt chouette"
+    "Annuler un projet après avoir reçu un financement d'éditeur et gagner le procès"
+    ]
+
+POLICEDRONEAchievement
+    [
+    "Oh ouais !"
+    "Faire confisquer des métaux précieux par un drone de police à travers les murs"
+    ]
+
+BUYPLAYERAchievement    [ PvPayout; "Racheter la société d'un autre joueur" ]
+
+PROPERCOOPAchievement
+    [
+    Co-optimisé
+    "Publier un produit avec une part de revenus approximativement égale avec d'autres joueurs"
+    ]
+
+DEDICATIONAchievement   [ "Le chiffre monte"; "Publier 10 suites pour la même propriété intellectuelle" ]
+
+BUYOUTSTREAKAchievement [ "Yoink !"; "Reprendre 5 entreprises en un an" ]
+
+COPYGOLDAchievement     [ "CTRL-C CTRL-€"; "Essayer de dupliquer des métaux précieux en mode construction" ]
+
+PLATINUMAchievement [ "Le GOAT"; "Gagner un prix platine en gagnant 5 années de suite" ]
+
+FEATURECREEPAchievement     [ "Creeping des fonctionnalités"; "Interagir avec toutes les fonctionnalités du jeu {FeaturesLeft}" ]

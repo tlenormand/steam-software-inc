@@ -1,0 +1,938 @@
+SoftwareCategoryDefault [ "Par défaut"; "" ]
+
+Software
+    {
+    OperatingSystem
+        [
+        "Système d'exploitation"
+        "Le système d'exploitation est le plus gros logiciel de Software Inc. La plupart des logiciels ont besoin d'un OS pour tourner. Quand les gens arrêtent d'acheter une gamme d'OS, ils arrêtent d'acheter les logiciels pour."
+        ]
+    Features
+        [
+        Feature { System "Système" }
+        Feature
+            {
+            Multitasking
+                [
+                "Multitâche"
+                "Laissez vos utilisateurs prétendre qu'ils peuvent tout faire en ayant plusieurs applications ouvertes en même temps"
+                ]
+            }
+        Feature { Useraccounts "Comptes utilisateur" }
+        Feature
+            {
+            Name  "Plug'n'Play"
+            Value
+                [
+                "Plug'n'Play"
+                "Permet d'interagir avec le système d'exploitation de multiples façons"
+                ]
+            }
+        Feature { Fileencryption "Chiffrement de fichiers" }
+        Feature { Systemrecovery "Récupération système" }
+        Feature
+            {
+            Virtualization [ "Virtualisation"; "J'ai mis un OS dans votre OS, etc." ]
+            }
+        Feature { Codesigning "Signature de code" }
+        Feature { Hardware "Matériel" }
+        Feature
+            {
+            Touch
+                [
+                "Tactile"
+                "On n'a jamais assez d'empreintes graisseuses sur un écran"
+                ]
+            }
+        Feature { Fingerprintscanner "Scanner d'empreinte" }
+        Feature
+            {
+            Vibration [ "Vibration"; "L'appareil fait brrr" ]
+            }
+        Feature
+            {
+            Wirelesscommunication [ "Communication sans fil"; "On ne trébuche pas sur l'électromagnétisme" ]
+            }
+        Feature
+            {
+            Removabledrive
+                [
+                "Lecteur amovible"
+                "Sauvegardes sur cartes mémoire et sur disques durs"
+                ]
+            }
+        Feature
+            {
+            Standardizedinput
+                [
+                "Entrée standardisée"
+                "Il faut un clavier pour faire des jeux sur votre console"
+                ]
+            }
+        Feature
+            {
+            Superoptimization
+                [
+                "Super optimisation"
+                "Prenez le temps en développement pour économiser à la commande de matériel (supprime le surcoût à l'impression de produits)"
+                ]
+            }
+        Feature { Interface "Interface" }
+        Feature { Customthemes "Thèmes personnalisés" }
+        Feature { Windowingsystem "Système de fenêtres" }
+        Feature { Unifiedsearch "Recherche unifiée" }
+        Feature { Themes "Thèmes" }
+        Feature { Widgets "Widgets" }
+        Feature { Notifications "Notifications" }
+        Feature { 3Drendering "Rendu 3D" }
+        Feature { Audio "Audio" }
+        Feature { Surroundsound "Son surround" }
+        Feature { Speechrecognition "Reconnaissance vocale" }
+        Feature
+            {
+            Microphonesurveillance
+                [
+                "Surveillance micro"
+                "Écoutez les conversations de vos utilisateurs pour trouver et corriger les bugs avant qu'ils ne soient signalés, au risque de vous faire prendre"
+                ]
+            }
+        Feature
+            {
+            Network
+                [
+                "Réseau"
+                "Comment les anonymes du monde entier pourraient-ils se troll sans cette fonction pratique ?"
+                ]
+            }
+        Feature
+            {
+            Auto-update
+                [
+                "Mise à jour auto"
+                "Corriger les bugs, sécuriser, et redémarrer au milieu d'une dissertation de 60 pages non enregistrée"
+                ]
+            }
+        Feature { Appstore "Boutique d'applications" }
+        Feature { Cloudbackup "Sauvegarde cloud" }
+        Feature { Wireless "Sans fil" }
+        Feature
+            {
+            Motiondetection
+                [
+                "Détection de mouvement"
+                "Qui ne voudrait pas de manettes intégrées dans sa TV ?"
+                ]
+            }
+        Feature { Built-inspeaker "Haut-parleur intégré" }
+        Feature { RGBLighting "Éclairage RGB" }
+        ]
+    Categories
+        [
+        Category
+            {
+            Computer [ "Ordinateur"; "Pour le bureau" ]
+            }
+        Category
+            {
+            Console [ "Console"; "Pour la TV" ]
+            }
+        Category
+            {
+            Phone [ "Téléphone"; "Pour la poche" ]
+            }
+        Category { Joystick "Manette" }
+        ]
+    Components
+        [
+        Component { Plastic "Plastique" }
+        Component { Antenna "Antenne" }
+        Component { Motherboard "Carte mère" }
+        Component { Drivebay "Baie de lecteur" }
+        Component { Controller "Contrôleur" }
+        Component { Case "Boîtier" }
+        Component { Deviceinput "Entrée périphérique" }
+        Component { Touchsensor "Capteur tactile" }
+        Component { Vibration "Vibration" }
+        Component { Screen "Écran" }
+        Component { Fingerprintscanner "Scanner d'empreinte" }
+        Component { Gyroscope "Gyroscope" }
+        Component { Smallbatterypack "Petite batterie" }
+        Component { Mediumbatterypack "Batterie moyenne" }
+        Component { Bigbatterypack "Grosse batterie" }
+        Component { Rumbleunit "Module vibreur" }
+        Component { Speaker "Haut-parleur" }
+        Component { LED "LED" }
+        ]
+    }
+
+Software
+    {
+    2DEditor
+        [
+        "Éditeur 2D"
+        "Programme pour gérer des tableaux 2D d'informations de couleur"
+        ]
+    Features
+        [
+        Feature
+            {
+            2Dgraphics [ "Graphismes 2D"; "Plutôt indispensable pour ce type de logiciel" ]
+            }
+        Feature
+            {
+            Vectorgraphics [ "Graphismes vectoriels"; "Mettez des lignes dans vos pixels" ]
+            }
+        Feature
+            {
+            Proceduralshapes [ "Formes procédurales"; "Qui veut dessiner un rectangle à la main ?" ]
+            }
+        Feature { Layers "Calques" }
+        Feature { Dynamicbrushes "Pinceaux dynamiques" }
+        Feature { Levelsandcurves "Niveaux et courbes" }
+        Feature
+            {
+            Imageeffects [ "Effets d'image"; "Il manque des tourbillons" ]
+            }
+        Feature { Textrendering "Rendu de texte" }
+        Feature { Brushpresets "Préréglages de pinceau" }
+        Feature { Brushstrokesmoothing "Lissage du trait" }
+        Feature { Clipart "Images clipart" }
+        Feature
+            {
+            Liquify [ "Liquéfier"; "Étirez et tirez vos pixels" ]
+            }
+        Feature
+            {
+            Healingbrush
+                [
+                "Pinceau correcteur"
+                "Enlevez boutons, taches, personnes, bâtiments, etc."
+                ]
+            }
+        Feature
+            {
+            Beautify
+                [
+                "Embellir"
+                "Flattez les gens en les rendant plus beaux sur les photos pour qu'ils remboursent moins"
+                ]
+            }
+        Feature { System "Système" }
+        Feature
+            {
+            RAWimageimport
+                [
+                "Import RAW"
+                "Pour tirer un peu plus de couleur de vos couleurs"
+                ]
+            }
+        Feature { Drawingtabletsupport "Support tablette graphique" }
+        ]
+    }
+
+Software
+    {
+    3DEditor [ "Éditeur 3D"; "Des points dans l'espace, en gros" ]
+    Features
+        [
+        Feature { 3Dgraphics "Graphismes 3D" }
+        Feature
+            {
+            Sculpting [ "Sculpture"; "Faites comme si les points étaient de l'argile" ]
+            }
+        Feature
+            {
+            Pathtracing [ "Lancer de rayons"; "Envoyez des rayons dans les points pour faire une image" ]
+            }
+        Feature
+            {
+            Skinning [ "Skinning"; "Faites bouger les points tout seuls" ]
+            }
+        Feature
+            {
+            Proceduralobjects [ "Objets procéduraux"; "Générez des points comme par magie" ]
+            }
+        Feature
+            {
+            Physicssimulation [ "Simulation physique"; "Faites interagir les points" ]
+            }
+        Feature
+            {
+            Liquidsimulation [ "Simulation de fluides"; "Épandez des points partout" ]
+            }
+        Feature
+            {
+            Hairsimulation [ "Simulation de cheveux"; "Faites des lignes entre les points" ]
+            }
+        Feature
+            {
+            Particles [ "Particules"; "Vaporisez des points partout" ]
+            }
+        Feature
+            {
+            Booleanoperations [ "Opérations booléennes"; "Si point et point alors point" ]
+            }
+        Feature
+            {
+            Meshsubdivision [ "Subdivision de maillage"; "Ajoutez des points entre les points" ]
+            }
+        Feature
+            {
+            Inversekinematics [ "Cinématique inverse"; "Placez les points proprement entre d'autres points" ]
+            }
+        Feature
+            {
+            Bitmining
+                [
+                "Minage de bitcoins"
+                "Minez avec le GPU de vos utilisateurs pour gagner {Currency:0.1} par utilisateur actif, au risque de vous faire prendre"
+                ]
+            }
+        Feature { System "Système" }
+        Feature
+            {
+            GPUrendering [ "Rendu GPU"; "Utilisez le matériel pour faire des points plus vite" ]
+            }
+        Feature
+            {
+            Motioncapture [ "Capture de mouvement"; "Convertissez le mouvement réel en mouvement de points" ]
+            }
+        ]
+    }
+
+Software
+    {
+    AudioTool
+        [
+        "Outil audio"
+        "Outil d'enregistrement et de mixage des effets sonores et de la musique."
+        ]
+    Features
+        [
+        Feature
+            {
+            Audio [ "Audio"; "Ce qui produit le son" ]
+            }
+        Feature { Synthesizer "Synthétiseur" }
+        Feature { Delayandreverb "Délai et réverbération" }
+        Feature { EQandcompression "EQ et compression" }
+        Feature { Ampsimulation "Simulation d'ampli" }
+        Feature { Wavepitchandstretch "Hauteur et étirement de forme d'onde" }
+        Feature
+            {
+            Autotune [ "Autotune"; "Ça existe" ]
+            }
+        Feature { Synthesizerpresets "Préréglages de synthé" }
+        Feature { Soundbank "Banque de sons" }
+        Feature
+            {
+            Interface [ "Interface"; "Donne à l'utilisateur du visuel pour ses oreilles" ]
+            }
+        Feature { Multi-trackediting "Édition multipiste" }
+        Feature { Channelmixer "Mixeur de canaux" }
+        Feature { Noteeditor "Éditeur de notes" }
+        Feature { Spectrumanalyzer "Analyseur de spectre" }
+        Feature { Racksimulation "Simulation de rack" }
+        Feature
+            {
+            System [ "Système"; "Interactions avec le système sous-jacent" ]
+            }
+        Feature { Audiocodecs "Codecs audio" }
+        Feature { MIDIdeviceinput "Entrée périphérique MIDI" }
+        Feature { Effectplug-ins "Plug-ins d'effets" }
+        Feature
+            {
+            Includedsoundcard
+                [
+                "Carte son incluse"
+                "Les ventes physiques rapportent 50 % de plus, mais les exemplaires coûtent {Currency:10} de plus à produire"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    Game       [ "Jeu"; "Art interactif." ]
+    Features
+        [
+        Feature { Gamedesign "Conception de jeu" }
+        Feature { Openworld "Monde ouvert" }
+        Feature
+            {
+            Physics [ "Physique"; "Trucs qui rebondissent" ]
+            }
+        Feature
+            {
+            Dialogtrees
+                [
+                "Arbres de dialogue"
+                "Donnez la parole au joueur, puis faites dire à son perso un truc un peu différent en jeu"
+                ]
+            }
+        Feature
+            {
+            Branchingstory
+                [
+                "Histoire à embranchements"
+                "Plusieurs chemins différents qui mènent au même endroit"
+                ]
+            }
+        Feature
+            {
+            Modsupport [ "Support des mods"; "Vous pouvez modder cette fonction hors du jeu si vous voulez" ]
+            }
+        Feature { Customizablecharacter "Personnage personnalisable" }
+        Feature { 2DGraphics "Graphismes 2D" }
+        Feature
+            {
+            AdvancedHUD [ "HUD avancé"; "Ajoutez un peu plus d'interface à votre jeu" ]
+            }
+        Feature
+            {
+            Post-processing [ "Post-traitement"; "\#Bloom" ]
+            }
+        Feature
+            {
+            ReverseUno [ "Reverse Uno"; "Annule la propriété intellectuelle du chef de conception à la sortie" ]
+            }
+        Feature { 3DGraphics "Graphismes 3D" }
+        Feature { Shadows "Ombres" }
+        Feature { Cutscenes "Scènes cinématiques" }
+        Feature
+            {
+            VR [ "VR"; "Réalité virtuelle" ]
+            }
+        Feature { Facialanimations "Animations faciales" }
+        Feature { Proceduralgeneration "Génération procédurale" }
+        Feature
+            {
+            Wackyphysics
+                [
+                "Physique déjantée"
+                "Boostez le marketing de sortie avec des vidéos virales en ajoutant des bugs à vos objets physiques"
+                ]
+            }
+        Feature { Audio "Audio" }
+        Feature { Recordeddialog "Dialogues enregistrés" }
+        Feature { Adaptivemusic "Musique adaptative" }
+        Feature
+            {
+            Digitalexclusivemusic
+                [
+                "Musique exclusive numérique"
+                "Convertissez une partie des ventes physiques en numériques, en perdant des ventes physiques au passage"
+                ]
+            }
+        Feature
+            {
+            Multiplayer
+                [
+                "Multijoueur"
+                "Facilitez les cris d'obscénités des ados du monde entier"
+                ]
+            }
+        Feature
+            {
+            MMO [ "MMO"; "Jeu en ligne massivement multijoueur" ]
+            }
+        Feature { Newdialog "Nouveaux dialogues" }
+        Feature { Newcutscenes "Nouvelles scènes" }
+        Feature
+            {
+            Charactercustomization [ "Personnalisation du personnage"; "Chauve est une coiffure" ]
+            }
+        Feature { Newstoryline "Nouvelle intrigue" }
+        Feature
+            {
+            Sportsteams [ "Équipes sportives"; "Ajoutez des lignes au tableau et on appelle ça un jour" ]
+            }
+        Feature { Music "Musique" }
+        Feature
+            {
+            Guns [ "Armes"; "Vous pouvez en ajouter une avec un peu plus de pew pew" ]
+            }
+        Feature { Playablecharacters "Personnages jouables" }
+        Feature
+            {
+            Map [ "Carte"; "Rendez votre monde ouvert encore plus ouvert" ]
+            }
+        Feature { Bossfights "Combats de boss" }
+        Feature { Environmentobjects "Objets d'environnement" }
+        Feature { Sprites "Sprites" }
+        Feature { Proceduralparameters "Paramètres procéduraux" }
+        Feature { AIarchetypes "Archétypes d'IA" }
+        ]
+    Categories
+        [
+        Category
+            {
+            RPG [ "RPG"; "Jeu de rôle" ]
+            }
+        Category { Adventure "Aventure" }
+        Category
+            {
+            Simulation [ "Simulation"; "Vous en jouez un !" ]
+            }
+        Category { Sports "Sport" }
+        Category
+            {
+            RTS [ "RTS"; "Stratégie en temps réel" ]
+            }
+        Category
+            {
+            FPS [ "FPS"; "Tir à la première personne" ]
+            }
+        Category
+            {
+            Expansionpack [ "Extension"; "Wowee" ]
+            }
+        ]
+    }
+
+Software
+    {
+    OfficeSoftware [ "Logiciel de bureau"; "Pour tous vos besoins de bureau" ]
+    Features
+        [
+        Feature
+            {
+            Interface [ "Interface"; "On ne peut pas faire de documents si on ne les voit pas" ]
+            }
+        Feature
+            {
+            Equationrendering
+                [
+                "Rendu d'équations"
+                "y=(1/(σ·sqrt(2·π)))e^(-(x-μ)^2/(2·σ^2))... Ça ne rend pas bien, non ?"
+                ]
+            }
+        Feature
+            {
+            Autopagelayout
+                [
+                "Mise en page auto"
+                "C.-à-d. passer 30 minutes à faire rentrer l'image dans la case"
+                ]
+            }
+        Feature { Chartsandgraphs "Graphiques et diagrammes" }
+        Feature
+            {
+            Clipart [ "Clipart"; "*Bonhomme bâton qui montre le graphique*" ]
+            }
+        Feature
+            {
+            Animations
+                [
+                "Animations"
+                "Juste des diapos et du texte qui glissent de partout"
+                ]
+            }
+        Feature { Slidetemplates "Modèles de diapos" }
+        Feature { Vectorgraphics "Graphismes vectoriels" }
+        Feature
+            {
+            Virtualassistant [ "Assistant virtuel"; "Aide les rapports de bugs à se résoudre tout seuls" ]
+            }
+        Feature { System "Système" }
+        Feature
+            {
+            Spellcheck [ "Correcteur"; "Donnez l'air encore plus compétent à n'importe qui" ]
+            }
+        Feature
+            {
+            Interactiveslides
+                [
+                "Diapos interactives"
+                "À ce stade autant faire un site web"
+                ]
+            }
+        Feature
+            {
+            Dictionary [ "Dictionnaire"; "Donnez l'air compétent à n'importe qui" ]
+            }
+        Feature
+            {
+            Thesaurus [ "Thésaurus"; "Donnez l'air plus compétent à n'importe qui" ]
+            }
+        Feature { Financialmathlibrary "Bibliothèque maths financières" }
+        Feature { Geometricmathlibrary "Bibliothèque maths géométriques" }
+        Feature
+            {
+            Datemanipulation
+                [
+                "Manipulation de dates"
+                "Qu'est-ce que aujourd'hui moins le 10 juin 2014 ? Vous le regardez"
+                ]
+            }
+        Feature { Scripting "Scripts" }
+        Feature { Network "Réseau" }
+        Feature { Cloudbackup "Sauvegarde cloud" }
+        Feature { Databaseconnections "Connexions base de données" }
+        Feature { Audioplayback "Lecture audio" }
+        Feature
+            {
+            Soundeffectlibrary
+                [
+                "Banque d'effets sonores"
+                "Mettez un peu d'excitation pas vraiment nécessaire dans vos présentations !"
+                ]
+            }
+        Feature
+            {
+            Soundeffects
+                [
+                "Effets sonores"
+                "Quelqu'un va aimer cette présentation et ce n'est pas moi"
+                ]
+            }
+        Feature { Mathlibrary "Bibliothèque mathématique" }
+        Feature
+            {
+            Fonts [ "Polices"; "<b><color=\#FF0000>Papyrus</color></b>" ]
+            }
+        Feature { Documenttemplates "Modèles de documents" }
+        Feature
+            {
+            Charts
+                [
+                "Graphiques"
+                "Mettre une treemap dans ce graphique temporel sauverait honnêtement le rapport annuel"
+                ]
+            }
+        ]
+    Categories
+        [
+        Category { ContentPack "Pack de contenu" }
+        ]
+    }
+
+Software
+    {
+    Antivirus
+        [
+        "Antivirus"
+        "Protéger les ordinateurs des fauteurs de troubles numériques depuis que c'est rentable."
+        ]
+    Features
+        [
+        Feature
+            {
+            Systemscanning [ "Analyse système"; "Protection contre les menaces locales" ]
+            }
+        Feature
+            {
+            Filescanner
+                [
+                "Scan de fichiers"
+                "Recherche de virus en arrière-plan, avec des blocages de fichiers aléatoires hilarants"
+                ]
+            }
+        Feature
+            {
+            Applicationscanner
+                [
+                "Scan d'applications"
+                "Recherche de logiciels malveillants en arrière-plan, avec des plantages aléatoires hilarants"
+                ]
+            }
+        Feature
+            {
+            Anti-theft [ "Anti-vol"; "Pourquoi ne pas prévenir l'ordinateur qu'il a été volé" ]
+            }
+        Feature
+            {
+            Fileencryption
+                [
+                "Chiffrement de fichiers"
+                "Mieux vaut garder la recette secrète des cookies sous clé !"
+                ]
+            }
+        Feature
+            {
+            Interface [ "Interface"; "Protection contre les menaces à l'ergonomie" ]
+            }
+        Feature { Malwarealerts "Alertes malware" }
+        Feature { Hackingalerts "Alertes piratage" }
+        Feature { Filequarantine "Quarantaine de fichiers" }
+        Feature
+            {
+            Passwordmanagement
+                [
+                "Gestion des mots de passe"
+                "Évitez de remplir votre boîte mail de réinitialisations"
+                ]
+            }
+        Feature
+            {
+            Networking [ "Réseau"; "Protection contre les menaces externes" ]
+            }
+        Feature { Portblocking "Blocage de ports" }
+        Feature
+            {
+            Applicationaccesscontrol
+                [
+                "Contrôle d'accès des applications"
+                "Solitaire Extreme n'a pas besoin d'accéder à vos fichiers système"
+                ]
+            }
+        Feature { IPfiltering "Filtrage IP" }
+        Feature
+            {
+            Anti-spam
+                [
+                "Anti-spam"
+                "Recevez moins d'opportunités en or de vos parents perdus de vue"
+                ]
+            }
+        Feature
+            {
+            Adblocker [ "Bloqueur de pub"; "Enlevez ce qui rend les sites d'actu illisibles" ]
+            }
+        Feature
+            {
+            Virusdatabase
+                [
+                "Base de virus"
+                "Gardez comme par magie les définitions de virus de vos utilisateurs à jour"
+                ]
+            }
+        Feature
+            {
+            Datamining
+                [
+                "Exploitation de données"
+                "Vendez les données de vos utilisateurs pour gagner {Currency:0.25} par utilisateur actif, au risque de vous faire prendre"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    LogisticsApplication "Application logistique"
+    Features
+        [
+        Feature { Commandline "Ligne de commande" }
+        Feature { Third-partyintegration "Intégration tierce" }
+        Feature { Paymentprocessing "Traitement des paiements" }
+        Feature { Businessoptimizationalgorithms "Algorithmes d'optimisation" }
+        Feature { Userinterface "Interface utilisateur" }
+        Feature { Prettyicons "Icônes" }
+        Feature { Databasemanagement "Gestion de base de données" }
+        Feature { Productdatabase "Base produits" }
+        Feature { Inventorymanagement "Gestion des stocks" }
+        Feature { Employeemanagement "Gestion du personnel" }
+        ]
+    }
+
+Software
+    {
+    Website  "Site web"
+    Features
+        [
+        Feature { Staticpages "Pages statiques" }
+        Feature { Icons "Icônes" }
+        Feature { Pagelayout "Mise en page" }
+        Feature { Pagestyling "Style des pages" }
+        Feature { Customfont "Police personnalisée" }
+        Feature { Dynamicpages "Pages dynamiques" }
+        Feature { Useraccounts "Comptes utilisateur" }
+        Feature { Messageboard "Forum" }
+        Feature { Store "Boutique" }
+        Feature { Backendapplication "Application back-end" }
+        ]
+    }
+
+Software
+    {
+    GameAssets "Assets de jeu"
+    Features
+        [
+        Feature { 2Dart "Art 2D" }
+        Feature { Userinterfacegraphics "Graphismes d'interface" }
+        Feature { Conceptart "Concept art" }
+        Feature { Soundeffects "Effets sonores" }
+        Feature { Music "Musique" }
+        Feature { Writtendialogue "Dialogues écrits" }
+        Feature { 3Dmodels "Modèles 3D" }
+        Feature { Textures "Textures" }
+        Feature { Environments "Environnements" }
+        Feature { Riggingandanimation "Rigging et animation" }
+        ]
+    }
+
+Software
+    {
+    EmbeddedSystem "Système embarqué"
+    Features
+        [
+        Feature { Clock "Horloge" }
+        Feature { Thermostat "Thermostat" }
+        Feature { Camera "Caméra" }
+        Feature { Speaker "Haut-parleur" }
+        Feature { Motor "Moteur" }
+        Feature { Display "Affichage" }
+        Feature { GPS "GPS" }
+        Feature { Hardwareinterface "Interface matérielle" }
+        Feature { Userinterface "Interface utilisateur" }
+        ]
+    Components
+        [
+        Component { Thermostat "Thermostat" }
+        Component { Camera "Caméra" }
+        Component { Speaker "Haut-parleur" }
+        Component { Motor "Moteur" }
+        Component { Display "Affichage" }
+        Component { GPS "GPS" }
+        Component { USB "USB" }
+        Component { Board "Carte" }
+        Component { Case "Boîtier" }
+        ]
+    }
+
+Software
+    {
+    Distributionplatform "Plateforme de distribution"
+    Features
+        [
+        Feature { Platform "Plateforme" }
+        Feature
+            {
+            Filemanagement
+                [
+                "Gestion de fichiers"
+                "Évitez que les utilisateurs aient à connaître la structure des dossiers par cœur"
+                ]
+            }
+        Feature
+            {
+            Recommendationsystem
+                [
+                "Système de recommandation"
+                "Les gens n'achètent peut-être pas <Color=\#0000FF>Colorful</Color> <Color=\#FF0000>Calculator</Color> <Color=\#00FF00>4</Color> parce qu'ils ne savent pas que ça existe"
+                ]
+            }
+        Feature
+            {
+            PlatformSDK [ "SDK plateforme"; "Pourquoi ne pas laisser d'autres apps trifouiller la vôtre ?" ]
+            }
+        Feature { Interface "Interface" }
+        Feature { Librarymanagement "Gestion de la bibliothèque" }
+        Feature
+            {
+            Reviewsystem [ "Système d'avis"; "9/10 - Il y a un petit quelque chose pour tout le monde" ]
+            }
+        Feature { Networking "Réseau" }
+        Feature { Cloudsync "Synchronisation cloud" }
+        Feature
+            {
+            Socialfeatures
+                [
+                "Fonctions sociales"
+                "Amis, chat, forums et autres moyens de partager des photos de chats"
+                ]
+            }
+        Feature { Voicechat "Chat vocal" }
+        Feature
+            {
+            Deltapatching
+                [
+                "Correctifs delta"
+                "En fait, il suffit de mettre à jour ce qui a changé"
+                ]
+            }
+        Feature
+            {
+            Remotestreaming
+                [
+                "Streaming à distance"
+                "La bande passante permet enfin de streamer ses tableurs préférés sur la TV du salon en full HD"
+                ]
+            }
+        ]
+    }
+
+Hardware
+    {
+    TestJoystick       "Manette"
+    Height             "Hauteur"
+    Depth              "Profondeur"
+    Width              "Largeur"
+    LengthMod          "Mod. longueur"
+    SkewBottom         "Inclinaison bas"
+    SkewTop            "Inclinaison haut"
+    Corners            "Coins"
+    Curve              "Courbe"
+    CurveTop           "Courbe haut"
+    Bend               "Courbure"
+    IndentationTop     "Indentation haut"
+    IndentationBottom  "Indentation bas"
+    Bump               "Bosse"
+    Handles            "Poignées"
+    HandlesThickness   "Épaisseur poignées"
+    TriggerBase        "Base gâchette"
+    BackMiddle         "Dos milieu"
+    BackFingerspace    "Espace doigts dos"
+    Roundness          "Arrondi"
+    FaceCurve          "Courbe face"
+    FaceIndentation    "Indentation face"
+    Buttons            "4 boutons"
+    Size               "Taille"
+    Scale              "Échelle"
+    2Buttons           "2 boutons"
+    DPad               "Croix directionnelle"
+    DPad2              "Croix segmentée"
+    AnalogStick        "Stick analogique"
+    BigButton          "Gros bouton"
+    SelectButton       "Bouton select"
+    Taper              "Conicité"
+    Shape              "Forme"
+    TouchPad           "Pavé tactile"
+    MiddleHandle       "Poignée centrale"
+    Length             "Longueur"
+    Console            "Console"
+    BottomCurve        "Courbe bas"
+    TopCurve           "Courbe haut"
+    Skew               "Inclinaison"
+    Inset              "Encart"
+    Step               "Marche"
+    MiddleMod          "Mod. milieu"
+    MiddleWidth        "Largeur milieu"
+    ControllerInsert   "Encart manette"
+    CellPhone          "Téléphone"
+    ScreenWidth        "Largeur écran"
+    ScreenHeight       "Hauteur écran"
+    ScreenPlacement    "Position écran"
+    CurveSide          "Courbe côté"
+    CurveBottom        "Courbe bas"
+    BulgeTop           "Bombé haut"
+    BulgeFront         "Bombé avant"
+    RoundedBack        "Dos arrondi"
+    Bumps              "Bosses"
+    KeyHeight          "Hauteur touches"
+    Bend2              "Courbure 2"
+    KeyScale           "Échelle touches"
+    Bevels             "Biseaux"
+    Elliptical         "Elliptique"
+    Antenna            "Antenne"
+    Thin               "Fin"
+    Flat               "Plat"
+    SmartPhone         "Smartphone"
+    CurveBack          "Courbe dos"
+    SoftCorners        "Coins doux"
+    BezelThickness     "Épaisseur cadre"
+    RoundedEdge        "Bord arrondi"
+    Bezel              "Cadre"
+    ScreenHeightBottom "Hauteur écran bas"
+    ScreenHeightTop    "Hauteur écran haut"
+    Notch              "Encoche"
+    NotchWidth         "Largeur encoche"
+    OldConsole         "Ancienne console"
+    BottomTaper        "Conicité bas"
+    TopTaper           "Conicité haut"
+    BackBump           "Bosse dos"
+    Belt               "Ceinture"
+    Slope              "Pente"
+    }
+
