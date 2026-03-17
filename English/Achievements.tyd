@@ -1,45 +1,45 @@
 FULLMETAAchievement
     [
-    "Let's go deeper"
-    "Make the game in the game with the company and the developer"
+    "Allons plus loin"
+    "Faire le jeu dans le jeu avec la société et le développeur"
     ]
 
-FIREPERISHAchievement   [ "This is fine"; "Have somebody perish in a fire" ]
+FIREPERISHAchievement   [ "Tout va bien"; "Laisser quelqu'un périr dans un incendie" ]
 
-MORETIMEAchievement     [ "Need more time"; "Play for 10 years with 8 days per month" ]
+MORETIMEAchievement     [ "Plus de temps"; "Jouer 10 ans avec 8 jours par mois" ]
 
-LIFETIMEAchievement     [ "A lifetime"; "Play for 80 years" ]
+LIFETIMEAchievement     [ "Une vie"; "Jouer pendant 80 ans" ]
 
-FPSEASONAchievement     [ "Frames per season"; "Have over 500 employees" ]
+FPSEASONAchievement     [ "Images par saison"; "Avoir plus de 500 employés" ]
 
-EMPLOYEESUITAchievement [ "Bad company"; "Have 10 employees sue you in a class action" ]
+EMPLOYEESUITAchievement [ "Mauvaise entreprise"; "Se faire poursuivre par 10 employés en action collective" ]
 
 SPIFFBREAKAchievement
     [
-    "That's pretty spiffing"
-    "Cancel a project after receiving publisher funding and successfully win the lawsuit"
+    "C'est plutôt chouette"
+    "Annuler un projet après avoir reçu un financement d'éditeur et gagner le procès"
     ]
 
 POLICEDRONEAchievement
     [
-    "Oh yeah!"
-    "Have a police drone break through walls to confiscate precious metals"
+    "Oh ouais !"
+    "Faire confisquer des métaux précieux par un drone de police à travers les murs"
     ]
 
-BUYPLAYERAchievement    [ PvPayout; "Buy out another player's company" ]
+BUYPLAYERAchievement    [ PvPayout; "Racheter la société d'un autre joueur" ]
 
 PROPERCOOPAchievement
     [
-    Co-optimized
-    "Release a product with approximately equal revenue share with other players"
+    Co-optimisé
+    "Publier un produit avec une part de revenus approximativement égale avec d'autres joueurs"
     ]
 
-DEDICATIONAchievement   [ "Number goes up"; "Release 10 sequels for the same IP" ]
+DEDICATIONAchievement   [ "Le chiffre monte"; "Publier 10 suites pour la même propriété intellectuelle" ]
 
-BUYOUTSTREAKAchievement [ "Yoink!"; "Take over 5 companies in one year" ]
+BUYOUTSTREAKAchievement [ "Yoink !"; "Reprendre 5 entreprises en un an" ]
 
-COPYGOLDAchievement     [ "CTRL-C CTRL-$"; "Try to duplicate precious metals in build mode" ]
+COPYGOLDAchievement     [ "CTRL-C CTRL-€"; "Essayer de dupliquer des métaux précieux en mode construction" ]
 
-PLATINUMAchievement [ "The GOAT"; "Win a platinum award by winning 5 years in a row" ]
+PLATINUMAchievement [ "Le GOAT"; "Gagner un prix platine en gagnant 5 années de suite" ]
 
-FEATURECREEPAchievement     [ "Feature creep"; "Interact with all features of the game {FeaturesLeft}" ]
+FEATURECREEPAchievement     [ "Creeping des fonctionnalités"; "Interagir avec toutes les fonctionnalités du jeu {FeaturesLeft}" ]
