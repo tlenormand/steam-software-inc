@@ -1,235 +1,259 @@
 Tutorial
     {
-    SHARED1                 "Pour commencer à développer un logiciel, les designers doivent assembler un document de conception. Ce document décrit comment le logiciel doit être développé et structuré, pour que tout le monde soit aligné.
+    SHARED1                 "To start developing software, designers need to piece together a design document. This document describes how the software should be developed and structured, to make sure everyone is on the same page.
+	
+The detail window also gives you an overview of their planned releases and the ability to cancel them.
 
-La compétence {H:Service} détermine la vitesse de réponse ; au moins une étoile en {H:Support} permet de remonter les bugs.
+Press Continue to advance the tutorial."
+    WELCOME2                "You can move the camera with {KeyBind:MoveUp}, {KeyBind:MoveLeft}, {KeyBind:MoveDown} and {KeyBind:MoveRight}, holding {KeyBind:DragCamera} and dragging the mouse, or by moving your mouse to the edges of the screen (if edge scrolling is enabled in the options menu).
 
-Appuyez sur Continuer quand vous êtes prêt."
-    SUBSIDIARY3             "Développer consomme des ressources pour une filiale. Si vous voulez qu'elles travaillent sur des tâches précises ou contrôler le calendrier des sorties, désactivez leur autonomie.
+You can Improve your business reputation by doing contract work or accepting deals from other companies"
+    WELCOME8                "Here you can see how much money is moving in and out of your company.
 
-Vous pouvez mettre à jour autant que vous voulez, même des correctifs quotidiens.
+Finally, you should note that you'll need extra bandwidth to handle selling all those extra products."
+    DIGITALDISTRIBUTION5    "Your store may have a lot of users, but if you don't have any products for them to buy, your market share will stay low and you will fail to attract new clients. Luckily, you can offer other companies time-limited {H:exclusivity deals} for your store, to give your users something to buy.
 
-Enfin, vous devez choisir quelles parties du logiciel revoir. Si vous avez déjà eu de bons scores à une revue passée, vous pouvez gagner du temps et de l'argent en ignorant ces zones pour la revue actuelle.
+Pres {H:OK} when you are ready to continue."
+    SHARED3                 "Reviews will pour in as time goes on. You can finish it prematurely if you want, but if you want high accuracy, you should wait until all reviews are in.
 
-Notez bien le pourcentage {H:Expected interest} : au-delà de 100 %, ajouter des fonctionnalités n'augmente que le temps de développement, pas les ventes.
+Note that some options might be greyed out, because your leader doesn't have the necessary Automation level. You can see what each Automation level unlocks by hovering over the stars in the specialization overview for leaders in the Employee window, Team window or Employee detail window.
+		
+Click on the {H:Update} button when you are ready to go."
+    WELCOME1                "Welcome to Software Inc.
 
-Cliquez sur le bouton {H:Update} quand vous êtes prêt."
-    WELCOME1                "Bienvenue dans Software Inc. Vous pouvez déplacer cette fenêtre en faisant glisser la barre de titre. Appuyez sur Continuer pour avancer."
-    WELCOME2                "Déplacez la caméra avec {KeyBind:MoveUp}, {KeyBind:MoveLeft}, {KeyBind:MoveDown}, {KeyBind:MoveRight}, ou en maintenant {KeyBind:DragCamera} et en bougeant la souris (ou en la mettant au bord de l'écran si le défilement est activé). Tournez avec {KeyBind:RotateCamera} ou {KeyBind:TurnUp/TurnLeft/TurnDown/TurnRight}. Zoom avec la molette ou {KeyBind:ZoomIn}/{KeyBind:ZoomOut}."
-    WELCOME3                "Les touches se configurent dans les options (Echap ou bouton en bas à droite puis Options)."
-    WELCOME4                "En haut se trouve votre solde. Survolez le nombre pour le détail de la valeur de l'entreprise."
-    WELCOME5                "La date et l'heure sont au centre en haut. Cliquez sur la date pour voir les plannings du personnel."
-    WELCOME6                "Le nombre ici indique vos followers. Survolez la barre pour la reconnaissance de marché par catégorie. Pour vendre plus il faut gagner en reconnaissance en faisant de bons produits et en les marketant."
-    WELCOME7                "Les étoiles montrent votre réputation professionnelle. Survolez pour voir ce qui l'affecte. Améliorez-la avec des contrats ou des accords avec d'autres entreprises."
-    WELCOME8                "Ici vous voyez les entrées et sorties d'argent. C'est le premier jour donc rien ne s'affiche. Cliquez pour ouvrir la fenêtre des finances."
-    WELCOME9                "Contrôlez la vitesse du temps avec ces boutons ou {KeyBind:Pause}, {KeyBind:Speed1}, {KeyBind:Speed2}, {KeyBind:Speed3} (configurables dans les options)."
-    WELCOME10               "Les notifications importantes apparaissent à gauche. Certaines sont cliquables pour les détails. Clic droit pour les supprimer."
-    WELCOME11               "Tous les contrôles et fenêtres sont en bas à gauche."
-    WELCOME12               "Vous pouvez relancer n'importe quel tutoriel depuis les options. Consultez les {H:Tasks} pour débloquer des récompenses. Quand vous êtes prêt, entrez en {H:Build mode} pour construire votre bureau."
-    }
-Si une autre entreprise détient plus de 50 % de la vôtre, elle peut lancer une {H:Hostile takeover} : vous avez 6 mois pour les faire passer sous 25 % avant dissolution.
+If you are unsure of what to do next, you should check out the {H:Tasks} you can complete to unlock cool rewards.
 
-Essayez de sélectionner une pièce à louer. Les pièces disponibles ont l'intérieur noir."
-    LEASING12               "Vous pouvez aussi résilier en sélectionnant les pièces que vous louez. Résilier vend tout le mobilier des pièces ; vous pouvez utiliser Annuler pour le récupérer.
+Try opening another company's detail window, to see how many stocks they have. You can check the {H:Listed} column in the company window, to see how many percent of a company is up for sale."
+    STOCKS3                 "Owning share in a company will earn you {H:Dividends}, which means you will get a percentage of the company's profits each month, depending on how much of the company you own. Note that you also have to pay dividends to your shareholders.
 
-Construisez une nouvelle table en cliquant sur le bouton {H:Furnish} ou en cherchant {H:table}."
-    SHARED7                 "Ajoutez maintenant une chaise. Les chaises ne peuvent être ajoutées qu'à des tables.
+Build a new table by clicking on the {H:Furnish} button or searching for {H:table}."
+    SHARED7                 "Now add a chair. Chairs can only be added to tables.
 
-Certains avantages ont un impact financier immédiat, d'autres augmentent surtout la satisfaction sans conséquence directe.
+Computers have to sit on top of a table and face a chair."
+    SHARED9                 "When you put tables next to each other they will be grouped together if they don't have anything on top of them. Tables that are grouped together can be used for meetings. To see which tables are grouped, just select one table and its group will be highlighted in blue.
 
-Les erreurs commencent quand la barre d'efficacité passe sous le repère bleu ; le lead designer travaille pour l'éviter.
+It's impossible to know exactly how many bugs a piece of software has, so just try to fix as many as you can before time runs out.
 
-Contrôlez le niveau de bruit : activez la superposition audio pour voir quels meubles font du bruit."
-    SHARED10                "Votre fondateur n'a pas faim, ne se sent pas seul, n'a pas besoin de pauses toilettes ni ne s'énerve, mais les nouveaux employés oui. Ajoutez au moins un distributeur, un radiateur, une ventilation et des toilettes séparées avant d'embaucher.
+Toggle the audio overlay to advance."
+    SHARED11                "Now, let's assign the room to a team, employees from other teams may then not use it or even pass through it.
 
-Activez/désactivez la superposition audio pour continuer."
-    SHARED11                "Assignons la pièce à une équipe ; les employés des autres équipes ne pourront plus l'utiliser ni même la traverser.
+Right click the title bar of the work item to toggle between normal and collapsed view.
 
-Clic droit sur la pièce, choisissez {H:Switch team} (icône groupe de personnes). Dans la fenêtre, cliquez sur {H:Core} pour assigner la pièce à l'équipe Core.
+Remember to assign employees to a team as well. You can do this either by pressing {KeyBind:ContextMenu} on an employee and choosing {H:Switch team}, from the employees window or directly in the hiring window."
+    SHARED12                "Start the tutorial by pressing the {H:Develop software} button to bring up the design document."
+    SHARED13                "Continue by going to the first page of the advanced design document."
+    SHARED14                "Welcome to the design document, the heart of Software Inc. This is where you decide what kind of software you want to make.
 
-Assignez aussi les employés à une équipe : {KeyBind:ContextMenu} sur un employé puis {H:Switch team}, ou depuis la fenêtre employés / fenêtre d'embauche."
-    SHARED12                "Démarrez le tutoriel en appuyant sur le bouton {H:Develop software} pour ouvrir le document de conception."
-    SHARED13                "Continuez en allant à la première page du document de conception avancé."
-    SHARED14                "Bienvenue dans le document de conception, le cœur de Software Inc. C'est ici que vous décidez quel logiciel créer.
+Start by selecting a leader to run the project and name your team."
+    PROJECTMANAGEMENT3      "Now look through each of the options to control how the projects should be handled. You can hover over each label to get a detailed description.
 
-Commencez par choisir un type de logiciel.
+Software is divided up into specializations, like 2D, 3D, System, etc. Each specialization is shown as a container in the feature panel and each container has a list of extra features you can add. The extra features require that your employees have the right amount of \"stars\" for the specialization they belong to.
 
-Le support ne se termine pas tout seul ; terminez-le quand vous estimez qu'il n'est plus nécessaire. Surveillez le nombre d'utilisateurs actifs."
-    SUPPORTWORK3            "Répondez aux tickets le plus vite possible pour éviter le mécontentement et une perte de reconnaissance marché.
+Features that were implemented in the predecessor product will be highlighted in orange in the feature panel, as these features will be developed faster than normal."
+    SHARED22                "Your product can depend on other software types. As an example, you will need a 2D Editor to make a game with 2D graphics, otherwise your artists wouldn't be able to create the graphical assets needed.
+			
+2 star features are far more effective at satisfying their target audiences than 1 star features, as you'll get more value for the time spent developing them
 
-Rester au dernier niveau tech augmente la satisfaction de la cible et la commercialisation, mais augmente le temps de développement et les coûts de recherche et licences.
+3 star features don't satisfy your target audience, but instead modify your software in some way"
+    SHARED20                "As you may have noticed, each main feature has a tech level associated with it. Tech levels can be researched by you or other companies from year to year.
 
-Une fois une unité centrale posée, sélectionnez-la et cliquez sur {H:Auto-buy temperature outputs} en bas à gauche pour placer automatiquement ventilation et radiateurs dans les bureaux et zones d'accueil."
-    UPDATES1                "Lancez une mise à jour d'un de vos produits existants."
-    UPDATES2                "Mettre à jour peut corriger les bugs vérifiés par le support et/ou augmenter les niveaux tech pour attirer ou garder des clients.
+Sticking to the latest tech level will increase your target audience satisfaction and the marketability of your product, but increase development time and possible research and license costs associated with its development.
 
-Passez à la page suivante quand vous êtes prêt."
-    SHARED23                "Le triangle des sous-marchés permet de pondérer vos efforts marketing et conception pour cibler une partie des utilisateurs.
+Making a sequel will give a marketing boost and change your fans' expectations depending on the success of its predecessors.
 
-Plus le leader a de compétence, plus la barre se remplit vite.
+Furthermore, most software also needs to run on one or more operating systems. It would be wise to pick popular operating systems to support, as they will limit your audience size. But beware that each operating system you decide to support will extend development time.
 
-Avoir plus d'employés que suggéré sur les équipes de dev donne des rendements décroissants : vous payez plus en salaires pour un gain de vitesse de plus en plus faible."
-    SHARED26                "Quand vous avez terminé les phases de développement et que vous voulez publier, vérifiez si des produits populaires viennent de sortir dans la même catégorie.
+Move to the next page when you're ready."
+    SHARED23                "The submarket triangle let's you decide how your marketing and design efforts will be weighted, to target a section of users in the market.
 
-Consultez souvent pour voir si vous pouvez améliorer sa satisfaction."
-    EMPLOYEES12             "En bas à droite : ce qui affecte actuellement l'efficacité de l'employé au travail.
+Only 1 page left to go!"
+    SHARED24                "If you're worried about how to pay your developers, how many physical copies you'll have to order or how much effort to put into your marketing campaign, you can sign up with a publisher and they will handle these details, if you agree to pay royalties off your product's profits."
+    SHARED25                "Before you finish, make sure you inspect the information in this box. This outlines everything you need to develop this product.
+			
+Take special note of the {H:Expected interest} percent, as adding more features after it hits 100% will only increase development time and not your sales.
 
-Placez des {H:drop points} sur les {H:conveyor belts} à côté des {H:pallets} pour déposer des cartons quand les tapis sont encombrés, et des {H:pickup points} pour reprendre les cartons des palettes vers un tapis quand la voie est libre.
+Having more than the suggested amount of employees on the development teams will result in diminishing returns, so you're paying more in salaries, but getting a smaller and smaller speed increase in return."
+    SHARED26                "After you've went through the phases of development and you're ready to release your product, remember to see if any popular products have just been released in the same software category as yours.
 
-Quittez le mode câblage et ouvrez la fenêtre des serveurs quand vous êtes prêt."
-    SERVER3                 "Ici vous gérez vos serveurs et vérifiez la surchauffe.
+Timing is everything when you're just starting out!"
+    SHARED27                "To transport boxes around your building you need {H:conveyor belts}.
 
-Quand vous avez fini d'inspecter la fenêtre distribution, ouvrez {H:Build mode} pour configurer votre usine."
-    MANUFACTURING6          "Pour votre propre fabrication il faut 3 types de machines :
+{H:Conveyor belts} allow you to route boxes through walls and onto pallets or directly to the outside for couriers to pick up, by placing {H:Garage ports}.
 
-	•{H:Component printer} pour imprimer les composants
-	•{H:Component assembler} pour assembler les composants et le produit final. L'assembleur peut contenir 20 assemblages avant évacuation ; prévoyez-en assez par rapport à ce que vous imprimez
-	•{H:Component recycler} en fin de chaîne pour recycler les composants des assemblages non finis en cas de mauvaise configuration. Les composants recyclés servent aux prochaines impressions sans frais
+Place {H:drop points} on {H:conveyor belts} adjacent to {H:pallets} to drop boxes off when the conveyor belts are obstructed and place {H:pickup points} to move boxes from pallets to a conveyor belt when the path is clear.
+		
+Exit wire mode and bring up the server window when you are ready."
+    SERVER3                 "From here you can manage your servers and check if they are overheating.
 
-Pour les petits bureaux, posez des {H: Small Heaters, Ceiling Fans, Electric Radiators and AC Units} qui modifient immédiatement la température. Cette méthode demande beaucoup de maintenance et devient coûteuse dans les grands bâtiments.
+When you are ready, begin building your office by entering {H:Build mode}."
+    }Open the server wiring interface by clicking the wire button."
+    SERVER2                 "Outside of connecting servers, you can use wire mode to get an overview of your server connections.
+		
+Your digital market share and business reputation, combined with the cut you decide to take of your clients' products, will determine how many are willing to sign up to your digital store.
 
-Ouvrez la fenêtre {H:Your releases} et démarrez le support si vous avez des produits."
-    SUPPORTWORK2            "Quand vous sortez un logiciel, une tâche de support apparaît. Via cette tâche vous recevez des tickets clients, si vous en avez.
+Pay close attention to your {H:heat level}. When it hits 100% you will be audited and any illegal activity will be uncovered, and assets seized."
+    ADDONS1                 "You can develop new add-ons at any time by opening {H:Your releases} window and selecting a product with add-ons available or by opening the detail window for a product and clicking one of its add-on tabs.
 
-L'argent de la vente des métaux précieux va sur votre {H:offshore account}, qui ne peut pas servir aux opérations courantes."
-    ACCOUNTINGANDTAXES5     "Le compte offshore peut servir aux actions listées en bas de la fenêtre ou être réinjecté sur le compte principal. Les actions indiquent aussi le coût pour le compte offshore et combien de {H:heat} elles génèrent.
+Add-ons made for hardware are peripherals, and some can be mandatory for development of the main product and some can even be sold several times to the same customer, such as joysticks for consoles."
+    ADVANCEDDESIGNDOCUMENT3 "The first page of the advanced design document resembles the simple design document, but with an added {H:Framework} panel.
 
-Surveillez votre {H:heat level}. À 100 % vous serez audité, toute activité illégale sera découverte et les actifs saisis."
-    ADDONS1                 "Vous pouvez développer de nouveaux add-ons à tout moment en ouvrant la fenêtre {H:Your releases}, en sélectionnant un produit avec des add-ons, ou en ouvrant la fiche d'un produit et en cliquant sur un onglet add-on.
+Using a framework made by another company will require you pay a license fee from your profits.
 
-Lancez une campagne en ouvrant la fenêtre de vos sorties, en sélectionnant un produit et en cliquant sur le bouton market."
-    MARKETING2              "Voici la fenêtre marketing.
+Progress tells nothing of the actual quality of the project, however. To get an idea of how good your employees' work is, you need to do a peer review. Start by pressing the review button."
+    ALPHAWORK7              "Make sure you do a press release during the implementation phase, as you hopefully did during the design phase, unless you signed with a publisher.
 
-Utiliser un framework d'une autre entreprise vous oblige à payer une redevance sur vos profits.
+During the implementation phase you also have the option to send out a press build, so the press can try your software. Press builds require no work on your part, but make sure you have good ratings in your peer reviews and some followers before you send one out.
 
-Créer un nouveau framework allonge un peu le développement mais vous pourrez le licencier à d'autres entreprises pour gagner de l'argent en plus."
-    ADVANCEDDESIGNDOCUMENT4 "Le document de conception avancé a plusieurs pages. Passons à la page 2 pour continuer."
-    ADVANCEDDESIGNDOCUMENT7 "C'est la page récapitulative. Vous pouvez revoir les détails finaux du projet, choisir les équipes de conception et de développement, et si vous voulez un {H:Publisher}. Les éditeurs financent le projet, gèrent le marketing et la distribution physique contre une part des profits.
+Some notifications can be clicked to see details. You can right click notifications to delete them."
+    WELCOME11               "All your controls and windows are here, in the bottom left corner."
+    WELCOME12               "Remember: You can always restart any tutorial from the options menu.
 
-En cas de faillite, les actifs sont répartis entre les actionnaires majoritaires."
-    SUBSIDIARY1             "Pour commencer le tutoriel, assurez-vous d'avoir une filiale et d'avoir ouvert sa fenêtre de détail."
-    SUBSIDIARY2             "Vous contrôlez les filiales surtout depuis la fenêtre de détail.
+Let's start by going over bonds investments. Click {H:Continue} when you are ready."
+    INVESTMENTS3            "Investing in bonds means loaning out money and earning some back off the yearly {SavingsInterest} loan interest. It is an easy, risk-free way to make a small steady income, with the downside that you can't withdraw the money you invest for a while, without losing the interest.
 
-Mieux vaut corriger le maximum de bugs (les produits bugués entraînent des remboursements), sans viser zéro bug. Après la sortie vous pourrez encore corriger des bugs via le support.
+Now let's add windows and doors. You can either select a category or search for {H:window} or {H:door} in the build panel."
+    BUILDMODE6              "Notice how the room lights up when you add windows, make sure to add enough so that your employees can see.
 
-À la sortie vous devrez acheter ou imprimer des exemplaires physiques pour les vendre. Plus tard la distribution en ligne prendra le dessus, mais avoir des exemplaires physiques est très important avant et pendant les années 90.
+Contracts have an upfront payment you will receive for accepting the work, and a bigger payment for completing it. You complete a contract by delivering a product with the requested progress and quality.
 
-Commençons par les obligations. Cliquez sur {H:Continue} quand vous êtes prêt."
-    INVESTMENTS3            "Investir en obligations, c'est prêter de l'argent et recevoir un intérêt annuel {SavingsInterest}. C'est simple et sans risque, mais vous ne pouvez pas retirer l'argent avant un certain temps sans perdre les intérêts.
+Not living up to the clients quality expectations will impact your business reputation, but not your payout.
 
-Ajoutons des fenêtres et des portes. Choisissez une catégorie ou cherchez {H:window} ou {H:door} dans le panneau."
-    BUILDMODE6              "La pièce s'éclaire quand vous ajoutez des fenêtres ; mettez-en assez pour que les employés voient.
+Browse the contracts now and accept one that sounds good to you."
+    CONTRACTS5              "Until an employee actually starts working on the contract, the deadline will not count down.
 
-Sélectionnez un leader et donnez un nom à l'équipe."
-    PROJECTMANAGEMENT3      "Parcourez les options pour définir comment les projets sont gérés. Survolez chaque libellé pour la description.
+Make sure you place enough heating and cooling for the entire building. The tenant will not be able to interact with any furniture you place in the map editor.
 
-Ne pas atteindre les attentes qualité du client affecte votre réputation professionnelle, pas le paiement.
+Finish your contract work to end the tutorial."
+    CUSTOMMAP1              "This tutorial assumes you've already tried build mode and will focus on how the map editor differs.
+		
+In case your luck is out, you should make sure to have {H:Sprinklers} in your rooms to douse the fire faster, and {H:Fire alarms} in rooms with combustible furniture, to alert all employees in the building when a fire breaks out."
+    PHYSICALDISTRIBUTION1   "You can order physical copies of your products by going to your releases, selecting a product and clicking the Order copies button."
+    PHYSICALDISTRIBUTION2   "Software is sold both physically in stores and digitally online. As time progresses people will move towards digital purchases and the two platforms even out at some point.
+		
+Another important aspect of rentable buildings is that you can provide some amenities for the tenant and you have to provide heating and cooling.
+There are no limits to how often you update your software. You can release daily patches if you want.
 
-Parcourez les contrats et acceptez-en un qui vous convient."
-    CONTRACTS5              "Le délai ne commence à compter que lorsqu'un employé commence vraiment à travailler sur le contrat.
+Skills are balanced and the maximum amount of skill you can assign to begin with depends on the difficulty you choose."
+    CUSTOMIZATIONCREATIVITY "Above your founder's skills is their creativity, which affects the quality of the ideas they come up with when designing a product.
 
-Faites une revue client avant la phase de correction de bugs.
+Increasing your marketing budget will not increase marketing efforts. You will need a lot of talented marketers to effectively use your budget.
 
-Utilisez le curseur pour déposer ou retirer."
-    INVESTMENTS4            "Le délai avant retrait dépend du montant déposé dans la même année fiscale. Les dépôts bloqués apparaissent dans ce panneau.
+This is the copy order window. It will show you some details that affect how many copies you should order.
 
-Créez un nœud couleur et connectez le nœud effet au nœud couleur. {H:Les sorties bleues ne vont que vers le bleu et le rouge que vers le rouge}.
+Specialization levels control which tasks your employee can complete. Remember to check the other roles by using the dropdown.
 
-Décochez les cases ou {H:Auto-sign new platforms} pour tout contrôler. Notez le {H:Consumer reach} : vendre sur trop peu de boutiques limite les achats numériques.
+Clicking the {H:Random} button will pick random specialization levels for the points you have left.
 
-Votre part de marché numérique et votre réputation, ainsi que la part que vous prenez sur les produits des clients, déterminent combien accepteront de rejoindre votre boutique.
+Starting later will give you the full power of modern tech and digital distribution, but your competitors will be more established."
+    CUSTOMIZATION13         "Difficulty can be changed at any point in the game by going to the options menu.
 
-Il faut une certaine réputation pour embaucher des lead designers expérimentés."
-    LEASING1                "Entrez en {H:Build mode} en cliquant sur le bouton Construire."
-    LEASING2                "Le jeu est en pause en mode construction.
+1 month lasts for 1 day by default. The game was made with this pace in mind and it is therefore the recommended setting.
 
-Selon les employés et la spécialisation choisis, vous voyez le temps et le coût pour terminer les cours."
-    EDUCATION4              "En haut vous voyez quels employés choisis sont éligibles à la formation sélectionnée.
+Construction is very expensive, so it is recommended that you start off leasing, but note that renting is a lot more expensive in the long run.
 
-Cochez les options en haut pour afficher plus de détails sur tous les employés."
-    EMPLOYEES3              "Quand vous sélectionnez un employé dans la liste, il est sélectionné dans le jeu et vous voyez ses spécialisations en bas de la fenêtre.
+Once you've finished inspecting the distribution window, open {H:Build mode} to see how you setup your own manufacturing plant."
+    MANUFACTURING6          "To setup your own manufacturing, you'll need 3 machines:
+	•{H:Component printer} to print your components.
+	•{H:Component assembler} to assemble your components and eventually your final product. The assembler can hold onto 20 assemblies before they are pushed through, so make sure you have enough for the amount of components you print.
+	•{H:Component recycler} at the end of your manufacturing process, to recycle any components in unfinished assemblies, in case you have inefficiencies in your setup. Recycled components will be used for future prints, without incurring a fee.
 
-{H:Leader} n'est disponible que si l'employé est assigné à une équipe ; les leaders ne travaillent pas à pleine capacité dans les autres rôles.
+To regulate the temperature in small offices, you can place down {H: Small Heaters, Ceiling Fans, Electric Radiators and AC Units}, which will immediately start changing the temperature in a room. Regulating the temperature in this way requires a lot of maintenance and will quickly drive up expenses in larger buildings.
 
-Fermez la fenêtre pour continuer."
-    PHYSICALDISTRIBUTION3   "Vous pouvez aussi imprimer vous-même les exemplaires, moins cher à long terme mais plus de travail. Il vous faut des {H:printers}, du {H:storage}, des {H:conveyor belts} et des {H:couriers} pour livrer en magasin.
+You'll have to balance the amount you order with how many you expect to sell to avoid a loss. You can always order a few copies now and order more next month.
 
-Survolez la barre de compétence pour voir leurs niveaux par type de logiciel."
-    LEADDESIGNERS4          "En construisant leur {H:Portfolio}, les lead designers ont des {H:Demands} croissantes avec leur popularité. Les exigences sont demandées lors des négociations salariales ; vous devrez choisir entre deux demandes.
+Left click the title bar and drag to re-arrange your work items."
+    DIGITALDISTRIBUTION1    "Open the distribution window to begin the tutorial."
+    DIGITALDISTRIBUTION4    "This is a list of online stores that distribute software for a cut of the revenue. By default you are selling through all of them.
 
-Utile pour comprendre pourquoi un employé ralentit ou ne travaille plus."
-    EMPLOYEESCompat         "Enfin, au centre à gauche, vous pouvez voir la compatibilité de cet employé avec le reste de son équipe."
-    EMPLOYEES13             "Au début vous devrez gagner de l'argent rapidement.
+Please note that interest is not deposited directly into your bank account. You have to withdraw it using this window.
 
-Chaque filtre actif augmente le coût et réduit le nombre de candidats.
+Companies will automatically start signing up to your service each month. It's up to you whether you want to accept all new deals, or let them in one-by-one, by checking the {H:Auto-accept new deals} toggle.
 
-Par défaut les options sélectionnées ne font rien. Les options choisies ne changent pas quand vous changez de leader, mais l'exécution dépend des compétences du leader."
-    HR4                     "Les deux premiers libellés indiquent le coût en salaires de l'équipe et les dépenses RH du mois dernier."
-    HR5                     "Vous pouvez faire envoyer des employés en formation par le leader de façon autonome.
+Employees are expensive and you should probably wait before you hire any if you are just starting out.
 
-Lors d'un retrait, la banque retire d'abord l'argent du compte épargne qui n'entraîne pas de pénalité.
+Based on the employees and specialization you have picked, you can see how much time and money it will require for your employees to finish their classes."
+    EDUCATION4              "At the top you can see which of your chosen employees are applicable for the education you have picked.
 
-Ce panneau affiche vos investissements et permet de retirer.
+Now, press {KeyBind:ContextMenu} anywhere to bring up the context menu for the selected employee. Click the {H:Switch team} button to inspect possible team assignments."
+    EMPLOYEES5              "When you are done, click {H:OK} and then press {KeyBind:ContextMenu} again and click the {H:Change employee role} button instead, which resembles a suit tie."
+    EMPLOYEES6              "Clicking on a role in the role window will assign the employee exclusively to that role immediately, whereas ticking the checkmarks will allow you to pick several roles for your employee. The second row of checkmarks next to each role is the {H:Secondary} option, in which employees will only work in that role if they have no work in their primary roles.
 
+Close the window to continue."
+    PHYSICALDISTRIBUTION3   "You can also print copies of your product yourself, which is a lot cheaper long term, but requires a lot more work from you. You'll need {H:printers}, {H:storage}, {H:conveyor belts} and {H:couriers} to transport your copies to stores.
+		
+Specializations control which kind of tasks your employee can complete. The {H:base skill} is your employee's experience in that role, which controls the speed and quality of their work in various situations."
+    EMPLOYEES10             "In top left of the window you can see your employee's traits. These traits are controlled by your employee's personality.
+
+Bring up the Contract window to get some work."
+    HIRING1                 "Start by opening the hire window"
+    HIRING2                 "Before you can hire anyone, you need to put out a search for employees. Start by choosing which role your new employee should be good at."
+    HIRING4                 "Then you need to decide how much money you want to give your potential employee per month. It is very important that you make sure you have enough money to actually pay them or you'll go bankrupt very quickly.
+
+Alternatively, you can look for any lead designers out of work currently.
+
+By default the selected HR options do nothing. The HR options you select for a team will not change when a new team leader is assigned, but which and how well HR tasks are carried out will depend on the leader's skill and specialization level."
+    HR4                     "The first two labels tell you how much this team costs in salaries and how much money was spent on HR tasks last month."
+    HR5                     "You can make your leader send off employees for education autonomously.
+			
 {H:Remember to buy high and sell low!}
 
-… Oui, c'est bien ça."
-    LEADDESIGNERS1          "Les lead designers proposent les idées qui formeront vos produits.
+... Yes, that sounds right."
+    LEADDESIGNERS1          "Lead designers are in charge of coming up with ideas that will form all of the products you decide to develop.
 
-Ils sont dans le menu ameublement."
-    MANUFACTURING8          "Les produits doivent passer par l'étape {H:Final assembly} pour être expédiables. Les composants en boîtes blanches ne partent pas sur palettes ni garage ports.
+Lead designers hired young, before they find their fame, will have some loyalty to their first employer and have lower demands in general."
+    LEADDESIGNERS5          "You can find lead designers in one of 3 ways:
 
-L'inspiration se recharge pendant les périodes sans conception, plus ou moins vite selon les personnes."
-    LEADDESIGNERS3          "La qualité des idées dépend beaucoup du type de produit. Les lead designers gagnent en compétence sur un type de logiciel à chaque sortie ; cela impacte directement la qualité des idées.
+	•You can hire young designers and let them work as lead designers on contracts to see if you've found a prodigy
+	•You can look for out-of-work lead designers from the hiring menu
+	•You can poach them from your competitors by clicking the detail button in the company overview window
 
-Commander du matériel coûte très cher ; pour dégager un bon profit il faut monter votre propre fabrication.
+Ordering hardware gets very expensive, and you'll have to setup your own manufacturing if you want to make a decent profit.
 
-Choisissez un {H:software type} et une {H:category} qui nécessitent de la fabrication, par ex. le {H:console operating system}."
-    MANUFACTURING3          "Cliquez sur le bouton {H:Manufacturing} pour voir ce qu'il faut pour fabriquer ce produit."
-    MANUFACTURING4          "La vue {H:manufacturing} montre quels composants doivent être imprimés et comment les assembler.
+Marketing your product is a potentially endless money sink. The more money you use, the bigger advantage you get over competing products. Bigger software products will need more marketing to compete.
 
-Tout carton entrant dans un assembleur ou recycler qui n'y appartient pas est simplement évacué de l'autre côté.
+After the first day, the work item will start filling up to indicate how much money you are spending compared to yesterday's marketing efforts.
 
-Marketer coûte potentiellement sans fin. Plus vous dépensez, plus vous prenez l'avantage sur la concurrence. Les gros logiciels ont besoin de plus de marketing.
+Instead you can try completely preventing burglaries by hiring {H:Security guards} in the {H:Staff window}. Security guards will patrol your building entrances or any rooms you assign them to and scare off would-be burglars when they get too close. You can also place security cameras strategically at building entrances and a surveillance desk, which allows one security guard to keep track of four places at once.
 
-Dépenser plus que vos concurrents les incitera à faire de même."
-    MARKETING3              "Vous pouvez fixer un budget (plafond de dépenses). « 0 » signifie pas de limite.
+It is very important to note that {H:Elevators don't work during fires}. You should always make sure to have stairs throughout your building, so your employees can escape.
 
-Augmenter le budget n'augmente pas les efforts ; il faut des marketeurs talentueux pour utiliser le budget efficacement.
+Go to the {H:Design document window}."
+    PROJECTMANAGEMENT7      "When you are done making your design, click the {H:Project management} button, instead of the {H:Develop} button, to assign your new design to the project queue."
+    RESEARCH1               "Start the tutorial by pressing the {H:Research} button to bring up the research window."
+    RESEARCH2               "The research window allows you to research a specialization to unlock a new tech level.
 
-Après le premier jour, la tâche se remplit pour indiquer combien vous dépensez par rapport à la veille.
+Small printers can be placed directly on conveyor belts and larger printers can be placed on the ground to drop boxes on conveyor belts adjacent to them."
+    PROJECTMANAGEMENT1      "Start by opening the project management window."
+    PROJECTMANAGEMENT2      "Project management let's you delegate a release cycle to a leader in your company, so they control everything from creating a design to supporting the product once it's released.
 
-Plusieurs gardes permettent une couverture 24 h et de faire avancer le temps quand seuls les gardes sont présents.
+A project management team needs a leader, with at least 1 star in the {H:Automation} specialization. The leader will dedicate all their time to keeping the project running, so it might be worthwhile to keep the leader in their own team.
 
-{H:Les ascenseurs ne fonctionnent pas pendant un incendie}. Prévoyez toujours des escaliers pour que les employés puissent évacuer.
+Mistakes will start to happen when the effectiveness bar gets below the blue marker, but your lead designer will work to avoid this.
 
-Voici la fenêtre de commande. Elle affiche des infos qui influencent combien d'exemplaires commander.
+Before the project can begin you have to either pick a product you've released to use as a prototype for future projects or assign a project directly from the design document window.
 
-Équilibrez la quantité avec les ventes attendues pour éviter les pertes. Vous pouvez commander un peu maintenant et recommander le mois suivant.
+At the bottom you can see a button to start researching this specialization, which requires designers with a level 3 specialization of the type you want to research. 
 
-Allez dans la fenêtre {H:Design document window}."
-    PROJECTMANAGEMENT7      "Quand vous avez fini le document de conception, cliquez sur {H:Project management} au lieu de {H:Develop} pour ajouter le design à la file du projet."
-    RESEARCH1               "Démarrez le tutoriel en appuyant sur {H:Research} pour ouvrir la fenêtre de recherche."
-    RESEARCH2               "La fenêtre de recherche permet de rechercher une spécialisation pour débloquer un nouveau niveau tech.
+Researching new tech before anyone else will allow you to apply for a patent using {H:Service} employees with the level 3 {H:Law} specialization. If you own the patent to a tech level, all companies using it will have to pay a royalty fee off their sales."
+    SERVER1                 "You can connect or disconnect servers in wire mode by clicking on a server and then on another server. You can also select all the servers you want to connect using {KeyBind:MultipleSelect}, {KeyBind:SweepSelect} or dragging a rectangle with {KeyBind:NormalSelection} and then press {KeyBind:ContextMenu} and press {H:Connect servers}.
 
-L'équipe a besoin d'un leader avec au moins 1 étoile en spécialisation {H:Automation}. Le leader consacre tout son temps au projet ; il peut être utile de le mettre dans sa propre équipe.
+Below this panel you will see a list of stocks you can buy and sell, depending on whether the company is {H:Publicly listed}, i.e. whether they are selling any shares at all.
 
-Certaines options peuvent être grisées si le leader n'a pas le niveau Automation requis. Survolez les étoiles (fenêtre Employés, Équipes ou Détail employé) pour voir ce que chaque niveau débloque.
+End the tutorial when you are ready"
+    SUPPORTWORK1            "Before the support tutorial can continue, you need to have a product released and start support for it.
 
-Avant de commencer, choisissez un produit déjà sorti comme prototype pour les futurs projets, ou assignez un projet depuis la fenêtre du document de conception.
+Support for a product never ends by itself, so you'll have to end it when you think support isn't necessary anymore. Keep an eye on the active user count to help guide you."
+    SUPPORTWORK3            "Support tickets should be answered as quickly as possible to avoid consumer backlash and a loss of market recognition.
+			
+An employee's {H:Service} skill determines how quickly they can answer support tickets and having at least one star in the {H:Support} specialization will allow them to report bugs.
 
-Rechercher un niveau tech avant les autres permet de déposer un brevet via des employés {H:Service} avec spécialisation {H:Law} niveau 3. Si vous détenez le brevet, les entreprises qui l'utilisent vous paient des royalties."
-    SERVER1                 "En mode câblage, connectez ou déconnectez des serveurs en cliquant sur un serveur puis sur un autre. Vous pouvez aussi sélectionner plusieurs serveurs avec {KeyBind:MultipleSelect}, {KeyBind:SweepSelect} ou en tirant un rectangle avec {KeyBind:NormalSelection}, puis {KeyBind:ContextMenu} et {H:Connect servers}.
+As bugs get verified by supporters, you'll want to fix them by releasing updates, which you can do by clicking the {H:Update} button on the task or from {H:Your releases}."
+    TEAMMANAGEMENT1         "Begin by opening the team window."
+    TEAMMANAGEMENT2         "In this window you can manage and create teams.
+		
+Rooms can be heated and cooled in two ways: Either on a room-by-room basis or using a distributed system of pipes and vents.
 
-Ces choix ne sont pas forcément optimaux, mais vous pouvez lancer le développement à ce stade.
-
-Avec plus de {H:50%} vous pouvez tenter un rachat. Rachater une entreprise permet de récupérer tous ses actifs ou d'en faire une filiale. Les filiales continuent à tourner mais vous contrôlez leurs sorties et pouvez leur demander des tâches.
-
-Terminez le tutoriel quand vous êtes prêt."
-    SUPPORTWORK1            "Pour continuer le tutoriel support, vous devez avoir un produit sorti et avoir démarré le support.
-
-Ajoutez une équipe en tapant un nom et en cliquant sur le bouton en bas."
-    TEAMMANAGEMENT3         "En sélectionnant une ou plusieurs équipes, vous voyez la compétence moyenne et le nombre d'étoiles par spécialisation pour les employés des équipes sélectionnées.
-
-Deux façons : pièce par pièce ou système distribué (tuyaux et bouches).
+Since this is your first day, nothing is showing. If you click here, a window with an overview of your finances will open."
+    WELCOME9                "You can control how fast time moves by using these buttons or {KeyBind:Pause}, {KeyBind:Speed1}, {KeyBind:Speed2} and {KeyBind:Speed3}, which can also be configured in the options menu."
+    WELCOME10               "Important notifications will appear to the left.
 

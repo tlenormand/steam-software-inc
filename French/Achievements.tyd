@@ -1,45 +1,45 @@
 FULLMETAAchievement
     [
     "Allons plus loin"
-    "Créer le jeu dans le jeu avec le studio et le développeur"
+    "Créer le jeu dans le jeu avec l'entreprise et le développeur"
     ]
 
 FIREPERISHAchievement   [ "Tout va bien"; "Laisser quelqu'un périr dans un incendie" ]
 
-MORETIMEAchievement     [ "Plus de temps"; "Jouer 10 ans avec 8 jours par mois" ]
+MORETIMEAchievement     [ "Besoin de plus de temps"; "Jouer pendant 10 ans avec 8 jours par mois" ]
 
-LIFETIMEAchievement     [ "Une seule vie"; "Jouer pendant 80 ans" ]
+LIFETIMEAchievement     [ "Une vie entière"; "Jouer pendant 80 ans" ]
 
 FPSEASONAchievement     [ "Images par saison"; "Avoir plus de 500 employés" ]
 
-EMPLOYEESUITAchievement [ "Mauvaise entreprise"; "Subir un recours collectif de 10 employés" ]
+EMPLOYEESUITAchievement [ "Mauvaise compagnie"; "Se faire poursuivre par 10 employés dans une action collective" ]
 
 SPIFFBREAKAchievement
     [
-    "C'est plutôt sympa"
-    "Annuler un projet financé par un éditeur et gagner le procès"
+    "C'est plutôt épatant"
+    "Annuler un projet après avoir reçu un financement d'un éditeur et gagner le procès"
     ]
 
 POLICEDRONEAchievement
     [
     "Oh yeah !"
-    "Se faire confisquer des métaux précieux par un drone de police à travers les murs"
+    "Faire intervenir un drone de police à travers les murs pour confisquer des métaux précieux"
     ]
 
 BUYPLAYERAchievement    [ PvPayout; "Racheter l'entreprise d'un autre joueur" ]
 
 PROPERCOOPAchievement
     [
-    Co-optimisé
-    "Sortir un produit avec un partage de revenus équitable entre joueurs"
+    Co-optimized
+    "Sortir un produit avec une part de revenus approximativement égale à celle des autres joueurs"
     ]
 
-DEDICATIONAchievement   [ "Les chiffres grimpent"; "Sortir 10 suites pour la même licence" ]
+DEDICATIONAchievement   [ "Les chiffres montent"; "Sortir 10 suites pour la même licence" ]
 
-BUYOUTSTREAKAchievement [ "Yoink !"; "Racheter 5 entreprises en un an" ]
+BUYOUTSTREAKAchievement [ "Et hop !"; "Racheter 5 entreprises en une année" ]
 
-COPYGOLDAchievement     [ "CTRL-C CTRL-€"; "Tenter de dupliquer des métaux précieux en mode construction" ]
+COPYGOLDAchievement     [ "CTRL-C CTRL-$"; "Tenter de dupliquer des métaux précieux en mode construction" ]
 
-PLATINUMAchievement [ "Le G.O.A.T."; "Remporter un prix Platine 5 années de suite" ]
+PLATINUMAchievement [ "Le GOAT"; "Remporter un prix de platine en gagnant 5 années de suite" ]
 
-FEATURECREEPAchievement     [ "Dérive des fonctionnalités"; "Utiliser toutes les fonctionnalités du jeu {FeaturesLeft}" ]
+FEATURECREEPAchievement     [ "Dérive des fonctionnalités"; "Interagir avec toutes les fonctionnalités du jeu {FeaturesLeft}" ]

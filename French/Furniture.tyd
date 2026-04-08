@@ -3,106 +3,106 @@ Furniture
     Elevator
         [
         "Ascenseur"
-        "Empilez les ascenseurs pour relier les étages"
+        "Placez les ascenseurs les uns sur les autres pour relier les pièces de différents étages"
         ]
     BigElevator                  [ "Grand ascenseur"; "" ]
-    BiggerElevator               [ "Très grand ascenseur"; "" ]
-    ElevatorShaft                [ "Cage d'ascenseur"; "Permet de sauter un étage" ]
+    BiggerElevator               [ "Plus grand ascenseur"; "" ]
+    ElevatorShaft                [ "Cage d'ascenseur"; "Laissez l'ascenseur sauter un étage, pourquoi pas ?" ]
     BigElevatorShaft             [ "Grande cage d'ascenseur"; "" ]
-    BiggerElevatorShaft          [ "Très grande cage d'ascenseur"; "" ]
+    BiggerElevatorShaft          [ "Plus grande cage d'ascenseur"; "" ]
     Stairs                       [ "Escaliers"; "" ]
-    LeftQuarterTurnStairs        [ "Escalier quart de tour (gauche)"; "" ]
-    RightQuarterTurnStairs       [ "Escalier quart de tour (droit)"; "" ]
-    LeftTurnStairs               [ "Escalier tournant (gauche)"; "" ]
-    RightTurnStairs              [ "Escalier tournant (droit)"; "" ]
+    LeftQuarterTurnStairs        [ "Escalier à quart tournant gauche"; "" ]
+    RightQuarterTurnStairs       [ "Escalier à quart tournant droit"; "" ]
+    LeftTurnStairs               [ "Escalier tournant gauche"; "" ]
+    RightTurnStairs              [ "Escalier tournant droit"; "" ]
     Table                        [ "Table"; "Posez des objets dessus et des chaises autour" ]
     CornerTable                  [ "Table d'angle"; "" ]
-    GlassTable                   [ "Table en verre"; "Admirez vos pieds en travaillant"; "Cadre" ]
-    2mEndTable                   [ "Table de bout (2 m)"; "Approximativement ronde" ]
-    3mEndTable                   [ "Table de bout (3 m)"; "Encore plus ronde" ]
+    GlassTable                   [ "Table en verre"; "Profitez de la vue sur vos pieds pendant que vous travaillez"; "Cadre" ]
+    2mEndTable                   [ "Table d'appoint 2 m"; "Approximativement ronde" ]
+    3mEndTable                   [ "Table d'appoint 3 m"; "Encore plus ronde" ]
     Desk                         [ "Bureau"; "" ]
     MordernDesk                  [ "Bureau moderne"; "" ]
     AdjustableDesk               [ "Bureau réglable"; "" ]
-    CheapChair                   [ "Chaise en plastique"; "Chaise en plastique inconfortable"; "Siège"; "Support" ]
-    DiningChair                  [ "Chaise de salle à manger"; "Pour s'asseoir ailleurs qu'au bureau" ]
+    CheapChair                   [ "Chaise en plastique"; "Chaise en plastique inconfortable"; "Assise"; "Support" ]
+    DiningChair                  [ "Chaise de salle à manger"; "Pour tous vos besoins d'assise hors bureau" ]
     OfficeChair
         [
-        "Fauteuil de bureau"
-        "Fauteuil rembourré sans roulettes"
-        "Siège"
+        "Chaise de bureau"
+        "Jolie chaise rembourrée, mais sans roulettes"
+        "Assise"
         "Dossier"
         "Support"
         ]
-    ExecutiveChair               [ "Fauteuil de direction"; "Pour maximiser le fauteuillage"; "Siège"; "Dossier"; "Support" ]
-    ErgoChair                    [ "Chaise ergonomique"; ""; "Siège"; "Cadre" ]
+    ExecutiveChair               [ "Fauteuil de direction"; "Pour s'asseoir au maximum"; "Assise"; "Dossier"; "Support" ]
+    ErgoChair                    [ "Chaise ergonomique"; ""; "Assise"; "Cadre" ]
     YogaBall                     [ "Ballon de yoga"; "" ]
-    WaitingChairs                [ "Chaises d'attente"; ""; "Cadre"; "Siège" ]
-    Couch                        [ "Canapé"; "Living Room Inc." ]
+    WaitingChairs                [ "Chaises d'attente"; ""; "Cadre"; "Assise" ]
+    Couch                        [ "Canapé"; "Salon Inc." ]
     ModernCouch                  [ "Canapé moderne"; "" ]
     LeatherCouch                 [ "Canapé en cuir"; "" ]
     Bench                        [ "Banc"; "C'est un banc" ]
     Shelf                        [ "Étagère"; "" ]
-    SmallHeater                  [ "Petit radiateur"; "Chauffage de bureau basique" ]
+    SmallHeater                  [ "Petit radiateur"; "Humble appareil de chauffage pour vos besoins de bureau de base" ]
     CeilingFan
         [
         "Ventilateur de plafond"
-        "Rafraîchit la pièce tout en restant élégant. Peut s'avérer bruyant."
+        "Un ventilateur de plafond astucieux qui a non seulement la classe, mais refroidit aussi la pièce ! Peut causer des nuisances sonores."
         "Base"
         "Pales"
         ]
-    ElectricRadiator             [ "Radiateur électrique"; "Un grille-pain de bureau" ]
-    ACUnit                       [ "Climatiseur"; "Refroidit une seule pièce"; "Carcasse"; "Ventilateurs" ]
+    ElectricRadiator             [ "Radiateur électrique"; "Un grille-pain pour votre bureau" ]
+    ACUnit                       [ "Climatiseur"; "Cette unité refroidira une seule pièce"; "Boîtier"; "Ventilateurs" ]
     CentralHeating
         [
         "Chaudière à gaz"
-        "Chauffage central industriel au gaz pour tout le bâtiment"
+        "Appareil de chauffage central de puissance industrielle pour chauffer des bâtiments entiers au gaz bon marché"
         "Plaque"
-        "Réservoir"
+        "Conteneur"
         "Base"
         ]
     Heatpump
         [
         "Pompe à chaleur"
-        "Chauffage central industriel électrique pour tout le bâtiment"
+        "Appareil de chauffage central de puissance industrielle pour chauffer des bâtiments entiers à l'électricité"
         ]
     RoofAC
         [
-        "Climatisation de toiture"
-        "Refroidissement central industriel pour tout le bâtiment"
+        "Clim de toit"
+        "Unité de refroidissement centrale de puissance industrielle pour refroidir des bâtiments entiers"
         ]
     Radiator
         [
         "Radiateur"
-        "Le chauffage central achemine l'eau chaude ici pour chauffer la pièce"
+        "Le chauffage central pompera de l'eau chaude via cet objet pour chauffer une pièce"
         ]
     LargeRadiator                [ "Grand radiateur"; "" ]
     Ventilation
         [
         "Ventilation"
-        "La climatisation centrale achemine l'air frais ici pour refroidir la pièce"
+        "Le refroidissement central propulsera de l'air frais via cet objet pour refroidir une pièce"
         ]
-    CeilingAC                    [ "Climatisation de plafond"; "" ]
-    HeatingFloorGrill            [ "Grille chauffante au sol"; "" ]
-    CoolingFloorGrill            [ "Grille rafraîchissante au sol"; "" ]
+    CeilingAC                    [ "Clim de plafond"; "" ]
+    HeatingFloorGrill            [ "Grille de chauffage au sol"; "" ]
+    CoolingFloorGrill            [ "Grille de refroidissement au sol"; "" ]
     Industrialventilation
         [
         "Ventilation industrielle"
-        "Conçue pour refroidir une salle de serveurs, pas des humains"
+        "Ce ventilateur a été conçu pour refroidir une pièce afin d'accueillir des serveurs, pas des humains"
         "Base"
         "Pales"
         ]
-    OldComputer                  [ "Vieil ordinateur"; "Plus de pixels que vous ne pourriez en compter !" ]
+    OldComputer                  [ "Vieux ordinateur"; "Plus de pixels que vous ne pouvez en compter sur les doigts d'une main !" ]
     90sComputer                  [ "Ordinateur des années 90"; "" ]
     Laptop                       [ "Ordinateur portable"; "" ]
     ModernComputer
         [
         "Ordinateur moderne"
-        "Pour tous vos besoins informatiques modernes"
+        "Un ordinateur moderne pour tous vos besoins informatiques modernes"
         ]
     RGBComputer
         [
         "Ordinateur RGB"
-        "Un ordinateur fourni avec une quantité impressionnante de LED RGB"
+        "Recevez un ordinateur gratuit pour l'achat d'une quantité astronomique de LED RGB"
         "LED"
         "Base"
         "Touches"
@@ -118,144 +118,144 @@ Furniture
     Lamp
         [
         "Lampe"
-        "Pour permettre aux employés de travailler tard, ou pour compenser l'absence de fenêtres"
+        "Assurez-vous que vos employés y voient clair lorsqu'ils travaillent tard, ou si vous n'avez pas envie de placer des fenêtres"
         "Abat-jour"
         "Support"
         "Éclairage"
         ]
-    WallLamp                     [ "Applique"; "" ]
+    WallLamp                     [ "Applique murale"; "" ]
     DeskLamp
         [
         "Lampe de bureau"
-        "Pour un éclairage localisé"
+        "Pour des améliorations d'éclairage localisées"
         "Plastique"
         "Métal"
         "Éclairage"
         ]
-    FloorLamp                    [ "Lampadaire"; "Produit de la lumière, mais encombre le passage"; "Abat-jour"; "Support" ]
-    OpenFloorLamp                [ "Lampadaire ajouré"; ""; "Abat-jour"; "Support" ]
-    TripodLamp                   [ "Lampe sur trépied"; ""; "Abat-jour"; "Support"; "Articulation" ]
-    LightBar                     [ "Barre lumineuse"; ""; "Éclairage"; "Base" ]
+    FloorLamp                    [ "Lampadaire"; "Produit de la lumière, mais encombre aussi le passage"; "Abat-jour"; "Support" ]
+    OpenFloorLamp                [ "Lampadaire ouvert"; ""; "Abat-jour"; "Support" ]
+    TripodLamp                   [ "Lampe trépied"; ""; "Abat-jour"; "Support"; "Articulation" ]
+    LightBar                     [ "Barre lumineuse"; ""; "Lampe"; "Base" ]
     Fluorescentlamp
         [
         "Lampe fluorescente"
-        "Idéal pour les sous-sols ; peu d'entretien, mais peu esthétique"
+        "Parfaite pour éclairer les sous-sols sombres avec peu d'entretien, mais pas géniale pour le reste."
         "Abat-jour"
         "Support"
         "Éclairage"
         ]
-    ThinHangingLamp              [ "Lampe suspendue fine"; ""; "Base"; "Support"; "Éclairage" ]
-    TriangleHangingLamp          [ "Lampe suspendue triangulaire"; ""; "Base"; "Support"; "Éclairage" ]
+    ThinHangingLamp              [ "Suspension fine"; ""; "Base"; "Support"; "Éclairage" ]
+    TriangleHangingLamp          [ "Suspension triangulaire"; ""; "Base"; "Support"; "Éclairage" ]
     OutdoorLamp
         [
-        "Lampadaire extérieur"
-        "Pour ne pas trébucher dehors la nuit !"
+        "Lampe d'extérieur"
+        "Une lampe chaleureuse pour répondre à tous vos besoins de « ne pas trébucher dans le noir dehors la nuit » !"
         "Base"
         ""
         "Éclairage"
         ]
-    FloorLight                   [ "Luminaire de sol"; "" ]
+    FloorLight                   [ "Projecteur de sol"; "" ]
     FireAlarm
         [
-        "Détecteur d'incendie"
-        "Alerte tout le bâtiment si un incendie se déclare dans la pièce"
+        "Alarme incendie"
+        "Alerte tout le monde dans le bâtiment si un incendie se déclare dans la même pièce."
         ]
     Sprinkler                    [ "Extincteur automatique"; "" ]
-    Securitycamera               [ "Caméra de surveillance"; "Nécessite un poste de surveillance pour fonctionner" ]
+    Securitycamera               [ "Caméra de surveillance"; "Nécessite un poste de surveillance pour être utilisable." ]
     MiniFridge
         [
-        "Mini-réfrigérateur"
-        "Espace de stockage pour les repas des employés"
+        "Mini-frigo"
+        "Un endroit où les employés peuvent garder leur propre nourriture."
         "Base"
         "Poignée"
         ]
-    VendingMachine               [ "Distributeur automatique"; "Synthétiseur de nourriture" ]
-    Fridge                       [ "Réfrigérateur"; "Sert les plats préparés par les cuisiniers" ]
-    Stove                        [ "Fourneau"; "Un fourneau par cuisinier pour chauffer les plats." ]
+    VendingMachine               [ "Distributeur automatique"; "Générateur de nourriture" ]
+    Fridge                       [ "Réfrigérateur"; "Génère de la nourriture que les cuisiniers peuvent préparer." ]
+    Stove                        [ "Cuisinière"; "Les cuisiniers utilisent les cuisinières pour chauffer les aliments. Une cuisinière par cuisinier." ]
     ServingTray
         [
         "Plateau de service"
-        "Les cuisiniers y déposent les plats pour les employés"
+        "Les cuisiniers remplissent les plateaux avec les plats prêts pour que les employés puissent manger."
         ]
     ServingTable                 [ "Table de service"; "" ]
     InstantCoffee
         [
-        "Café soluble"
-        "De la poudre marron, de l'eau chaude... l'illusion d'être moins fatigué ?"
-        "Cafetière"
+        "Café instantané"
+        "On trempe de la poudre brune dans de l'eau chaude et j'imagine qu'on finit par se sentir moins fatigué ?"
+        "Verseuse"
         "Poignée"
         ]
-    Coffee                       [ "Café"; "Machine à café classique"; "Base"; "Accentuation" ]
+    Coffee                       [ "Café"; "Votre machine à café moulu standard."; "Base"; "Accent" ]
     EspressoMachine
         [
         "Machine à expresso"
-        "Café de qualité, mais bruyante et gourmande en ressources et entretien"
+        "Prépare un café de haute qualité en étant bruyante et en consommant beaucoup d'eau, d'électricité et d'entretien."
         "Base"
-        "Accentuation"
+        "Accent"
         ]
-    Toilet                       [ "Toilettes"; "Machine à caca"; "Base"; "Siège" ]
-    Sink                         [ "Lavabo"; "" ]
+    Toilet                       [ "Toilettes"; "Machine à caca"; "Base"; "Assise" ]
+    Sink                         [ "Évier"; "" ]
     Shower                       [ "Douche"; "" ]
-    WaterCooler                  [ "Fontaine à eau"; "Un lieu de socialisation pour les employés" ]
-    Painting                     [ "Tableau"; "Un tableau kitsch pour décorer le bureau" ]
-    Image                        [ "Image"; "Importez vos propres œuvres dans le jeu !" ]
+    WaterCooler                  [ "Fontaine à eau"; "Un endroit où les employés peuvent socialiser." ]
+    Painting                     [ "Tableau"; "Un tableau ringard pour égayer le bureau" ]
+    Image                        [ "Image"; "Ajoutez vos propres œuvres au jeu !" ]
     DeskImage                    [ "Image de bureau"; "" ]
     HardwareDisplay              [ "Présentoir de matériel"; "" ]
     AcousticFoam                 [ "Mousse acoustique"; "" ]
-    AcousticDiamondPanel         [ "Panneau acoustique diamant"; "" ]
+    AcousticDiamondPanel         [ "Panneau acoustique en losange"; "" ]
     AcousticHexPanel             [ "Panneau acoustique hexagonal"; "" ]
-    TV                           [ "Télévision"; "" ]
-    Bookshelf                    [ "Bibliothèque"; "Avec des livres !" ]
-    Receptiondesk                [ "Bureau d'accueil"; "" ]
-    SecurityDesk                 [ "Bureau de sécurité"; "À placer stratégiquement pour de meilleurs résultats" ]
+    TV                           [ "Téléviseur"; "" ]
+    Bookshelf                    [ "Bibliothèque"; "Livres inclus !" ]
+    Receptiondesk                [ "Comptoir d'accueil"; "" ]
+    SecurityDesk                 [ "Poste de sécurité"; "À placer stratégiquement pour de meilleurs résultats" ]
     SurveillanceDesk
         [
-        "Bureau de surveillance"
-        "Permet à un garde de surveiller quatre caméras simultanément"
+        "Poste de surveillance"
+        "Permet à un garde de surveiller quatre caméras à la fois"
         ]
     ITDesk
         [
         "Poste informatique"
-        "Permet au support informatique de réparer à distance, quitte à ne pas atteindre ses objectifs de pas"
+        "Permet à votre équipe informatique de réparer les appareils à distance, au prix de leur objectif de pas quotidien"
         ]
-    FloorPlant                   [ "Plante verte"; "Une charmante plante" ]
-    TablePlant                   [ "Plante de bureau"; "Bonsaï low-poly" ]
-    TableCactus                  [ "Cactus de bureau"; "" ]
+    FloorPlant                   [ "Plante verte"; "Une charmante plante verte" ]
+    TablePlant                   [ "Plante de table"; "Bonsaï low-poly" ]
+    TableCactus                  [ "Cactus de table"; "" ]
     BigPlant
         [
         "Grande plante"
-        "Prend beaucoup de place, mais sa beauté compense largement selon les employés"
+        "Prend beaucoup de place, mais les employés s'accordent à dire qu'elle compense par son esthétique"
         ]
     SquareCarpet                 [ "Tapis carré"; "" ]
     CornerCarpet                 [ "Tapis d'angle"; "" ]
-    RoundedCarpet                [ "Tapis à coins arrondis"; "" ]
-    InvRoundedCarpet             [ "Tapis à coins inversés"; "" ]
+    RoundedCarpet                [ "Tapis d'angle arrondi"; "" ]
+    InvRoundedCarpet             [ "Tapis d'angle inversé"; "" ]
     BigCarpet                    [ "Grand tapis"; "" ]
     RoundCarpet                  [ "Tapis rond"; "" ]
     Smalltree                    [ "Petit arbre"; "" ]
-    Smallpinetree                [ "Petit sapin"; "" ]
+    Smallpinetree                [ "Petit pin"; "" ]
     MoneyTree
         [
-        "Arbre à billets"
-        "Une autre façon d'investir (tout finit sur le compte offshore)"
+        "Arbre à argent"
+        "Une autre façon d'investir votre argent (tous les bénéfices vont sur un compte offshore)"
         ]
-    CozyTree                     [ "Arbre cosy"; "" ]
-    Clock                        [ "Horloge"; "Machine à remonter le temps ! (Ou presque)" ]
-    SmallServer                  [ "Petit serveur"; "Un PC avec encore plus d'Internet" ]
-    MediumServer                 [ "Serveur moyen"; "Comme le petit, mais en version moyenne" ]
+    CozyTree                     [ "Arbre douillet"; "" ]
+    Clock                        [ "Horloge"; "Machine à remonter le temps ! (Ceci n'est pas une vraie machine)" ]
+    SmallServer                  [ "Petit serveur"; "Un ordinateur normal, mais avec plus d'Internet" ]
+    MediumServer                 [ "Serveur moyen"; "Comme un petit serveur, mais en plus moyen" ]
     TowerServer
         [
         "Serveur tour"
-        "Une tour performante (mais pas un gratte-ciel)"
-        "Carcasse"
+        "Une tour haute performance (ce n'est pas une vraie tour)"
+        "Boîtier"
         "Serveurs"
         ]
-    ServerRack                   [ "Baie de serveurs"; "Quand un seul PC ne suffit plus"; "Carcasse"; "Cadre"; "Poignée" ]
+    ServerRack                   [ "Baie de serveurs"; "Si un seul ordinateur ne suffit pas"; "Boîtier"; "Cadre"; "Poignée" ]
     BigServerRack
         [
         "Grande baie de serveurs"
-        "Quand on n'en a jamais assez"
-        "Carcasse"
+        "Quand on n'a jamais assez de serveurs"
+        "Boîtier"
         "Cadre"
         "Poignée"
         ]
@@ -263,136 +263,136 @@ Furniture
     DrawingTablet
         [
         "Tablette graphique"
-        "Bien plus simple que de saisir les coordonnées des pixels à la main"
+        "Tellement plus simple que de saisir manuellement des coordonnées de pixels"
         ]
-    Calculator                   [ "Calculatrice"; "La meilleure amie du programmeur" ]
+    Calculator                   [ "Calculatrice"; "Les calculatrices sont les meilleures amies des programmeurs" ]
     Inbox
         [
-        "Bac de réception"
-        "Idéal pour organiser les employés, surtout ceux qui ne connaissent pas l'e-mail"
+        "Boîte de réception"
+        "Aide vos employés à rester organisés, surtout pour ceux qui n'ont jamais entendu parler d'e-mail"
         "Boîte"
         ]
     Headphones                   [ "Casque"; "" ]
     SmallProductPrinter
         [
         "Petite imprimante de produits"
-        "Petite imprimante à disquettes pour vos produits"
+        "Une petite imprimante de disquettes pour imprimer vos produits"
         ]
-    MediumProductPrinter         [ "Imprimante de produits moyenne"; "Imprimante à disques moyenne" ]
+    MediumProductPrinter         [ "Moyenne imprimante de produits"; "Une imprimante de disques moyenne" ]
     LargeProductPrinter
         [
         "Grande imprimante de produits"
-        "Imprime des exemplaires plus petits pour que les coursiers puissent en transporter davantage"
+        "Imprime des copies plus petites pour que les coursiers puissent en transporter plus"
         ]
-    ComponentPrinter             [ "Imprimante de composants"; "Fabrique des composants matériels" ]
+    ComponentPrinter             [ "Imprimante de composants"; "Fabrique de nouveaux composants matériels" ]
     ComponentAssembler
         [
         "Assembleur de composants"
-        "Assemble les composants. Peut contenir {Constant:AssemblerMaxQueue} assemblages en file d'attente"
+        "Assemble les composants fabriqués. Peut contenir {Constant:AssemblerMaxQueue} assemblages en file d'attente"
         ]
     ComponentRecycler
         [
         "Recycleur de composants"
-        "Recycle les composants des assemblages inachevés pour réutilisation. {Warning:À placer uniquement après l'assembleur final}."
+        "Recycle les composants des assemblages inachevés qui passent par là pour une réutilisation ultérieure. {Warning:Should only be placed after the final component assembler}."
         "Base"
         ]
-    ConveyorBelt                 [ "Tapis roulant"; "" ]
-    ConveyorBelt1                [ "Tapis roulant (niveau 2)"; "" ]
-    ConveyorBelt2                [ "Tapis roulant (niveau 3)"; "" ]
-    Ceiling-mountedConveyorBelt  [ "Tapis roulant au plafond"; "Déplace les cartons sans gêner le personnel" ]
-    Ceiling-mountedConveyorBelt1 [ "Tapis roulant au plafond (niveau 2)"; "" ]
-    Ceiling-mountedConveyorBelt2 [ "Tapis roulant au plafond (niveau 3)"; "" ]
-    ConveyorRamp                 [ "Rampe de tapis"; "" ]
-    ConveyorSplitter             [ "Répartiteur de tapis"; "Répartit les cartons entrants dans un maximum de 3 directions" ]
-    Wall-mountedConveyorBelt     [ "Tapis roulant mural"; "Transfère les cartons entre les pièces" ]
-    Pallet                       [ "Palette"; "Jusqu'à 27 cartons d'exemplaires" ]
+    ConveyorBelt                 [ "Convoyeur"; "" ]
+    ConveyorBelt1                [ "Convoyeur (Niveau 2)"; "" ]
+    ConveyorBelt2                [ "Convoyeur (Niveau 3)"; "" ]
+    Ceiling-mountedConveyorBelt  [ "Convoyeur de plafond"; "Déplace les boîtes sans gêner le personnel" ]
+    Ceiling-mountedConveyorBelt1 [ "Convoyeur de plafond (Niveau 2)"; "" ]
+    Ceiling-mountedConveyorBelt2 [ "Convoyeur de plafond (Niveau 3)"; "" ]
+    ConveyorRamp                 [ "Rampe de convoyeur"; "" ]
+    ConveyorSplitter             [ "Séparateur de convoyeur"; "Divise les boîtes entrantes dans 3 directions maximum" ]
+    Wall-mountedConveyorBelt     [ "Convoyeur mural"; "Transfert de boîtes entre pièces" ]
+    Pallet                       [ "Palette"; "Peut supporter jusqu'à 27 boîtes de copies" ]
     PalletDropPoint
         [
-        "Point de dépôt sur palette"
-        "Dépose les cartons sur les palettes si le tapis roulant est encombré"
+        "Point de dépôt de palette"
+        "Dépose les boîtes sur des palettes si le convoyeur est saturé"
         ]
     PalletPickupPoint
         [
-        "Point de retrait sur palette"
-        "Récupère les cartons sur les palettes si le tapis roulant est vide"
+        "Point de retrait de palette"
+        "Récupère les boîtes sur les palettes si le convoyeur est vide"
         ]
     GaragePort
         [
-        "Porte de garage (gauche)"
-        "Expédie les cartons directement aux coursiers"
+        "Porte de garage gauche"
+        "Expédiez les boîtes directement à la porte de vos coursiers"
         ]
     GaragePortRight
         [
-        "Porte de garage (droite)"
-        "Expédie les cartons directement aux coursiers"
+        "Porte de garage droite"
+        "Expédiez les boîtes directement à la porte de vos coursiers"
         ]
     Helipad
         [
         "Héliport"
-        "Envoie jusqu'à 108 cartons dans la stratosphère pour {Currency:6500} l'unité"
+        "Propulse automatiquement jusqu'à 108 boîtes dans la stratosphère pour {Currency:6500} l'unité"
         ]
-    BoxElevator                  [ "Ascenseur à cartons"; "Transfère les cartons d'un étage à l'autre" ]
+    BoxElevator                  [ "Monte-charge pour boîtes"; "Transfère les boîtes entre les étages" ]
     FoodInput
         [
-        "Distributeur de nourriture"
-        "Récupère la nourriture des cuisiniers et la distribue aux cantines via le tapis roulant"
+        "Emballeur de nourriture"
+        "Récupère la nourriture des cuisiniers et la distribue aux cantines via des convoyeurs"
         "Base"
         ]
     FoodOutput
         [
-        "Point de distribution de nourriture"
-        "Récupère la nourriture du tapis et la distribue aux employés"
+        "Distributeur de nourriture"
+        "Prend la nourriture d'un tapis roulant et la distribue aux employés"
         "Base"
         ]
-    CompanyLogo                  [ "Nom de l'entreprise"; ""; "Texte"; "Contour"; "Ombre" ]
-    CompanyLogoBig               [ "Grand nom de l'entreprise"; ""; "Texte"; "Contour"; "Ombre" ]
+    CompanyLogo                  [ "Titre de l'entreprise"; ""; "Texte"; "Contour"; "Ombre" ]
+    CompanyLogoBig               [ "Grand titre d'entreprise"; ""; "Texte"; "Contour"; "Ombre" ]
     CompanyLogoHigh              [ "Logo d'entreprise (haut)"; ""; "Texte"; "Contour"; "Ombre" ]
     ActualCompanyLogo            [ "Logo d'entreprise"; "" ]
     ActualCompanyLogoBig         [ "Grand logo d'entreprise"; "" ]
     SolarPanel
         [
         "Panneau solaire"
-        "Réduit la facture d'électricité et revend le surplus au réseau à 25 %"
+        "Réduisez votre facture d'électricité et revendez le surplus au réseau à 25 %"
         ]
-    Battery                      [ "Batterie"; "Un watt économisé vaut plus qu'un watt vendu" ]
-    Windturbine                  [ "Éolienne"; "Électricité venue de nulle part" ]
+    Battery                      [ "Batterie"; "1 watt économisé vaut mieux qu'un watt vendu" ]
+    Windturbine                  [ "Éolienne"; "Tirer de l'électricité de nulle part" ]
     GoldBars                     [ "Lingots d'or"; "" ]
-    GoldBarsLevel1               [ "Lingots d'or (Niveau 1)"; "" ]
-    GoldBarsLevel2               [ "Lingots d'or (Niveau 2)"; "" ]
+    GoldBarsLevel1               [ "Lingots d'or Niveau 1"; "" ]
+    GoldBarsLevel2               [ "Lingots d'or Niveau 2"; "" ]
     SilverBars                   [ "Lingots d'argent"; "" ]
-    SilverBarsLevel1             [ "Lingots d'argent (Niveau 1)"; "" ]
-    SilverBarsLevel2             [ "Lingots d'argent (Niveau 2)"; "" ]
+    SilverBarsLevel1             [ "Lingots d'argent Niveau 1"; "" ]
+    SilverBarsLevel2             [ "Lingots d'argent Niveau 2"; "" ]
     CopperBars                   [ "Lingots de cuivre"; "" ]
-    CopperBarsLevel1             [ "Lingots de cuivre (Niveau 1)"; "" ]
-    CopperBarsLevel2             [ "Lingots de cuivre (Niveau 2)"; "" ]
+    CopperBarsLevel1             [ "Lingots de cuivre Niveau 1"; "" ]
+    CopperBarsLevel2             [ "Lingots de cuivre Niveau 2"; "" ]
     FloorHole                    [ "Trou"; "" ]
-    BestDesignerAward            [ "Prix du meilleur designer"; "Réduit la perte de lien social et le stress dans la pièce" ]
+    BestDesignerAward            [ "Prix du meilleur designer"; "Ralentit les besoins sociaux et le stress dans la pièce" ]
     BestEmployerAward            [ "Prix du meilleur employeur"; "Ralentit la faim et les besoins naturels dans la pièce" ]
-    BestProductAward             [ "Prix du meilleur produit"; "Ralentit la dégradation du mobilier dans la pièce" ]
+    BestProductAward             [ "Prix du meilleur produit"; "Ralentit la dégradation des meubles dans la pièce" ]
     MostProfitableAward          [ "Prix de la rentabilité"; "Ralentit l'accumulation de saleté dans la pièce" ]
     Standarddoor                 [ "Porte standard"; "C'est une porte..." ]
-    Casedopening                 [ "Ouverture de porte"; "" ]
-    Slidingglassdoor             [ "Porte vitrée coulissante"; "Porte-fenêtre" ]
-    Doubledoors                  [ "Double porte"; "Davantage de portes par achat" ]
+    Casedopening                 [ "Passage libre"; "" ]
+    Slidingglassdoor             [ "Porte vitrée coulissante"; "Une porte qui sert aussi de fenêtre" ]
+    Doubledoors                  [ "Portes doubles"; "Plus de portes par achat de porte" ]
     Doubleglassdoor              [ "Double porte vitrée"; "" ]
-    Smallwindow                  [ "Petite fenêtre"; "Inutile entre deux pièces" ]
-    Largewindow                  [ "Grande fenêtre"; "Pour encore plus de visibilité" ]
-    Widewindow                   [ "Fenêtre large"; "Pour une vue panoramique" ]
-    Smallprivatewindow           [ "Petite fenêtre opaque"; "Idéal pour les toilettes" ]
-    Archedgate                   [ "Arche"; "" ]
-    Opengate                     [ "Portail ouvert"; "" ]
+    Smallwindow                  [ "Petite fenêtre"; "Totalement inutile si placée entre deux pièces" ]
+    Largewindow                  [ "Grande fenêtre"; "Si vous voulez encore plus de fenêtre" ]
+    Widewindow                   [ "Fenêtre large"; "Pour une expérience panoramique" ]
+    Smallprivatewindow           [ "Petite fenêtre opaque"; "Pour tous vos besoins aux toilettes" ]
+    Archedgate                   [ "Portail en arche"; "" ]
+    Opengate                     [ "Ouvrir le portail"; "" ]
     WallHole                     [ "Trou"; "" ]
     }
 
 Stairs    "Escaliers"
-Common    "Commun"
+Common    "Salle commune"
 Breakroom "Salle de pause"
 Table     "Table"
-Sitting   "Assis"
+Sitting   "Salon"
 Reception "Réception"
 Outdoors  "Extérieur"
-Utility   "Technique"
-Bathroom  "Toilettes"
+Utility   "Buanderie"
+Bathroom  "Salle de bain"
 Kitchen   "Cuisine"
 Hole      "Trou"
 Gate      "Portail"
