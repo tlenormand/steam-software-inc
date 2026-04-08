@@ -1,259 +1,821 @@
 Tutorial
     {
-    SHARED1                 "To start developing software, designers need to piece together a design document. This document describes how the software should be developed and structured, to make sure everyone is on the same page.
+    SHARED1                 "Pour commencer à développer un logiciel, les concepteurs doivent élaborer un document de conception. Ce document décrit comment le logiciel doit être développé et structuré, afin de s'assurer que tout le monde est sur la même longueur d'onde.
 	
-The detail window also gives you an overview of their planned releases and the ability to cancel them.
+La phase de conception est divisée en itérations. Chaque itération augmente la qualité finale potentielle et réduit la vitesse ainsi que le nombre de bugs dans votre projet. Il y a 2 façons d'aborder la phase de conception :
+	•Vous pouvez terminer 1 itération et gérer les problèmes éventuels pendant la phase de développement
+	•Vous pouvez terminer toutes les itérations et avoir moins de problèmes pendant la phase de développement
+	
+La première méthode est très efficace, mais rend difficile l'estimation de la durée du développement, tandis que la seconde méthode garantit une extension exponentielle de la phase de conception.
 
-Press Continue to advance the tutorial."
-    WELCOME2                "You can move the camera with {KeyBind:MoveUp}, {KeyBind:MoveLeft}, {KeyBind:MoveDown} and {KeyBind:MoveRight}, holding {KeyBind:DragCamera} and dragging the mouse, or by moving your mouse to the edges of the screen (if edge scrolling is enabled in the options menu).
+Appuyez sur {H:continue} pour faire avancer le tutoriel."
+    SHARED2                 "Lors d'une évaluation, vous devez choisir le nombre d'avis que vous souhaitez. Plus vous avez d'avis, meilleure est la précision.
+			
+Vous devez également décider qui doit effectuer l'évaluation, ce qui influe sur le prix final.
 
-You can Improve your business reputation by doing contract work or accepting deals from other companies"
-    WELCOME8                "Here you can see how much money is moving in and out of your company.
+Enfin, vous devez décider quelles parties du logiciel évaluer. Si vous avez déjà obtenu de bons scores lors d'une évaluation précédente, vous pouvez gagner du temps et de l'argent en ignorant ces zones pour l'évaluation actuelle.
 
-Finally, you should note that you'll need extra bandwidth to handle selling all those extra products."
-    DIGITALDISTRIBUTION5    "Your store may have a lot of users, but if you don't have any products for them to buy, your market share will stay low and you will fail to attract new clients. Luckily, you can offer other companies time-limited {H:exclusivity deals} for your store, to give your users something to buy.
+Appuyez sur {H:OK} quand vous serez prêt à continuer."
+    SHARED3                 "Les avis arriveront au fil du temps. Vous pouvez y mettre fin prématurément si vous le souhaitez, mais pour une grande précision, vous devriez attendre que tous les avis soient arrivés.
 
-Pres {H:OK} when you are ready to continue."
-    SHARED3                 "Reviews will pour in as time goes on. You can finish it prematurely if you want, but if you want high accuracy, you should wait until all reviews are in.
+Notez que les avis seront basés sur une version du projet qui existait au moment où vous avez cliqué sur évaluer, donc tout changement ultérieur ne sera pas pris en compte.
+			
+Cliquez sur le bouton {H:End} de l'évaluation lorsque la barre de progression est pleine."
+    SHARED4                 "Si la note de l'évaluation est insatisfaisante, vous pouvez cliquer sur le bouton d'itération pour mettre le développement en pause et laisser vos concepteurs retravailler le document de conception. Cela permettra de régler les derniers détails, mais retardera aussi un peu l'avancement de votre projet.
 
-Note that some options might be greyed out, because your leader doesn't have the necessary Automation level. You can see what each Automation level unlocks by hovering over the stars in the specialization overview for leaders in the Employee window, Team window or Employee detail window.
-		
-Click on the {H:Update} button when you are ready to go."
-    WELCOME1                "Welcome to Software Inc.
+Si vous êtes satisfait de votre score, fermez simplement la fenêtre d'évaluation et poursuivez le développement."
+    SHARED5                 "Pressing {KeyBind:MultipleSelect} on objects, rooms or employees will allow you to select several at once, you can then press {KeyBind:ContextMenu} anywhere to see the context menu. You can hold {KeyBind:SweepSelect} down to select objects of the same type quickly or press {KeyBind:NormalSelection} and drag to select everything within a rectangle.
 
-If you are unsure of what to do next, you should check out the {H:Tasks} you can complete to unlock cool rewards.
+Try selecting at least 2 things in the game."
+    SHARED6                 "Plaçons quelques meubles dans votre pièce.
 
-Try opening another company's detail window, to see how many stocks they have. You can check the {H:Listed} column in the company window, to see how many percent of a company is up for sale."
-    STOCKS3                 "Owning share in a company will earn you {H:Dividends}, which means you will get a percentage of the company's profits each month, depending on how much of the company you own. Note that you also have to pay dividends to your shareholders.
+Construisez une nouvelle table en cliquant sur le bouton {H:Furnish} ou en recherchant {H:table}."
+    SHARED7                 "Ajoutez maintenant une chaise. Les chaises ne peuvent être ajoutées qu'à des tables.
 
-Build a new table by clicking on the {H:Furnish} button or searching for {H:table}."
-    SHARED7                 "Now add a chair. Chairs can only be added to tables.
+Notez que certains meubles, comme les chaises et les tables, peuvent être remplacés par d'autres versions après avoir été placés. Vous pouvez utiliser le menu contextuel pour remplacer facilement beaucoup de meubles à la fois, en sélectionnant par exemple tous les meubles du même type dans les pièces sélectionnées."
+    SHARED8                 "Enfin, ajoutez un ordinateur. Pour ajouter un ordinateur, maintenez le clic à l'endroit souhaité, faites glisser la souris dans la direction voulue, puis relâchez le bouton pour le placer.
 
-Computers have to sit on top of a table and face a chair."
-    SHARED9                 "When you put tables next to each other they will be grouped together if they don't have anything on top of them. Tables that are grouped together can be used for meetings. To see which tables are grouped, just select one table and its group will be highlighted in blue.
+Les ordinateurs doivent être posés sur une table et faire face à une chaise."
+    SHARED9                 "Lorsque vous placez des tables les unes à côté des autres, elles sont regroupées si elles n'ont rien sur elles. Les tables regroupées peuvent être utilisées pour des réunions. Pour voir quelles tables sont groupées, sélectionnez-en une et son groupe sera mis en évidence en bleu.
 
-It's impossible to know exactly how many bugs a piece of software has, so just try to fix as many as you can before time runs out.
+Il est important de contrôler les niveaux sonores dans votre environnement de travail, essayez d'activer la superposition audio pour voir quels meubles font du bruit."
+    SHARED10                "Votre fondateur n'a pas faim, ne se sent pas seul, n'a pas besoin de pause toilettes et ne s'énerve pas en général, mais vos nouveaux employés en auront besoin. Assurez-vous donc d'ajouter au moins un distributeur automatique, un radiateur, un ventilateur et des toilettes séparées avant d'embaucher de nouveaux employés.
 
-Toggle the audio overlay to advance."
+Basculez la superposition audio pour avancer."
     SHARED11                "Now, let's assign the room to a team, employees from other teams may then not use it or even pass through it.
 
-Right click the title bar of the work item to toggle between normal and collapsed view.
+Right click your new room and choose {H:Switch team}, which resembles a group of people. A window will appear, click on {H:Core} to assign the room to the Core team.
 
 Remember to assign employees to a team as well. You can do this either by pressing {KeyBind:ContextMenu} on an employee and choosing {H:Switch team}, from the employees window or directly in the hiring window."
-    SHARED12                "Start the tutorial by pressing the {H:Develop software} button to bring up the design document."
-    SHARED13                "Continue by going to the first page of the advanced design document."
-    SHARED14                "Welcome to the design document, the heart of Software Inc. This is where you decide what kind of software you want to make.
+    SHARED12                "Commencez le tutoriel en appuyant sur le bouton {H:Develop software} pour afficher le document de conception."
+    SHARED13                "Continuez en allant sur la première page du document de conception avancé."
+    SHARED14                "Bienvenue dans le document de conception, le cœur de Software Inc. C'est ici que vous décidez du type de logiciel que vous voulez créer.
 
-Start by selecting a leader to run the project and name your team."
-    PROJECTMANAGEMENT3      "Now look through each of the options to control how the projects should be handled. You can hover over each label to get a detailed description.
+Commencez par choisir un type de logiciel.
 
-Software is divided up into specializations, like 2D, 3D, System, etc. Each specialization is shown as a container in the feature panel and each container has a list of extra features you can add. The extra features require that your employees have the right amount of \"stars\" for the specialization they belong to.
+Cliquez sur continuer pour faire avancer le tutoriel."
+    SHARED15                "Le cas échéant, vous pouvez choisir une catégorie de logiciel. Chaque catégorie pour un type de logiciel a des temps de développement, une popularité, une rétention d'audience, des fonctionnalités et un public cible différents."
+    SHARED16                "Ensuite, choisissez un nom. Vous pouvez soit en écrire un vous-même, soit appuyer sur le bouton ""Name:\"" pour en générer un."
+    SHARED17                "Vous pouvez également choisir un prix. Si vous ne modifiez pas le champ du prix, le meilleur prix sera choisi en fonction du logiciel et des fonctionnalités sélectionnés. Vous pouvez cliquer sur le bouton Prix pour réinitialiser le prix."
+    SHARED18                "Examinons les fonctionnalités que vous pouvez choisir pour votre produit. Chaque fonctionnalité prend du temps à développer et satisfait différents marchés.
 
-Features that were implemented in the predecessor product will be highlighted in orange in the feature panel, as these features will be developed faster than normal."
-    SHARED22                "Your product can depend on other software types. As an example, you will need a 2D Editor to make a game with 2D graphics, otherwise your artists wouldn't be able to create the graphical assets needed.
+Le logiciel est divisé en spécialisations, comme 2D, 3D, Système, etc. Chaque spécialisation est présentée sous forme de conteneur dans le panneau des fonctionnalités et chaque conteneur possède une liste de fonctionnalités supplémentaires que vous pouvez ajouter. Les fonctionnalités supplémentaires exigent que vos employés aient le niveau requis en ""stars\"" pour la spécialisation à laquelle elles appartiennent.
+
+Les fonctionnalités surlignées en rouge sont indisponibles car aucun employé de vos équipes de développement sélectionnées ne possède le nombre d'étoiles requis."
+    SHARED19                "Les fonctionnalités 1 étoile sont des fonctionnalités simples qui aident à satisfaire les sous-marchés à un degré moindre.
+
+Les fonctionnalités 2 étoiles sont bien plus efficaces pour satisfaire leurs publics cibles que les fonctionnalités 1 étoile, car vous obtiendrez plus de valeur pour le temps passé à les développer.
+
+Les fonctionnalités 3 étoiles ne satisfont pas votre public cible, mais modifient votre logiciel d'une manière ou d'une autre."
+    SHARED20                "Comme vous l'avez peut-être remarqué, chaque fonctionnalité principale a un niveau technologique associé. Les niveaux technologiques peuvent être recherchés par vous ou par d'autres entreprises d'année en année.
+
+Rester au dernier niveau technologique augmentera la satisfaction de votre public cible et le potentiel commercial de votre produit, mais augmentera le temps de développement ainsi que les frais de recherche et de licence éventuels.
+
+Il est à noter que le niveau technologique maximum est limité par les outils nécessaires pendant le développement."
+    SHARED21                "Vous pouvez faire de votre logiciel la suite d'un produit que vous avez créé précédemment ou que vous avez acheté à une autre entreprise. Pour ce faire, cliquez sur le bouton {H:Original IP} et sélectionnez un produit.
+
+Créer une suite donnera un coup de pouce au marketing et modifiera les attentes de vos fans en fonction du succès des opus précédents.
+
+Les fonctionnalités qui ont été implémentées dans le produit précédent seront surlignées en orange dans le panneau des fonctionnalités, car elles seront développées plus rapidement que la normale."
+    SHARED22                "Votre produit peut dépendre d'autres types de logiciels. Par exemple, vous aurez besoin d'un éditeur 2D pour créer un jeu avec des graphismes 2D, sinon vos artistes ne pourraient pas créer les ressources graphiques nécessaires.
 			
-2 star features are far more effective at satisfying their target audiences than 1 star features, as you'll get more value for the time spent developing them
+De plus, la plupart des logiciels doivent également fonctionner sur un ou plusieurs systèmes d'exploitation. Il serait sage de choisir des systèmes d'exploitation populaires à prendre en charge, car ils limiteront la taille de votre audience. Mais attention, chaque système d'exploitation supplémentaire prolongera le temps de développement.
 
-3 star features don't satisfy your target audience, but instead modify your software in some way"
-    SHARED20                "As you may have noticed, each main feature has a tech level associated with it. Tech levels can be researched by you or other companies from year to year.
+Vous pouvez porter votre logiciel sur d'autres systèmes d'exploitation après sa sortie, si vous le souhaitez.
 
-Sticking to the latest tech level will increase your target audience satisfaction and the marketability of your product, but increase development time and possible research and license costs associated with its development.
+Passez à la page suivante quand vous serez prêt."
+    SHARED23                "Le triangle des sous-marchés vous permet de décider comment vos efforts de marketing et de conception seront pondérés, afin de cibler une section d'utilisateurs sur le marché.
 
-Making a sequel will give a marketing boost and change your fans' expectations depending on the success of its predecessors.
+Vous pouvez soit décider des marchés que vous voulez cibler et choisir les fonctionnalités qui les satisferont, soit choisir les fonctionnalités que vous voulez dans votre produit et équilibrer les marchés pour qu'ils correspondent à ces fonctionnalités.
 
-Furthermore, most software also needs to run on one or more operating systems. It would be wise to pick popular operating systems to support, as they will limit your audience size. But beware that each operating system you decide to support will extend development time.
+Les 3 barres en bas vous montreront à quel point vos fonctionnalités choisies satisfont chaque marché et combien elles exigent, en fonction de votre équilibrage du triangle.
 
-Move to the next page when you're ready."
-    SHARED23                "The submarket triangle let's you decide how your marketing and design efforts will be weighted, to target a section of users in the market.
-
-Only 1 page left to go!"
-    SHARED24                "If you're worried about how to pay your developers, how many physical copies you'll have to order or how much effort to put into your marketing campaign, you can sign up with a publisher and they will handle these details, if you agree to pay royalties off your product's profits."
-    SHARED25                "Before you finish, make sure you inspect the information in this box. This outlines everything you need to develop this product.
+Plus qu'une page à parcourir !"
+    SHARED24                "Si vous vous inquiétez de la manière de payer vos développeurs, du nombre d'exemplaires physiques que vous devrez commander ou des efforts à consacrer à votre campagne marketing, vous pouvez signer un contrat avec un éditeur et il s'occupera de ces détails, si vous acceptez de verser des redevances sur les bénéfices de votre produit."
+    SHARED25                "Avant de terminer, assurez-vous d'inspecter les informations contenues dans cet encadré. Il résume tout ce dont vous avez besoin pour développer ce produit.
 			
-Take special note of the {H:Expected interest} percent, as adding more features after it hits 100% will only increase development time and not your sales.
+Faites particulièrement attention au pourcentage d'{H:Expected interest}, car ajouter plus de fonctionnalités après avoir atteint 100 % ne fera qu'augmenter le temps de développement et non vos ventes.
 
-Having more than the suggested amount of employees on the development teams will result in diminishing returns, so you're paying more in salaries, but getting a smaller and smaller speed increase in return."
-    SHARED26                "After you've went through the phases of development and you're ready to release your product, remember to see if any popular products have just been released in the same software category as yours.
+Avoir plus que le nombre suggéré d'employés dans les équipes de développement entraînera des rendements décroissants : vous paierez plus de salaires pour un gain de vitesse de plus en plus faible."
+    SHARED26                "Une fois que vous avez traversé les phases de développement et que vous êtes prêt à publier votre produit, n'oubliez pas de vérifier si des produits populaires viennent de sortir dans la même catégorie de logiciel que la vôtre.
 
-Timing is everything when you're just starting out!"
-    SHARED27                "To transport boxes around your building you need {H:conveyor belts}.
+Vous pouvez également consulter l'{H:Event calendar} pour éviter les sorties imminentes de vos concurrents et vous assurer qu'une grande entreprise ne fera pas de l'ombre à votre produit.
 
-{H:Conveyor belts} allow you to route boxes through walls and onto pallets or directly to the outside for couriers to pick up, by placing {H:Garage ports}.
+Le timing est primordial quand on débute !"
+    SHARED27                "Pour transporter des cartons dans votre bâtiment, vous avez besoin de {H:conveyor belts}.
+
+Les {H:Conveyor belts} vous permettent d'acheminer des cartons à travers les murs et sur des palettes ou directement à l'extérieur pour que les coursiers les récupèrent, en plaçant des {H:Garage ports}.
+
+Vous pouvez diriger des cartons de différents endroits vers la même destination en plaçant des tapis roulants perpendiculairement les uns aux autres. Ou vous pouvez diviser les cartons dans différentes directions en plaçant des {H:Conveyor Splitters}. Assurez-vous de laisser de la place sur vos tapis roulants pour que les cartons puissent passer, car les machines ne pourront pas sortir de cartons si le tapis roulant devant elles est bloqué."
+    SHARED28                "{H:Pallets} can be used as storage, to avoid a box pileup, or as a pickup point for {H:couriers}.
 
 Place {H:drop points} on {H:conveyor belts} adjacent to {H:pallets} to drop boxes off when the conveyor belts are obstructed and place {H:pickup points} to move boxes from pallets to a conveyor belt when the path is clear.
 		
-Exit wire mode and bring up the server window when you are ready."
-    SERVER3                 "From here you can manage your servers and check if they are overheating.
-
-When you are ready, begin building your office by entering {H:Build mode}."
-    }Open the server wiring interface by clicking the wire button."
-    SERVER2                 "Outside of connecting servers, you can use wire mode to get an overview of your server connections.
+Exit {H:build mode} when you are ready."
+    SHARED29                "Dans la fenêtre du personnel, vous pouvez soit embaucher des {H:couriers} pour qu'ils passent une fois par jour ramasser les cartons, soit appeler un coursier pour qu'il récupère immédiatement le plus de cartons possible. L'appel de coursiers est beaucoup plus coûteux et doit être réservé aux urgences.
 		
-Your digital market share and business reputation, combined with the cut you decide to take of your clients' products, will determine how many are willing to sign up to your digital store.
+Quand vous serez prêt, ouvrez la {H:distribution window} pour voir comment gérer votre propre boutique de distribution numérique."
+    SHARED30                "Vous devrez également choisir un concepteur principal pour proposer des idées pour votre projet. Le jeu aura déjà choisi l'employé le plus apte, en fonction des équipes de conception assignées."
+    ACCOUNTINGANDTAXES1     "Commencez par ouvrir le {H:Tax menu}."
+    ACCOUNTINGANDTAXES2     "Les impôts doivent être payés chaque année où vous avez réalisé un bénéfice, et chaque année vous avez la possibilité de déposer un {H:tax report} avant avril ou de payer une amende. Toute activité ou tout actif illégal survenu au cours de cette année fiscale sera découvert si vous ne déposez pas le rapport d'impôts vous-même.
 
-Pay close attention to your {H:heat level}. When it hits 100% you will be audited and any illegal activity will be uncovered, and assets seized."
-    ADDONS1                 "You can develop new add-ons at any time by opening {H:Your releases} window and selecting a product with add-ons available or by opening the detail window for a product and clicking one of its add-on tabs.
+Notez que pour les actifs que vous pouvez acheter ou vendre, comme un ordinateur ou une {H:IP}, les taxes sont basées sur la {H:depreciation} de sa valeur, plutôt que sur sa valeur réelle lors de l'achat ou de la vente.
 
-Add-ons made for hardware are peripherals, and some can be mandatory for development of the main product and some can even be sold several times to the same customer, such as joysticks for consoles."
-    ADVANCEDDESIGNDOCUMENT3 "The first page of the advanced design document resembles the simple design document, but with an added {H:Framework} panel.
+Ouvrez la fenêtre de comptabilité pour continuer le tutoriel."
+    ACCOUNTINGANDTAXES3     "Dans la fenêtre de comptabilité, vous pouvez sélectionner les équipes qui doivent remplir vos rapports d'impôts et {H:optimize} vos impôts chaque année.
 
-Using a framework made by another company will require you pay a license fee from your profits.
+Vos comptables optimisent vos impôts en trouvant des erreurs et des moyens de les réduire. Si vous ne réalisez pas de bénéfice au cours d'une année fiscale, cet effort ne vous fera pas économiser d'argent.
 
-Progress tells nothing of the actual quality of the project, however. To get an idea of how good your employees' work is, you need to do a peer review. Start by pressing the review button."
-    ALPHAWORK7              "Make sure you do a press release during the implementation phase, as you hopefully did during the design phase, unless you signed with a publisher.
+Cliquez sur {H:Continue} pour en savoir plus sur le compte offshore."
+    ACCOUNTINGANDTAXES4     "Vous pouvez acheter des {H:precious metals} pour réduire vos impôts et peut-être même réaliser un profit en les revendant lorsque le prix augmente. Assurez-vous simplement de ne pas placer votre stock de métaux précieux à la vue de quiconque, à l'exception des membres de votre personnel.
 
-During the implementation phase you also have the option to send out a press build, so the press can try your software. Press builds require no work on your part, but make sure you have good ratings in your peer reviews and some followers before you send one out.
+L'argent que vous gagnez en vendant des métaux précieux est versé sur votre {H:offshore account}, qui ne peut pas être utilisé pour vos opérations quotidiennes."
+    ACCOUNTINGANDTAXES5     "Votre compte offshore peut être utilisé pour l'action listée en bas de la fenêtre ou être reversé sur le compte principal de votre entreprise. Les actions indiquent également le coût pour votre compte offshore et le niveau de {H:heat} que l'action générera.
 
-Some notifications can be clicked to see details. You can right click notifications to delete them."
-    WELCOME11               "All your controls and windows are here, in the bottom left corner."
-    WELCOME12               "Remember: You can always restart any tutorial from the options menu.
+Faites bien attention à votre {H:heat level}. Lorsqu'il atteint 100 %, vous ferez l'objet d'un audit, toute activité illégale sera découverte et vos actifs saisis."
+    ADDONS1                 "Vous pouvez développer de nouveaux add-ons à tout moment en ouvrant la fenêtre {H:Your releases} et en sélectionnant un produit avec des add-ons disponibles, ou en ouvrant la fenêtre de détails d'un produit et en cliquant sur l'un de ses onglets d'add-ons.
 
-Let's start by going over bonds investments. Click {H:Continue} when you are ready."
-    INVESTMENTS3            "Investing in bonds means loaning out money and earning some back off the yearly {SavingsInterest} loan interest. It is an easy, risk-free way to make a small steady income, with the downside that you can't withdraw the money you invest for a while, without losing the interest.
+Essayez de lancer le développement d'un add-on dès maintenant pour poursuivre le tutoriel."
+    ADDONS2                 "Un {H:Add-on} est un produit que vous pouvez développer pour être vendu comme l'extension d'un produit existant.
+
+Cliquez sur {H:Continue} pour jeter un œil aux fonctionnalités que vous pouvez choisir pour un add-on."
+    ADDONS3                 "Les fonctionnalités des add-ons fonctionnent comme celles des produits classiques, mais certaines offrent la possibilité d'augmenter leur potentiel.
+
+Les fonctionnalités que vous pouvez ajouter dépendront de la catégorie et des fonctionnalités du produit parent. Les fonctionnalités doivent être sélectionnées de manière à plaire au même marché cible que le produit pour lequel elles sont conçues.
+
+Vous pouvez trouver des add-ons pour d'autres produits en cherchant des produits dans la fenêtre des produits qui ont un solde non nul dans la colonne {H:Add-on profit}.
+
+Essayez de voir si vous pouvez trouver un tel produit maintenant."
+    ADDONS4                 "Maintenant, cliquez sur l'onglet d'add-on correspondant et ouvrez les détails d'un add-on pour voir ses informations."
+    ADDONS5                 "Développer des add-ons peut être un bon moyen de générer des revenus supplémentaires à partir de produits populaires ou de faire revenir d'anciens clients pour des produits basés sur un abonnement.
+
+Les add-ons conçus pour le matériel sont des périphériques, et certains peuvent être obligatoires pour le développement du produit principal. Certains peuvent même être vendus plusieurs fois au même client, comme les joysticks pour les consoles."
+    ADVANCEDDESIGNDOCUMENT3 "La première page du document de conception avancé ressemble au document de conception simple, mais avec un panneau {H:Framework} supplémentaire.
+
+Vous pouvez utiliser ou créer un framework lors du développement d'un logiciel. Les frameworks accélèrent le développement, mais limitent les niveaux technologiques maximaux de vos fonctionnalités.
+
+L'utilisation d'un framework créé par une autre entreprise vous obligera à payer des frais de licence sur vos bénéfices.
+
+Si vous décidez de créer un nouveau framework, cela prolongera légèrement le développement, mais le nouveau framework pourra être concédé sous licence à d'autres entreprises pour gagner un peu d'argent supplémentaire."
+    ADVANCEDDESIGNDOCUMENT4 "Le document de conception avancé comporte plusieurs pages. Passons à la page 2 pour continuer."
+    ADVANCEDDESIGNDOCUMENT7 "Il s'agit de la page de résumé. Ici, vous pouvez examiner les derniers détails de votre projet, décider des équipes de conception et de développement à utiliser, et si vous souhaitez un {H:Publisher}. Les éditeurs aideront à financer votre projet, s'occuperont du marketing et de la distribution physique en échange d'une part de vos bénéfices.
+
+Cliquez sur le bouton de développement lorsque vous êtes prêt à commencer."
+    ALPHAWORK1              "Vous devez atteindre la phase de mise en œuvre du développement avant que le tutoriel puisse continuer."
+    ALPHAWORK2              "Votre projet est maintenant passé en phase de mise en œuvre.
+
+La phase de mise en œuvre comporte deux étapes :
+	•{H:Alpha} : au cours de laquelle les développeurs et les graphistes créent le produit selon les spécifications et les exigences de conception.
+	•{H:Beta} : au cours de laquelle les bugs sont détectés par vos programmeurs et, espérons-le, corrigés avant la sortie finale."
+    ALPHAWORK3              "Vous verrez la barre de progression se remplir au fur et à mesure que vos employés travaillent sur le projet. Vous pouvez survoler la tâche pour obtenir un détail de la progression dans chaque domaine de la mise en œuvre.
+		
+Cependant, la progression ne dit rien sur la qualité réelle du projet. Pour avoir une idée de la qualité du travail de vos employés, vous devez effectuer une évaluation par les pairs. Commencez par appuyer sur le bouton d'évaluation."
+    ALPHAWORK7              "Assurez-vous de faire un communiqué de presse pendant la phase de mise en œuvre, comme vous l'avez probablement fait pendant la phase de conception, à moins que vous n'ayez signé avec un éditeur.
+
+Pendant la phase de mise en œuvre, vous avez également la possibilité d'envoyer une version de presse, afin que les journalistes puissent essayer votre logiciel. Les versions de presse ne nécessitent aucun travail de votre part, mais assurez-vous d'avoir de bonnes notes dans vos évaluations par les pairs et quelques abonnés avant d'en envoyer une.
+
+Le tutoriel continuera une fois que vous aurez envoyé une version de presse. Prenez tout le temps qu'il vous faut."
+    ALPHAWORK8              "Appuyez sur le bouton Promouvoir pour passer à la phase bêta lorsque vous êtes prêt."
+    ALPHAWORK9              "La phase bêta est théoriquement sans fin, mais vous devrez sortir votre projet à un moment donné, surtout si vous avez déjà annoncé une date de sortie.
+
+C'est une bonne idée de corriger autant de bugs que possible, car les produits buggés entraîneront des remboursements, mais ne cherchez pas à corriger tous les bugs possibles. Une fois votre produit sorti, vous pourrez corriger davantage de bugs au fur et à mesure que vos clients contacteront votre équipe d'assistance.
+
+Il est important de noter que la quantité de bugs qu'un employé peut corriger dépend du programmeur le plus qualifié de son équipe. Ainsi, vos employés pourraient ne pas être en mesure de corriger tous les bugs et une équipe pourrait arrêter d'en corriger tandis qu'une seconde équipe continue."
+    ALPHAWORK10             "Appuyez sur le bouton de sortie quand vous êtes prêt.
+		
+Lorsque vous sortez votre produit, vous devrez acheter ou imprimer des copies physiques pour les vendre. Plus tard, la distribution de logiciels en ligne deviendra plus populaire, mais il est très important d'avoir des copies physiques de votre produit avant et pendant les années 90.
+		
+Vous pouvez soit imprimer des copies physiques vous-même, soit en commander pour une distribution immédiate à un prix plus élevé. Le jeu vous le rappellera lorsque vous sortirez un produit."
+    BENEFITS1               "Commencez par ouvrir la fenêtre des avantages"
+    BENEFITS2               "Les avantages sociaux augmenteront passivement la satisfaction de tous vos employés, ce qui peut être très utile si vous souhaitez réduire leurs salaires ou vous assurer qu'ils ne démissionnent pas par ennui.
+
+Certains avantages peuvent avoir un impact financier important et immédiat, tandis que d'autres peuvent entraîner une forte augmentation de la satisfaction sans conséquences immédiates.
+
+Vous pouvez manipuler les curseurs en toute sécurité et voir leur impact, car les changements ne sont effectifs que lorsque vous appuyez sur Appliquer.
+
+Appuyez sur continuer pour avancer dans le tutoriel."
+    BENEFITS3               "Si vous cochez la case à côté d'un avantage et cliquez sur Appliquer, tout employé ayant des avantages personnalisés verra ceux-ci réinitialisés aux valeurs par défaut de l'entreprise.
+		
+Vous pouvez modifier les avantages des employés individuellement dans la fenêtre d'aperçu des employés. Essayez de l'ouvrir maintenant, sélectionnez un ou plusieurs employés et cliquez sur \"Change benefits\"."
+    BENEFITS4               "Pour passer outre un avantage d'entreprise pour des employés individuels, vous devez cocher la case à côté de l'avantage."
+    BUILDMODE1              "Commencez par entrer en {H:Build mode} en cliquant sur le bouton Construire."
+    BUILDMODE2              "The game is always paused in build mode.
+
+Let's start by building a room. You have two choices for how you want to build a room.
+
+Click on the {H:Rectangle rooms} button in the build panel to build a simple rectangle room or click the {H:Free angle rooms} button to build rooms in any shape you want, one wall at a time.
+
+You can also use the {H:Free angle rooms} option to split rooms into two separate rooms, by simply building a wall through an existing room."
+    BUILDMODE3              "Maintenant, cliquez quelque part à l'intérieur de la zone que vous possédez, qui comporte une grille, puis cliquez ailleurs pour terminer votre nouvelle pièce. Gardez un œil sur le coût tout en déplaçant le curseur."
+    BUILDMODE4              "Vous avez peut-être remarqué que vous étiez limité à la grille lors de la construction de votre pièce. Vous pouvez changer la grille et les angles de construction si vous le souhaitez, en déplaçant le gizmo de la grille vers un mur ou un meuble. Cela peut être pratique si vous voulez construire des tables le long d'un mur en diagonale par exemple.
+
+Si l'aspect de votre pièce ne vous plaît pas, vous pouvez utiliser le bouton Annuler ou {KeyBind:Undo} pour annuler vos modifications.
+
+Cliquez sur Continuer quand vous êtes prêt."
+    BUILDMODE5              "You can move up and down floors by pressing {KeyBind:FloorUp} and {KeyBind:FloorDown}.
 
 Now let's add windows and doors. You can either select a category or search for {H:window} or {H:door} in the build panel."
-    BUILDMODE6              "Notice how the room lights up when you add windows, make sure to add enough so that your employees can see.
+    BUILDMODE6              "Remarquez comment la pièce s'éclaire lorsque vous ajoutez des fenêtres, assurez-vous d'en ajouter suffisamment pour que vos employés puissent voir.
 
-Contracts have an upfront payment you will receive for accepting the work, and a bigger payment for completing it. You complete a contract by delivering a product with the requested progress and quality.
+Vous pouvez inspecter l'éclairage, l'environnement, la température et le niveau sonore en cliquant sur la pièce et en la sélectionnant."
+    BUILDMODE14             "Vous pouvez également changer la couleur de vos pièces et de vos meubles.
 
-Not living up to the clients quality expectations will impact your business reputation, but not your payout.
+Essayez de changer la couleur de votre pièce en appuyant sur {KeyBind:ContextMenu} sur celle-ci, puis cliquez sur le bouton {H:Room colors} qui ressemble à un pinceau."
+    BUILDMODE15             "Vous pouvez changer la couleur de plusieurs éléments à la fois et la fenêtre des couleurs suggérera les couleurs actuellement utilisées.
 
-Browse the contracts now and accept one that sounds good to you."
-    CONTRACTS5              "Until an employee actually starts working on the contract, the deadline will not count down.
+Si le style que vous avez donné à une pièce vous plaît, vous pouvez l'enregistrer en cliquant sur {H:Save style} dans le menu contextuel des pièces, et sur {H:Set as default style} pour les meubles.
 
-Make sure you place enough heating and cooling for the entire building. The tenant will not be able to interact with any furniture you place in the map editor.
-
-Finish your contract work to end the tutorial."
-    CUSTOMMAP1              "This tutorial assumes you've already tried build mode and will focus on how the map editor differs.
-		
-In case your luck is out, you should make sure to have {H:Sprinklers} in your rooms to douse the fire faster, and {H:Fire alarms} in rooms with combustible furniture, to alert all employees in the building when a fire breaks out."
-    PHYSICALDISTRIBUTION1   "You can order physical copies of your products by going to your releases, selecting a product and clicking the Order copies button."
-    PHYSICALDISTRIBUTION2   "Software is sold both physically in stores and digitally online. As time progresses people will move towards digital purchases and the two platforms even out at some point.
-		
-Another important aspect of rentable buildings is that you can provide some amenities for the tenant and you have to provide heating and cooling.
-There are no limits to how often you update your software. You can release daily patches if you want.
-
-Skills are balanced and the maximum amount of skill you can assign to begin with depends on the difficulty you choose."
-    CUSTOMIZATIONCREATIVITY "Above your founder's skills is their creativity, which affects the quality of the ideas they come up with when designing a product.
-
-Increasing your marketing budget will not increase marketing efforts. You will need a lot of talented marketers to effectively use your budget.
-
-This is the copy order window. It will show you some details that affect how many copies you should order.
-
-Specialization levels control which tasks your employee can complete. Remember to check the other roles by using the dropdown.
-
-Clicking the {H:Random} button will pick random specialization levels for the points you have left.
-
-Starting later will give you the full power of modern tech and digital distribution, but your competitors will be more established."
-    CUSTOMIZATION13         "Difficulty can be changed at any point in the game by going to the options menu.
-
-1 month lasts for 1 day by default. The game was made with this pace in mind and it is therefore the recommended setting.
-
-Construction is very expensive, so it is recommended that you start off leasing, but note that renting is a lot more expensive in the long run.
-
-Once you've finished inspecting the distribution window, open {H:Build mode} to see how you setup your own manufacturing plant."
-    MANUFACTURING6          "To setup your own manufacturing, you'll need 3 machines:
-	•{H:Component printer} to print your components.
-	•{H:Component assembler} to assemble your components and eventually your final product. The assembler can hold onto 20 assemblies before they are pushed through, so make sure you have enough for the amount of components you print.
-	•{H:Component recycler} at the end of your manufacturing process, to recycle any components in unfinished assemblies, in case you have inefficiencies in your setup. Recycled components will be used for future prints, without incurring a fee.
-
-To regulate the temperature in small offices, you can place down {H: Small Heaters, Ceiling Fans, Electric Radiators and AC Units}, which will immediately start changing the temperature in a room. Regulating the temperature in this way requires a lot of maintenance and will quickly drive up expenses in larger buildings.
-
-You'll have to balance the amount you order with how many you expect to sell to avoid a loss. You can always order a few copies now and order more next month.
-
-Left click the title bar and drag to re-arrange your work items."
-    DIGITALDISTRIBUTION1    "Open the distribution window to begin the tutorial."
-    DIGITALDISTRIBUTION4    "This is a list of online stores that distribute software for a cut of the revenue. By default you are selling through all of them.
-
-Please note that interest is not deposited directly into your bank account. You have to withdraw it using this window.
-
-Companies will automatically start signing up to your service each month. It's up to you whether you want to accept all new deals, or let them in one-by-one, by checking the {H:Auto-accept new deals} toggle.
-
-Employees are expensive and you should probably wait before you hire any if you are just starting out.
-
-Based on the employees and specialization you have picked, you can see how much time and money it will require for your employees to finish their classes."
-    EDUCATION4              "At the top you can see which of your chosen employees are applicable for the education you have picked.
-
-Now, press {KeyBind:ContextMenu} anywhere to bring up the context menu for the selected employee. Click the {H:Switch team} button to inspect possible team assignments."
-    EMPLOYEES5              "When you are done, click {H:OK} and then press {KeyBind:ContextMenu} again and click the {H:Change employee role} button instead, which resembles a suit tie."
-    EMPLOYEES6              "Clicking on a role in the role window will assign the employee exclusively to that role immediately, whereas ticking the checkmarks will allow you to pick several roles for your employee. The second row of checkmarks next to each role is the {H:Secondary} option, in which employees will only work in that role if they have no work in their primary roles.
-
-Close the window to continue."
-    PHYSICALDISTRIBUTION3   "You can also print copies of your product yourself, which is a lot cheaper long term, but requires a lot more work from you. You'll need {H:printers}, {H:storage}, {H:conveyor belts} and {H:couriers} to transport your copies to stores.
-		
-Specializations control which kind of tasks your employee can complete. The {H:base skill} is your employee's experience in that role, which controls the speed and quality of their work in various situations."
-    EMPLOYEES10             "In top left of the window you can see your employee's traits. These traits are controlled by your employee's personality.
-
-Bring up the Contract window to get some work."
-    HIRING1                 "Start by opening the hire window"
-    HIRING2                 "Before you can hire anyone, you need to put out a search for employees. Start by choosing which role your new employee should be good at."
-    HIRING4                 "Then you need to decide how much money you want to give your potential employee per month. It is very important that you make sure you have enough money to actually pay them or you'll go bankrupt very quickly.
-
-Alternatively, you can look for any lead designers out of work currently.
-
-By default the selected HR options do nothing. The HR options you select for a team will not change when a new team leader is assigned, but which and how well HR tasks are carried out will depend on the leader's skill and specialization level."
-    HR4                     "The first two labels tell you how much this team costs in salaries and how much money was spent on HR tasks last month."
-    HR5                     "You can make your leader send off employees for education autonomously.
+Cliquez sur Appliquer quand vous êtes prêt ou fermez la fenêtre si vous souhaitez annuler vos modifications."
+    BUILDMODE16             "You can merge rooms by using the {H:Destroy wall} tool, or by selecting the rooms you want to merge and then clicking the {H:Merge rooms} option from the context menu.
 			
+You can also create curvy wall sections using the {H:Curve tool} and clicking on a wall that does not have anything on it and dragging the mouse out.
+
+Click Continue when you are ready to continue."
+    BUILDMODE17             "Lorsque vous estimez ne plus avoir assez d'espace pour vos bâtiments, vous pouvez acheter de nouveaux terrains en passant en mode terrain.
+
+Lorsque vous êtes prêt à continuer, quittez le mode construction."
+    BUILDMODE18             "Lorsque vous êtes prêt, ouvrez la fenêtre des employés pour commencer à les gérer."
+    CONTRACTS1              "Commencez par ouvrir la fenêtre des contrats."
+    CONTRACTS2              "Voici une liste des contrats disponibles. De nouveaux contrats seront ajoutés au fur et à mesure que les anciens seront terminés.
+
+Les contrats prévoient un paiement initial que vous recevrez pour avoir accepté le travail, et un paiement plus important pour l'avoir terminé. Vous terminez un contrat en livrant un produit avec la progression et la qualité demandées.
+
+Essayez de sélectionner un contrat dans la liste maintenant."
+    CONTRACTS3              "Le paiement final sera réduit en cas de non-respect du contrat, de retard et pour tout bug non corrigé.
+
+Ne pas répondre aux attentes de qualité du client affectera votre réputation, mais pas votre paiement.
+
+Parcourez les contrats maintenant et acceptez-en un qui vous convient."
+    CONTRACTS5              "Le compte à rebours du délai ne commencera que lorsqu'un employé commencera réellement à travailler sur le contrat.
+
+Le tutoriel continuera une fois que vous passerez à la phase suivante du développement."
+    CONTRACTS6              "Lorsque la barre de progression atteint la ligne bleue, vous avez rempli les exigences de progression du contrat. Cependant, vous devez encore répondre à leurs exigences de qualité si vous souhaitez augmenter votre réputation et recevoir de meilleurs contrats.
+
+Assurez-vous d'effectuer une révision client avant de passer à l'étape de correction des bugs, pour vous assurer de répondre à leurs exigences de qualité.
+
+Le tutoriel continuera une fois que vous aurez commencé une révision."
+    CONTRACTS10             "Quand vous êtes prêt, passons à l'étape de correction des bugs.
+
+Il est impossible de savoir exactement combien de bugs un logiciel contient, alors essayez simplement d'en corriger autant que possible avant la fin du temps imparti.
+
+Terminez votre travail contractuel pour mettre fin au tutoriel."
+    CUSTOMMAP1              "Ce tutoriel suppose que vous avez déjà essayé le mode construction et se concentrera sur les différences de l'éditeur de carte.
+		
+Cliquez sur Continuer si vous êtes prêt à avancer."
+    CUSTOMMAP2              "L'éditeur de carte vous permet de créer un bâtiment dans lequel vous pourrez louer des locaux lors de votre déménagement ou de la création d'une nouvelle entreprise. L'éditeur de carte ne permet pas de modifier les bâtiments normaux {H:for sale}.
+
+Dans l'éditeur de carte, vous disposez d'un budget illimité et de la possibilité de placer des objets d'environnement. Essayez d'ouvrir l'onglet environnement maintenant."
+    CUSTOMMAP3              "Vous pouvez survoler les différents types d'objets d'environnement pour obtenir plus de détails.
+
+Un autre aspect important des bâtiments louables est que vous pouvez fournir des commodités au locataire et que vous devez assurer le chauffage et la climatisation.
+Assurez-vous de placer suffisamment de chauffage et de climatisation pour tout le bâtiment. Le locataire ne pourra interagir avec aucun meuble placé dans l'éditeur de carte.
+
+Try building a room now."
+    CUSTOMMAP4              "Lorsque vous sélectionnez votre pièce et ouvrez le menu contextuel, vous remarquerez quelques nouvelles options, à savoir la possibilité de grouper des pièces, de les marquer pour la location et de les marquer comme appartenant au joueur.
+
+Lorsque vous groupez des pièces, elles ne peuvent être louées que comme une seule unité. Le clonage de pièces conservera le même style de groupement, vous permettant de créer une disposition et de la dupliquer rapidement.
+
+Il existe une superposition de données qui permet de voir comment les pièces ont été marquées. Activez-la maintenant pour terminer le tutoriel."
+    CUSTOMIZATION1          "Bienvenue sur l'écran de personnalisation. Appuyez sur {H:Continuer} pour avancer dans le tutoriel ou sur {H:Annuler} pour quitter."
+    CUSTOMIZATION2          "Commencez par choisir un nom et un logo pour votre entreprise."
+    CUSTOMIZATION3          "Choisissez ensuite un nom pour votre fondateur dans le jeu."
+    CUSTOMIZATION4          "Et un type de corps.
+
+Vous pouvez changer de type de corps plusieurs fois pour aléatoriser l'apparence de votre fondateur."
+    CUSTOMIZATION5          "Vous pouvez utiliser ces boutons pour choisir un aspect de l'apparence de votre fondateur que vous souhaitez modifier.
+	
+Vous pouvez changer la forme du visage et des sourcils en cliquant sur le premier bouton, les autres boutons permettent de changer les vêtements, les accessoires et les couleurs."
+    CUSTOMIZATION6          "Ici, vous pouvez choisir les traits de personnalité de votre fondateur.
+
+Vous pouvez choisir deux traits, qui affecteront les caractéristiques de votre fondateur, listées ci-dessous, ainsi que les relations au sein du bureau."
+    NewCustomTraitTut       "Vous pouvez choisir les traits de votre fondateur ici. Certains peuvent être verrouillés en fonction des traits de personnalité que vous avez choisis.
+
+Vous pouvez cliquer sur les traits déverrouillés pour les activer ou les désactiver."
+    CUSTOMIZATION7          "Ici, vous pouvez choisir les points de compétence de votre fondateur, ce qui affectera ses performances.
+
+Les compétences sont équilibrées et le montant maximum de points que vous pouvez attribuer au départ dépend de la difficulté choisie."
+    CUSTOMIZATIONCREATIVITY "Au-dessus des compétences de votre fondateur se trouve sa créativité, qui affecte la qualité des idées qu'il propose lors de la conception d'un produit.
+
+Augmenter la créativité de votre fondateur abaissera son niveau de compétence maximum et ajoutera des exigences.
+
+Ce n'est pas très important au début et il est probablement préférable de ne pas y toucher pour votre première partie."
+    CUSTOMIZATION8          "Vous pouvez modifier les points de spécialisation de vos employés en cliquant sur les étoiles en surbrillance ici.
+			
+Les niveaux de spécialisation déterminent les tâches que votre employé peut accomplir. N'oubliez pas de vérifier les autres rôles à l'aide du menu déroulant.
+
+Cliquer sur le bouton {H:Aléatoire} choisira des niveaux de spécialisation aléatoires pour les points restants.
+
+Vous pouvez former et entraîner davantage votre fondateur pour gagner des compétences et des spécialisations en jeu."
+    CUSTOMIZATIONADVANCED   "Vous pouvez également ignorer le choix de la créativité et des spécialisations en désactivant le mode avancé et en laissant le jeu choisir pour vous."
+    NewCustomTraitTut2      "Vous pouvez ajouter jusqu'à 4 fondateurs, mais un seul vous représente et les autres exigeront une part de l'entreprise.
+
+Vous devrez verser des dividendes sur tout profit aux autres actionnaires, donc chaque fondateur supplémentaire réduira votre marge bénéficiaire."
+    CUSTOMIZATION9          "Vous avez terminé la personnalisation de votre fondateur. Commençons à choisir les règles du jeu !"
+    CUSTOMIZATION10         "Vous pouvez activer des mods ici, qui seront liés à la partie pour toujours.
+
+Vous ne pourrez pas activer ou désactiver de mods après le début de la partie, car ils modifient fondamentalement le gameplay, mais vous pouvez partager votre sauvegarde avec d'autres sans avoir à réinstaller les mods."
+    CUSTOMIZATION11         "Choisissez avec combien d'argent vous voulez commencer. Vous commencez avec {StartingFunds} par défaut, tout fonds supplémentaire sera considéré comme un prêt.
+
+Notez qu'il vous faut au moins {StartingPlot} si vous préférez acheter un terrain vide plutôt que de louer des pièces dans un bâtiment."
+    CUSTOMIZATION12         "Vous pouvez changer l'année de départ ici.
+		
+Commencer plus tard vous donnera accès à toute la puissance de la technologie moderne et de la distribution numérique, mais vos concurrents seront mieux établis."
+    CUSTOMIZATION13         "La difficulté peut être modifiée à tout moment dans le jeu en allant dans le menu des options.
+
+Vous pouvez cliquer sur le point d'interrogation pour voir ce que le niveau de difficulté actuel affecte ou cliquer sur {H:Personnalisé} pour choisir vos propres règles."
+    CUSTOMIZATION14         "Vous pouvez choisir le nombre de jours par mois.
+
+1 mois dure par défaut 1 jour. Le jeu a été conçu avec ce rythme à l'esprit, c'est donc le paramètre recommandé.
+
+Si vous trouvez que le jeu va trop vite ou si vous voulez quelques jours pour gagner de l'argent entre le paiement des factures, vous pouvez augmenter ce paramètre. Sachez que tout sera ralenti pour correspondre au paramètre choisi et que vous ne pourrez plus le modifier par la suite."
+    CUSTOMIZATION15         "Cliquez sur le bouton Choisir carte pour sélectionner votre environnement de départ"
+    CUSTOMIZATION16         "Ici, vous pouvez voir une liste de bâtiments que vous pouvez acheter directement ou louer. À côté de chaque image, vous pouvez voir si un bâtiment est ""For rent\" ou ""For sale\".
+
+Notez que le ""Building area\"" pour les bâtiments que vous pouvez louer définit la surface maximale que vous pouvez louer au fur et à mesure de l'expansion de votre entreprise."
+    CUSTOMIZATION17         "Vous pouvez utiliser ces boutons pour choisir si vous voulez louer ou acheter un terrain vide.
+
+La construction coûte très cher, il est donc recommandé de commencer par louer, mais notez que la location est beaucoup plus coûteuse à long terme.
+
+Vous pouvez déménager votre entreprise à tout moment pendant le jeu."
+    CUSTOMLOGOS1            "Commencez par ouvrir l'éditeur de logo."
+    CUSTOMLOGOS2            "Effacez tout dans l'éditeur pour pouvoir repartir de zéro."
+    CUSTOMLOGOS3            "Pour créer un logo, vous devez ajouter des {H:shapes} et donner aux formes des {H:colors}.
+
+Vous pouvez utiliser les boutons bleus en haut de la fenêtre pour créer, modifier et combiner des formes. Essayez de créer une forme en cliquant sur le premier bouton et en la plaçant dans le panneau principal."
+    CUSTOMLOGOS4            "Maintenant, essayez de modifier la forme en lui appliquant un effet. Créez un nœud d'effet et connectez-les en faisant glisser une ligne de la sortie du nœud de forme vers l'entrée du nœud d'effet.
+
+Une fois connectés, vous pouvez cliquer sur l'effet pour le sélectionner et utiliser le panneau de droite pour modifier l'effet."
+    CUSTOMLOGOS5            "Pour donner de la couleur à votre forme, vous devez connecter la sortie à un nœud de couleur. {H:Note that shape nodes are blue and color nodes are red}.
+
+Commencez par créer un nœud de couleur et connectez le nœud d'effet au nœud de couleur. {H:Note that blue outputs only go to blue and red only goes to red}.
+
+Pour terminer le logo, vous devez connecter un nœud de couleur à la sortie finale."
+    CUSTOMLOGOS6            "Si vous souhaitez enregistrer votre logo pour une utilisation ultérieure ou le partager avec quelqu'un d'autre, cliquez sur le bouton {H:Generate code} et copiez le code."
+    DESIGNDOCUMENT11        "Vous pouvez utiliser ou créer un framework lors du développement d'un logiciel. Les frameworks accélèrent le développement, mais limitent les niveaux technologiques maximaux de vos fonctionnalités.
+
+L'utilisation d'un framework conçu par une autre entreprise vous obligera à payer une redevance de licence sur vos bénéfices.
+
+Si vous décidez de créer un nouveau framework, cela prolongera légèrement le développement, mais le nouveau framework pourra être concédé sous licence à d'autres entreprises pour gagner un peu d'argent supplémentaire."
+    DESIGNDOCUMENT12        "Jetons un œil à la page {H:Dependencies}."
+    DESIGNDOCUMENT18        "Cliquez sur le bouton de développement lorsque vous êtes prêt à commencer le développement."
+    DESIGNWORK1             "Vous devez commencer un nouveau projet avant que le tutoriel ne puisse continuer."
+    DESIGNWORK3             "Pendant que vous travaillez sur votre document de conception, vous devriez commencer à parler de votre nouveau projet au monde entier. Commencez par annoncer une date de sortie en appuyant sur le bouton Marketing.
+
+Vous devrez faire quelques suppositions en choisissant une date de sortie, mais cela augmentera l'efficacité de tous vos futurs efforts marketing. Assurez-vous simplement de le sortir à temps !"
+    DESIGNWORK4             "À moins d'avoir un éditeur, vous devriez faire un communiqué de presse pour parler de votre produit au monde entier avant de passer à la phase alpha du développement.
+
+Lorsque vous faites le marketing de votre produit avant sa sortie, vous vous constituez une base d'abonnés. Les abonnés d'un projet sont assurés d'acheter le produit final à sa sortie, cependant, ils ne l'achèteront peut-être pas tous immédiatement ou pourraient demander un remboursement s'il est très buggé.
+
+Vos employés devront travailler sur la rédaction du communiqué de presse, donc si vous pensez que cela prendra du temps, vous pouvez mettre votre travail de conception en pause en appuyant sur le bouton de lecture.
+
+Commencez par ouvrir à nouveau la fenêtre de marketing."
+    DESIGNWORK5             "Assurez-vous de lire le texte dans la fenêtre de marketing, car il vous explique comment gérer les différentes actions marketing à votre disposition."
+    DESIGNWORK6             "Cliquez sur le bouton Développer pour commencer le développement quand vous êtes prêt.
+
+Faites un clic droit sur la barre de titre de l'élément de travail pour basculer entre la vue normale et la vue réduite.
+
+Faites un clic gauche sur la barre de titre et faites-la glisser pour réorganiser vos éléments de travail."
+    DIGITALDISTRIBUTION1    "Ouvrez la fenêtre de distribution pour commencer le tutoriel."
+    DIGITALDISTRIBUTION4    "Voici une liste de boutiques en ligne qui distribuent des logiciels en échange d'une part des revenus. Par défaut, vous vendez sur toutes ces boutiques.
+
+Vous pouvez cliquer sur les cases dans la liste et décocher {H:Auto-sign new platforms} pour prendre le contrôle total. Notez le nombre {H:Consumer reach}, car vendre sur trop peu de boutiques peut limiter le nombre de personnes qui achèteront votre produit en version numérique.
+
+Appuyez sur continuer pour en savoir plus sur l'ouverture de votre propre boutique."
+    DIGITALDISTRIBUTION2    "Pour commencer à vendre des produits via votre propre boutique en ligne, vous devez développer une plateforme de distribution en cliquant sur le bouton mis en évidence. La gestion d'une plateforme de distribution nécessite une grande équipe d'assistance et une ferme de serveurs à haut débit. Même si votre boutique ne vend pas beaucoup, elle peut tout de même avoir une base d'utilisateurs importante qui ne restera que si vous fournissez un service constant.
+
+Une fois votre boutique opérationnelle, vous devriez la mettre à jour régulièrement pour rester au niveau technologique et réduire les bugs. Assurez-vous de développer une nouvelle version de votre plateforme dès que de nouvelles fonctionnalités deviennent disponibles sur les plateformes de vos concurrents.
+
+Veuillez noter que les boutiques en ligne ne s'imposent véritablement qu'au XXIe siècle, il se peut donc que vous ne voyiez pas beaucoup d'activité au début.
+
+Appuyez sur continuer pour apprendre à vendre les produits d'autres entreprises."
+    DIGITALDISTRIBUTION3    "Si vous souhaitez générer des revenus supplémentaires en distribuant les produits d'autres entreprises, vous pouvez l'activer à l'aide de l'interrupteur mis en évidence.
+
+Votre part de marché numérique et votre réputation commerciale, combinées à la part que vous décidez de prélever sur les produits de vos clients, détermineront le nombre d'entreprises prêtes à s'inscrire sur votre boutique numérique.
+
+Des entreprises commenceront automatiquement à s'inscrire à votre service chaque mois. C'est à vous de décider si vous voulez accepter toutes les nouvelles offres ou les laisser entrer une par une, en cochant l'option {H:Auto-accept new deals}.
+
+Le pourcentage sur le curseur devient rouge lorsque vous modifiez votre part, pour indiquer si la part actuelle risque de pousser les clients à annuler complètement leur contrat.
+
+Enfin, notez que vous aurez besoin d'une bande passante supplémentaire pour gérer la vente de tous ces produits additionnels."
+    DIGITALDISTRIBUTION5    "Votre boutique a peut-être beaucoup d'utilisateurs, mais si vous n'avez pas de produits à leur proposer, votre part de marché restera faible et vous ne parviendrez pas à attirer de nouveaux clients. Heureusement, vous pouvez proposer à d'autres entreprises des {H:exclusivity deals} à durée limitée pour votre boutique, afin de donner à vos utilisateurs de quoi acheter.
+
+Vous pouvez le faire en ouvrant n'importe quel aperçu de produit, comme {H:All software}, en sélectionnant un produit <b>logiciel</b> et en cliquant sur le bouton {H:Exclusivity deal}. Ces accords ne seront pas bon marché, surtout pour les nouveaux produits, mais chaque vente augmentera la part de marché de votre boutique."
+    EDUCATION1              "Vous avez besoin d'un employé prêt pour une formation avant de pouvoir commencer le tutoriel de formation.
+
+Les employés seront éligibles à une formation lorsqu'ils auront acquis suffisamment d'expérience en travaillant sur différentes tâches."
+    EDUCATION2              "Begin the tutorial by opening the {H:Employee window}, selecting the employees you want to educate and press the {H:Educate} button or by selecting one or more of your employees, press {KeyBind:ContextMenu} anywhere on the screen to bring up the context menu, and then pick {H:Educate employee}.
+			
+You can see which employees are ready for education in the Employee window by looking for green icons in the {H:role} column."
+    EDUCATION3              "Dans la fenêtre de formation, vous pouvez choisir un rôle et une spécialisation dans lesquels vous souhaitez former vos employés. Une fois leur cours terminé, les employés gagneront une étoile dans la spécialisation choisie.
+
+En fonction des employés et de la spécialisation que vous avez sélectionnés, vous pouvez voir combien de temps et d'argent seront nécessaires pour que vos employés terminent leurs cours."
+    EDUCATION4              "En haut, vous pouvez voir lesquels de vos employés choisis sont éligibles pour la formation que vous avez sélectionnée.
+
+Lorsque vous cliquez sur {H:Start education}, tous les employés éligibles commenceront leurs cours. S'il reste des employés, vous pourrez alors décider de leur formation. Vous pouvez mettre des cours en attente pour un employé en lançant la formation pour cet employé plusieurs fois."
+    EDUCATION5              "Vous pouvez également cliquer directement sur les étoiles mises en évidence si vous souhaitez choisir rapidement des cours pour l'employé sélectionné.
+
+Notez que si vous cliquez sur une étoile située à plus d'un niveau au-dessus de ce que l'employé possède actuellement, il sera envoyé à plusieurs cours à la fois."
+    EMPLOYEES1              "Commencez par ouvrir la fenêtre des employés."
+    EMPLOYEES2              "Il s'agit d'une liste de tous vos employés, détaillant leur statut.
+
+Vous pouvez cocher n'importe quelle option dans la barre supérieure pour obtenir plus de détails sur tous vos employés."
+    EMPLOYEES3              "Lorsque vous sélectionnez un employé dans la liste, il sera sélectionné dans le jeu et vous pourrez obtenir des détails sur ses spécialisations au bas de la fenêtre.
+
+Essayez de sélectionner un employé maintenant."
+    EMPLOYEES4              "Vous pouvez sélectionner plusieurs employés en maintenant la touche Maj ou Ctrl enfoncée tout en cliquant sur leurs noms dans la fenêtre des employés.
+
+Maintenant, appuyez sur {KeyBind:ContextMenu} n'importe où pour afficher le menu contextuel de l'employé sélectionné. Cliquez sur le bouton {H:Switch team} pour inspecter les affectations d'équipe possibles."
+    EMPLOYEES5              "Une fois terminé, cliquez sur {H:OK}, puis appuyez à nouveau sur {KeyBind:ContextMenu} et cliquez plutôt sur le bouton {H:Change employee role}, qui ressemble à une cravate."
+    EMPLOYEES6              "Cliquer sur un rôle dans la fenêtre des rôles assignera immédiatement l'employé exclusivement à ce rôle, tandis que cocher les cases vous permettra de choisir plusieurs rôles pour votre employé. La deuxième rangée de cases à côté de chaque rôle correspond à l'option {H:Secondary}, dans laquelle les employés ne travailleront dans ce rôle que s'ils n'ont pas de travail dans leurs rôles principaux.
+
+Vous pouvez également basculer la case {H:Any role} pour cocher ou décocher tous les rôles à la fois, ou cliquer sur {H:Auto role} pour assigner l'employé aux rôles pour lesquels il est le plus compétent.
+
+Notez que {H:Leader} ne peut pas être choisi à moins que l'employé ne soit affecté à une équipe et les chefs ne travailleront pas à pleine capacité dans d'autres rôles.
+
+Fermez la fenêtre {H:Select role} et cliquez sur {H:Continue} pour faire avancer le tutoriel."
+    EMPLOYEES7              "Avec votre employé sélectionné, appuyez une nouvelle fois sur {KeyBind:ContextMenu} pour afficher le menu contextuel et sélectionnez {H:Employee details}, qui ressemble à une personne seule."
+    EMPLOYEES8              "Ici, vous pouvez voir les statistiques de votre employé.
+
+Dans le coin supérieur gauche, vous pouvez voir les traits de personnalité de votre employé, et à droite, la progression de sa spécialisation dans chaque rôle. Lorsqu'un employé a rempli la jauge de progression, il devient éligible pour une formation dans ce rôle afin de gagner une nouvelle étoile. Cliquer sur un rôle vous permettra également d'assigner l'employé à ce rôle."
+    EMPLOYEES9              "Dans la partie centrale droite de la fenêtre, vous pouvez voir les {H:specializations} de votre employé, qui indiquent son niveau de formation dans différents domaines.
+
+Les spécialisations déterminent les types de tâches que votre employé peut accomplir. La {H:base skill} est l'expérience de votre employé dans ce rôle, ce qui influe sur la vitesse et la qualité de son travail dans diverses situations."
+    EMPLOYEES10             "En haut à gauche de la fenêtre, vous pouvez voir les traits de votre employé. Ces traits sont contrôlés par la personnalité de votre employé.
+
+Vous pouvez survoler chaque trait pour voir comment il affecte l'employé."
+    EMPLOYEES11             "Dans la partie inférieure gauche de la fenêtre, vous pouvez voir les dernières pensées de votre employé. Cela vous indiquera son niveau de satisfaction au travail et, par conséquent, son efficacité.
+
+Vous devriez consulter ceci souvent pour voir comment s'en sort un employé et si vous pouvez faire quelque chose pour améliorer sa satisfaction."
+    EMPLOYEES12             "Dans la partie inférieure droite de la fenêtre, vous pouvez voir ce qui affecte actuellement l'efficacité de votre employé au travail.
+	
+Vous pouvez utiliser ceci pour voir ce qui ne va pas si vos employés commencent soudainement à travailler lentement ou s'arrêtent complètement."
+    EMPLOYEESCompat         "Enfin, dans la partie centrale gauche de la fenêtre, vous pouvez examiner la compatibilité de cet employé avec le reste de son équipe."
+    EMPLOYEES13             "Au début du jeu, vous devrez gagner un peu d'argent rapidement.
+
+Ouvrez la fenêtre des Contrats pour obtenir du travail."
+    HIRING1                 "Commencez par ouvrir la fenêtre d'embauche"
+    HIRING2                 "Avant de pouvoir embaucher qui que ce soit, vous devez lancer une recherche d'employés. Commencez par choisir le rôle dans lequel votre nouvel employé devra exceller."
+    HIRING4                 "Ensuite, vous devez décider du salaire mensuel que vous souhaitez proposer à votre futur employé. Il est très important de vous assurer que vous avez assez d'argent pour les payer, sinon vous ferez faillite très rapidement.
+
+La qualité des candidats dépendra, entre autres, du niveau de salaire et des avantages sociaux de votre entreprise. Les employés très qualifiés n'ont une chance d'apparaître que dans la tranche de salaire la plus élevée.
+
+Notez que les employés plus qualifiés s'attendront à un salaire plus élevé que les employés peu qualifiés qui finissent par monter en compétence. Vous pouvez utiliser ce fait pour économiser de l'argent en embauchant des jeunes et en les formant."
+    HIRING3                 "Vous pouvez affiner votre recherche en activant l'un des filtres.
+
+Notez que chaque filtre actif augmentera le coût et réduira le nombre de candidats que vous recevrez.
+
+Le vivier de recrutement est limité et dépend de l'attrait de votre entreprise pour les employés potentiels. Le vivier se renouvelle chaque mois et peut être boosté lorsque d'autres entreprises ferment leurs portes."
+    HIRING5                 "Vous pouvez enregistrer vos filtres si vous souhaitez les réutiliser plus tard.
+			
+Alternativement, vous pouvez rechercher des designers principaux actuellement sans emploi.
+
+Appuyez sur {H:Begin looking} pour commencer à examiner les candidatures."
+    HIRING7                 "Voici une liste des employés ayant postulé au poste vacant dans votre entreprise. Vous pouvez sélectionner des employés pour les examiner et appuyer sur le bouton {H:Hire} pour les embaucher.
+
+Les employés coûtent cher et vous devriez probablement attendre avant d'en embaucher si vous débutez.
+
+Try selecting an employee on the list."
+    HIRING8                 "Vous pouvez facilement naviguer parmi les candidatures en utilisant les touches fléchées de votre clavier et en appuyant sur Entrée pour embaucher.
+
+Lorsque vous avez terminé, fermez simplement la fenêtre."
+    HR1                     "Pour gérer les paramètres RH, ouvrez la fenêtre d'équipe"
+    HR2                     "Une fois la fenêtre d'équipe ouverte, sélectionnez une équipe dans la liste et cliquez sur le bouton {H:HR management}."
+    HR3                     "Les tâches de gestion RH à votre disposition dépendent du niveau de spécialisation RH du chef d'équipe. Chaque section vous indiquera si le chef actuellement affecté possède les points de spécialisation nécessaires.
+
+Par défaut, les options RH sélectionnées ne font rien. Les options RH que vous choisissez pour une équipe ne changeront pas lorsqu'un nouveau chef d'équipe sera affecté, mais l'exécution et l'efficacité des tâches RH dépendront de la compétence et du niveau de spécialisation du chef."
+    HR4                     "Les deux premières étiquettes vous indiquent le coût des salaires de cette équipe et le montant dépensé pour les tâches RH le mois dernier."
+    HR5                     "Vous pouvez faire en sorte que votre chef envoie les employés en formation de manière autonome.
+			
+Le niveau d'éducation définit le nombre maximum d'étoiles pour lequel un chef enverra un employé en formation."
+    HR6                     "Les derniers champs de texte permettent à votre chef d'embaucher automatiquement assez d'employés pour que l'équipe dispose toujours de l'effectif spécifié dans les rôles définis. Le chef sera responsable du processus de candidature.
+
+Vous pouvez survoler certaines options pour obtenir plus de détails. Fermez la fenêtre quand vous avez terminé pour mettre fin au tutoriel."
+    INVESTMENTS1            "Commencez par ouvrir la fenêtre d'assurance"
+    INVESTMENTS2            "Vous pouvez faire fructifier votre argent de deux manières : en investissant dans des actions ou des obligations.
+
+Commençons par passer en revue les investissements en obligations. Cliquez sur {H:Continue} quand vous êtes prêt."
+    INVESTMENTS3            "Investir dans des obligations signifie prêter de l'argent et en récupérer une partie grâce aux intérêts annuels du prêt {SavingsInterest}. C'est un moyen simple et sans risque de générer un petit revenu régulier, avec l'inconvénient que vous ne pouvez pas retirer l'argent investi pendant un certain temps sans perdre les intérêts.
+
+Vous pouvez déposer et retirer de l'argent en utilisant ce curseur."
+    INVESTMENTS4            "Le délai avant de pouvoir retirer de l'argent dépend du montant déposé au cours de la même année fiscale. Vous pouvez voir les dépôts bloqués dans ce panneau.
+
+Lorsque vous décidez de retirer de l'argent, la banque commencera par essayer de retirer l'argent de votre compte d'épargne qui n'entraînera pas de frais d'intérêt.
+
+Veuillez noter que les intérêts ne sont pas déposés directement sur votre compte bancaire. Vous devez les retirer via cette fenêtre.
+
+Appuyez sur le bouton des actions pour continuer"
+    INVESTMENTS5            "Les actions sont un moyen beaucoup plus risqué d'investir votre argent, mais elles peuvent aussi vous rapporter beaucoup plus que les investissements en obligations.
+
+Vous devrez suivre le marché boursier chaque mois pour tirer le meilleur parti de vos investissements ; vous ne pouvez donc pas simplement déposer et oublier, comme vous le feriez avec des obligations.
+
+Pour investir dans une action, saisissez simplement le montant que vous souhaitez déposer, choisissez une action et cliquez sur {H:Invest}.
+
+Vous pouvez voir et retirer vos investissements actuels dans ce panneau.
+
 {H:Remember to buy high and sell low!}
 
-... Yes, that sounds right."
-    LEADDESIGNERS1          "Lead designers are in charge of coming up with ideas that will form all of the products you decide to develop.
+... Oui, ça semble correct."
+    LEADDESIGNERS1          "Les designers principaux sont chargés de concevoir les idées qui façonneront tous les produits que vous déciderez de développer.
 
-Lead designers hired young, before they find their fame, will have some loyalty to their first employer and have lower demands in general."
-    LEADDESIGNERS5          "You can find lead designers in one of 3 ways:
+Les designers principaux ont un score de {H:Creativity}, qui détermine la qualité de leurs idées. Si un employé n'a pas beaucoup d'expérience en tant que designer principal, son score de créativité ne sera pas connu d'emblée. La barre de créativité s'affinera à mesure qu'il gagnera en expérience, révélant son potentiel en tant que designer principal.
 
-	•You can hire young designers and let them work as lead designers on contracts to see if you've found a prodigy
-	•You can look for out-of-work lead designers from the hiring menu
-	•You can poach them from your competitors by clicking the detail button in the company overview window
+Vous pouvez confier des contrats aux designers principaux pour aider à révéler leur créativité, sans que cela n'ait d'impact sur le produit final."
+    LEADDESIGNERS2          "Les designers ont besoin d'{H:Inspiration} pour trouver de bonnes idées. À mesure qu'ils travaillent sur un projet, leur inspiration diminue, mais ce n'est que lorsqu'elle passe sous la ligne centrale qu'elle impacte réellement leurs idées.
 
-Ordering hardware gets very expensive, and you'll have to setup your own manufacturing if you want to make a decent profit.
+Les designers principaux reconstitueront leur inspiration pendant les périodes d'inactivité entre les phases de conception. Certains plus vite que d'autres."
+    LEADDESIGNERS3          "Proposer des idées pour un projet dépend fortement du type de produit. Les designers principaux acquerront des compétences dans un type de logiciel au fur et à mesure que vous sortirez des produits qu'ils ont conçus pour celui-ci, ce qui impacte directement la qualité de leurs idées.
 
-Marketing your product is a potentially endless money sink. The more money you use, the bigger advantage you get over competing products. Bigger software products will need more marketing to compete.
+Vous pouvez survoler la barre de compétence pour voir leurs compétences avec différents types de logiciels."
+    LEADDESIGNERS4          "À mesure que les designers principaux se constituent un {H:Portfolio}, ils auront des {H:Demands} croissantes pour répondre à leur popularité grandissante sur le marché. Les demandes seront formulées lors des négociations salariales et vous devrez choisir entre deux d'entre elles.
 
-After the first day, the work item will start filling up to indicate how much money you are spending compared to yesterday's marketing efforts.
+Les designers principaux embauchés jeunes, avant de connaître la gloire, auront une certaine loyauté envers leur premier employeur et auront des exigences généralement moins élevées."
+    LEADDESIGNERS5          "Vous pouvez trouver des designers principaux de 3 façons :
 
-Instead you can try completely preventing burglaries by hiring {H:Security guards} in the {H:Staff window}. Security guards will patrol your building entrances or any rooms you assign them to and scare off would-be burglars when they get too close. You can also place security cameras strategically at building entrances and a surveillance desk, which allows one security guard to keep track of four places at once.
+	•Vous pouvez embaucher de jeunes designers et les laisser travailler comme designers principaux sur des contrats pour voir si vous avez trouvé un prodige
+	•Vous pouvez rechercher des designers principaux sans emploi dans le menu d'embauche
+	•Vous pouvez les débaucher chez vos concurrents en cliquant sur le bouton de détails dans la fenêtre d'aperçu de l'entreprise
 
-It is very important to note that {H:Elevators don't work during fires}. You should always make sure to have stairs throughout your building, so your employees can escape.
+Vous aurez besoin d'un certain niveau de réputation commerciale pour embaucher des designers principaux expérimentés."
+    LEASING1                "Commencez par entrer en {H:Build mode} en cliquant sur le bouton Construire."
+    LEASING2                "Le jeu est toujours en pause en mode construction.
 
-Go to the {H:Design document window}."
-    PROJECTMANAGEMENT7      "When you are done making your design, click the {H:Project management} button, instead of the {H:Develop} button, to assign your new design to the project queue."
-    RESEARCH1               "Start the tutorial by pressing the {H:Research} button to bring up the research window."
-    RESEARCH2               "The research window allows you to research a specialization to unlock a new tech level.
+Lorsque vous possédez un terrain, vous pouvez construire et aménager vos bureaux comme vous le souhaitez, mais lorsque vous louez, vous ne pouvez meubler que les bureaux que vous louez actuellement.
 
-Small printers can be placed directly on conveyor belts and larger printers can be placed on the ground to drop boxes on conveyor belts adjacent to them."
-    PROJECTMANAGEMENT1      "Start by opening the project management window."
-    PROJECTMANAGEMENT2      "Project management let's you delegate a release cycle to a leader in your company, so they control everything from creating a design to supporting the product once it's released.
+Si vous souhaitez acheter un terrain plus tard, vous pouvez déménager votre entreprise en cliquant sur {H:Move company} dans la fenêtre de pause ou en utilisant le bouton à côté du menu de construction.
 
-A project management team needs a leader, with at least 1 star in the {H:Automation} specialization. The leader will dedicate all their time to keeping the project running, so it might be worthwhile to keep the leader in their own team.
+Cliquez sur Continuer quand vous êtes prêt."
+    LEASING3                "Pour commencer à placer des objets, vous devez vous rendre à un étage où se trouvent des pièces que vous avez louées."
+    LEASING11               "Lorsque vous sentez que vous n'avez plus assez d'espace, vous pouvez louer d'autres pièces en les sélectionnant et en appuyant sur Louer dans le coin inférieur gauche, ou en déplaçant votre entreprise sur une autre carte.
 
-Mistakes will start to happen when the effectiveness bar gets below the blue marker, but your lead designer will work to avoid this.
+Essayez de sélectionner une pièce que vous pouvez louer maintenant. Les pièces disponibles à la location sont identifiables par leur intérieur noir."
+    LEASING12               "Vous pouvez également résilier vos baux en sélectionnant les pièces que vous louez actuellement. Notez que la résiliation d'un bail vendra tout le mobilier des pièces concernées, mais vous pouvez utiliser le bouton Annuler pour récupérer vos meubles.
 
-Before the project can begin you have to either pick a product you've released to use as a prototype for future projects or assign a project directly from the design document window.
+Lorsque vous êtes prêt à continuer, quittez le mode construction."
+    LEASING13               "Lorsque vous êtes prêt, ouvrez la fenêtre des employés pour commencer à les gérer."
+    MANUFACTURING1          "Commencez le tutoriel en appuyant sur le bouton {H:Develop software} pour afficher le document de conception."
+    MANUFACTURING2          "Certains produits doivent être fabriqués et ne peuvent pas être vendus numériquement, comme les {H:phones} et les {H:gaming consoles}. Cependant, ces produits ont généralement une barrière à l'entrée plus faible pour la pénétration du marché, mais nécessitent un investissement initial élevé. Vous pourrez également satisfaire les clients plus facilement en ajoutant des fonctionnalités matérielles, plutôt qu'en passant des années à coder des fonctionnalités logicielles complexes.
 
-At the bottom you can see a button to start researching this specialization, which requires designers with a level 3 specialization of the type you want to research. 
+Commander du matériel devient très coûteux, et vous devrez configurer votre propre fabrication si vous voulez réaliser un profit décent.
 
-Researching new tech before anyone else will allow you to apply for a patent using {H:Service} employees with the level 3 {H:Law} specialization. If you own the patent to a tech level, all companies using it will have to pay a royalty fee off their sales."
-    SERVER1                 "You can connect or disconnect servers in wire mode by clicking on a server and then on another server. You can also select all the servers you want to connect using {KeyBind:MultipleSelect}, {KeyBind:SweepSelect} or dragging a rectangle with {KeyBind:NormalSelection} and then press {KeyBind:ContextMenu} and press {H:Connect servers}.
+Essayez de sélectionner un {H:software type} et une {H:category} qui nécessitent une fabrication de matériel, comme le {H:console operating system}"
+    MANUFACTURING3          "Cliquez maintenant sur le bouton {H:Manufacturing} pour voir ce dont vous aurez besoin pour fabriquer ce produit."
+    MANUFACTURING4          "La {H:manufacturing view} vous montre quels composants doivent être imprimés et comment ils doivent être assemblés.
+			
+Les composants les plus hauts doivent être imprimés et vous indiqueront le nombre de {H:Component printers} dont vous avez besoin pour imprimer autant de composants que possible par mois. Ces composants détermineront le coût de fabrication d'un exemplaire de votre produit. Le reste des composants sera assemblé dans des {H:Component assemblers}, en utilisant les composants imprimés, et n'entraîne pas de frais.
 
-Below this panel you will see a list of stocks you can buy and sell, depending on whether the company is {H:Publicly listed}, i.e. whether they are selling any shares at all.
+Essayez d'ouvrir la {H:Manufacturing window} maintenant et consultez l'onglet {H:Hardware} pour voir les tâches de fabrication de matériel actives."
+    MANUFACTURING5          "Lorsque vous sélectionnez une tâche d'impression dans ce panneau, vous obtiendrez également un aperçu des composants nécessaires dans cette fenêtre. Vous pouvez cliquer sur le bouton {H:Pop out} et entrer en mode construction pour voir les exigences pendant que vous placez les imprimantes et les assembleurs.
 
-End the tutorial when you are ready"
-    SUPPORTWORK1            "Before the support tutorial can continue, you need to have a product released and start support for it.
+Une fois que vous avez fini d'inspecter la fenêtre de distribution, ouvrez le {H:Build mode} pour voir comment configurer votre propre usine de fabrication."
+    MANUFACTURING6          "Pour configurer votre propre fabrication, vous aurez besoin de 3 machines :
+	•{H:Component printer} pour imprimer vos composants.
+	•{H:Component assembler} pour assembler vos composants et finalement votre produit final. L'assembleur peut contenir jusqu'à 20 assemblages avant qu'ils ne soient transférés, alors assurez-vous d'en avoir assez pour la quantité de composants que vous imprimez.
+	•{H:Component recycler} à la fin de votre processus de fabrication, pour recycler tous les composants des assemblages inachevés, au cas où votre installation présenterait des inefficacités. Les composants recyclés seront utilisés pour de futures impressions, sans frais supplémentaires.
 
-Support for a product never ends by itself, so you'll have to end it when you think support isn't necessary anymore. Keep an eye on the active user count to help guide you."
+Notez que toute boîte entrant dans un assembleur ou un recycleur qui n'y a pas sa place sera simplement poussée de l'autre côté.
+
+Vous les trouverez dans le menu ameublement."
+    MANUFACTURING8          "Notez que les produits doivent passer par l'étape {H:Final assembly} pour être expédiables. Les composants dans des boîtes blanches n'iront pas sur des palettes ou dans des ports de garage.
+
+Lorsque vous aurez placé vos imprimantes et assembleurs, et que vous les aurez connectés avec des bandes transporteuses, ils seront automatiquement regroupés en {H:assembly lines}, auxquels vous pourrez assigner des tâches et que vous pourrez gérer dans leur ensemble.
+
+Notez que vous pouvez utiliser un {H:Component recycler} pour diviser les lignes d'assemblage qui seraient autrement regroupées.
+
+Essayez d'ouvrir la fenêtre {H:Assembly lines} maintenant et consultez les overlays de données {H:Assembly line} et {H:Manufacturing}."
+    MANUFACTURING9          "L'overlay de données {H:Assembly line} vous montrera quelles imprimantes et assembleurs ont été regroupés par la couleur de leur ligne d'assemblage, que vous pouvez modifier en cliquant directement sur la couleur dans la liste.
+
+L'overlay de données {H:Manufacturing} vous permet de visualiser comment les composants circuleront à travers vos lignes d'assemblage et leur efficacité actuelle."
+    MARKETING1              "Le marketing est crucial dans Software Inc. Vos produits ne se vendront tout simplement pas sans marketing.
+
+Vous pouvez lancer une campagne de marketing en ouvrant votre fenêtre de sorties, en sélectionnant un produit et en cliquant sur le bouton marketing."
+    MARKETING2              "Voici la fenêtre de marketing.
+		
+Promouvoir votre produit est un gouffre financier potentiel sans fin. Plus vous dépensez d'argent, plus vous obtenez un avantage sur les produits concurrents. Les produits logiciels plus importants auront besoin de plus de marketing pour être compétitifs.
+
+Notez que dépenser plus d'argent en marketing que vos concurrents les incitera à faire de même."
+    MARKETING3              "Vous pouvez définir un budget, ce qui impose une limite supérieure aux dépenses pour cette tâche de marketing. \"0\" signifie qu'il n'y a pas de limite.
+		
+L'augmentation de votre budget marketing n'augmentera pas les efforts de marketing. Vous aurez besoin de nombreux marketeurs talentueux pour utiliser efficacement votre budget.
+
+Si la sélection de l'équipe vous convient, appuyez sur {H:OK} pour lancer votre campagne."
+    MARKETING4              "Votre nouveau plan marketing apparaîtra comme une tâche de travail sur la droite.
+
+Après le premier jour, la tâche commencera à se remplir pour indiquer combien d'argent vous dépensez par rapport aux efforts de marketing d'hier.
+
+Appuyez sur {H:Finish} pour terminer le tutoriel."
+    OFFICEDANGERS1          "{H:Beware!} Your offices are susceptible to burglaries and fires! And once the ball is rolling, there ain't no stopping it.
+
+If you want to be on the safe side, you should take preventative measures and reduce consequences.
+
+To start off, you should cover any potential loss with {H:Contents insurance}. Start by opening the {H:Insurance window}."
+    OFFICEDANGERS2          "Avec une assurance contenu, vous paierez des frais mensuels, mais vous recevrez un versement pour couvrir tout meuble perdu lors d'un incendie ou d'un cambriolage.
+			
+Plus vous avez de meubles, plus la prime sera élevée.
+
+Fermez la fenêtre d'assurance quand vous êtes prêt, et nous verrons comment prévenir au mieux les cambriolages."
+    OFFICEDANGERS3          "Les cambriolages augmenteront en ampleur et en fréquence à mesure que votre entreprise se développera. Vos employés appelleront la police chaque fois qu'ils seront témoins d'un cambriolage. Malheureusement, le département de police de Software Inc. est lent et bureaucratique, alors ne vous attendez pas à récupérer tous vos biens volés.
+			
+Au lieu de cela, vous pouvez essayer de prévenir totalement les cambriolages en embauchant des {H:Security guards} dans la {H:Staff window}. Les agents de sécurité patrouilleront aux entrées de vos bâtiments ou dans toutes les pièces que vous leur assignerez et feront fuir les cambriolages potentiels lorsqu'ils s'approcheront trop près. Vous pouvez également placer des caméras de sécurité de manière stratégique aux entrées des bâtiments et un bureau de surveillance, ce qui permet à un agent de sécurité de surveiller quatre endroits à la fois.
+
+Vous pouvez embaucher plusieurs agents de sécurité pour couvrir une période de 24 heures et continuer à passer le temps lorsque seuls des agents de sécurité sont présents.
+
+Appuyez sur {H:Continue} pour en savoir plus sur les incendies."
+    OFFICEDANGERS4          "Les incendies se déclarent lorsque des meubles combustibles se cassent. La probabilité qu'un meuble combustible provoque un incendie lorsqu'il se casse est indiquée par un score de {H:Flammability} dans le menu de construction. Pour prévenir totalement les incendies, vous devriez embaucher suffisamment de personnel de {H:Maintanence} et d'{H:IT-support} pour empêcher vos meubles de se casser.
+
+Il est très important de noter que les {H:Elevators don't work during fires}. Vous devriez toujours vous assurer d'avoir des escaliers dans tout votre bâtiment afin que vos employés puissent s'échapper.
+
+Au cas où la chance vous ferait défaut, assurez-vous d'avoir des {H:Sprinklers} dans vos pièces pour éteindre le feu plus rapidement, et des {H:Fire alarms} dans les pièces contenant des meubles combustibles, pour alerter tous les employés du bâtiment lorsqu'un incendie se déclare."
+    PHYSICALDISTRIBUTION1   "Vous pouvez commander des copies physiques de vos produits en allant dans vos sorties, en sélectionnant un produit et en cliquant sur le bouton Commander des copies."
+    PHYSICALDISTRIBUTION2   "Les logiciels sont vendus à la fois physiquement en magasin et numériquement en ligne. Au fil du temps, les gens se tourneront vers les achats numériques et les deux plateformes finissent par s'équilibrer à un certain moment.
+		
+Voici la fenêtre de commande de copies. Elle affichera certains détails qui influencent le nombre de copies que vous devriez commander.
+
+Vous devrez équilibrer la quantité commandée avec celle que vous prévoyez de vendre pour éviter une perte. Vous pouvez toujours commander quelques copies maintenant et en commander davantage le mois prochain.
+
+Fermez la fenêtre pour continuer."
+    PHYSICALDISTRIBUTION3   "You can also print copies of your product yourself, which is a lot cheaper long term, but requires a lot more work from you. You'll need {H:printers}, {H:storage}, {H:conveyor belts} and {H:couriers} to transport your copies to stores.
+		
+If you have all the necessary logistics, you can click the {H:Start printing} button in the {H:Your releases} window with a product selected to start a printing task.
+
+Go to build mode to see how you setup your printing logistics."
+    PHYSICALDISTRIBUTION4   "Vous trouverez des imprimantes dans le menu ameublement.
+
+Les petites imprimantes peuvent être placées directement sur des bandes transporteuses et les plus grandes imprimantes peuvent être placées au sol pour déposer des boîtes sur les bandes transporteuses adjacentes."
+    PROJECTMANAGEMENT1      "Commencez par ouvrir la fenêtre de gestion de projet."
+    PROJECTMANAGEMENT2      "La gestion de projet vous permet de déléguer un cycle de sortie à un leader de votre entreprise, afin qu'il contrôle tout, de la création d'une conception au support du produit une fois celui-ci sorti.
+
+Une équipe de gestion de projet a besoin d'un leader, avec au moins 1 étoile dans la spécialisation {H:Automation}. Le leader consacrera tout son temps au bon fonctionnement du projet, il peut donc être intéressant de garder le leader dans sa propre équipe.
+
+Commencez par sélectionner un leader pour diriger le projet et nommez votre équipe."
+    PROJECTMANAGEMENT3      "Parcourez maintenant chacune des options pour contrôler la manière dont les projets doivent être gérés. Vous pouvez survoler chaque étiquette pour obtenir une description détaillée.
+
+Notez que certaines options peuvent être grisées parce que votre leader n'a pas le niveau d'automatisation nécessaire. Vous pouvez voir ce que chaque niveau d'automatisation débloque en survolant les étoiles dans l'aperçu des spécialisations pour les leaders dans la fenêtre Employé, la fenêtre Équipe ou la fenêtre de détails de l'Employé.
+		
+Cliquez sur OK quand vous êtes prêt."
+    PROJECTMANAGEMENT4      "Ouvrez maintenant la fenêtre de détails de gestion de projet pour votre nouveau projet."
+    PROJECTMANAGEMENT5      "Vous remarquerez un nouveau panneau qui vous indique si le leader a commis des erreurs, ce qui impacte négativement les projets qu'il gère.
+
+Des erreurs commenceront à se produire lorsque la barre d'efficacité descendra en dessous du marqueur bleu, mais votre concepteur principal s'efforcera d'éviter cela.
+
+Plus votre leader a de compétences de direction, plus il pourra remplir la barre rapidement.
+
+La barre peut être remplie 2 fois plus que nécessaire, ce qui permettra au leader de prendre 2 mois de congé sans qu'elle ne descende en dessous du marqueur, s'il la remplit complètement."
+    PROJECTMANAGEMENT6      "Le panneau inférieur vous indique quels projets sont actuellement en file d'attente et vous permet de les annuler ou de les reprendre.
+
+Avant que le projet ne puisse commencer, vous devez soit choisir un produit que vous avez sorti pour l'utiliser comme prototype pour de futurs projets, soit assigner un projet directement depuis la fenêtre du document de conception.
+
+Vous pouvez également choisir des produits précédents si vous voulez simplement que votre leader gère les tâches pour des produits déjà sortis, par exemple le marketing, le support, les mises à jour et la distribution.
+
+Allez dans la {H:Design document window}."
+    PROJECTMANAGEMENT7      "Une fois votre conception terminée, cliquez sur le bouton {H:Project management}, au lieu du bouton {H:Develop}, pour assigner votre nouvelle conception à la file d'attente des projets."
+    RESEARCH1               "Commencez le tutoriel en appuyant sur le bouton {H:Research} pour afficher la fenêtre de recherche."
+    RESEARCH2               "La fenêtre de recherche vous permet de rechercher une spécialisation pour débloquer un nouveau niveau technologique.
+
+Le niveau technologique le plus récent sera toujours inaccessible jusqu'à ce que vous l'ayez recherché, mais il se débloquera à mesure que vous ou vos concurrents rechercherez le niveau technologique suivant.
+
+Essayez de cliquer sur l'une des spécialisations dans le panneau de gauche."
+    RESEARCH3               "À droite, vous verrez maintenant une liste de tous les niveaux technologiques actuellement recherchés pour la spécialisation choisie et s'ils ont un propriétaire de brevet.
+
+En bas, vous pouvez voir un bouton pour commencer à rechercher cette spécialisation, ce qui nécessite des concepteurs ayant une spécialisation de niveau 3 du type que vous souhaitez rechercher.
+
+Rechercher de nouvelles technologies avant tout le monde vous permettra de déposer un brevet en utilisant des employés {H:Service} avec la spécialisation {H:Law} de niveau 3. Si vous possédez le brevet d'un niveau technologique, toutes les entreprises l'utilisant devront payer des redevances sur leurs ventes."
+    SERVER1                 "Vous pouvez connecter ou déconnecter des serveurs en mode câblage en cliquant sur un serveur puis sur un autre. Vous pouvez également sélectionner tous les serveurs que vous souhaitez connecter en utilisant {KeyBind:MultipleSelect}, {KeyBind:SweepSelect} ou en faisant glisser un rectangle avec {KeyBind:NormalSelection}, puis appuyez sur {KeyBind:ContextMenu} et cliquez sur {H:Connect servers}.
+
+La charge que vous placez sur un groupe de serveurs connectés sera répartie entre tous les serveurs du groupe. Si un serveur d'un groupe tombe en panne, tout le groupe cesse de fonctionner.
+
+Ouvrez l'interface de câblage des serveurs en cliquant sur le bouton de câblage."
+    SERVER2                 "En dehors de la connexion des serveurs, vous pouvez utiliser le mode câblage pour obtenir une vue d'ensemble de vos connexions de serveurs.
+		
+Quittez le mode câblage et ouvrez la fenêtre des serveurs quand vous êtes prêt."
+    SERVER3                 "De là, vous pouvez gérer vos serveurs et vérifier s'ils surchauffent.
+
+Si vous sélectionnez un groupe de serveurs, vous pouvez voir une liste de tous les processus en cours sur ce groupe. Vous pouvez ensuite déplacer ces processus vers d'autres serveurs en appuyant sur {H:Move Selected Processes}.
+
+Vous pouvez également choisir un serveur de secours, qui gérera les processus d'un groupe de serveurs si celui-ci tombe en panne."
+    SERVER4                 "Si vous détruisez complètement un groupe de serveurs, tous les processus ne seront plus pris en charge, ce qui peut avoir des conséquences majeures.
+		
+Si cela se produit, vous devriez cliquer sur le bouton {H:View unsupported processes} et redéléguer tous les processus vers d'autres serveurs.
+
+Appuyez sur Fin pour terminer le tutoriel."
+    SIMPLEDESIGNDOCUMENT13  "Pendant que vous faisiez vos choix, le jeu a pris quelques décisions en arrière-plan.
+
+Les choix du jeu ne sont peut-être pas optimaux, mais vous pouvez démarrer le développement en toute sécurité à ce stade.
+
+Si vous souhaitez approfondir les dépendances, les frameworks et le ciblage du marché, vous pouvez passer à la version avancée du document de conception en cliquant sur {H:Advanced}, sinon cliquez simplement sur {H:Develop}."
+    STAFF1                  "Commencez par ouvrir la fenêtre du personnel."
+    STAFF2                  "Voici la fenêtre du personnel. En haut, vous verrez la liste de vos employés actuels, qu'ils soient permanents ou temporaires."
+    STAFF3                  "Avec les boutons sous {H:Permanent}, vous pouvez embaucher du personnel de façon permanente pour faire le ménage, réparer vos meubles, etc. Vous pouvez voir leur salaire en survolant les boutons. Ils se présenteront une fois par jour jusqu'à ce que vous les congédiiez.
+
+Vous pouvez modifier leurs horaires de travail à l'aide des boutons de la liste."
+    STAFF4                  "Avec les boutons sous {H:Temporary}, vous pouvez embaucher du personnel temporairement. Ils resteront jusqu'à ce que leur tâche soit terminée ou que vous les congédiiez. Le survol des boutons affichera leurs conditions.
+
+Appuyez sur {H:Finish} pour terminer le tutoriel."
+    STOCKS1                 "Commencez par ouvrir la fenêtre de détails de votre entreprise pour voir vos actions."
+    STOCKS2                 "Dans le coin supérieur droit de la fenêtre de l'entreprise, se trouve un panneau qui vous permet de vendre des parts de votre entreprise. La valeur de votre entreprise dépend de ses performances en matière de vente de services et de produits, ce qui détermine la part de l'entreprise que vous pouvez vendre.
+
+La première fois que vous vendez des actions s'appelle une {H:Initial Public Offering}, et tout votre argent ainsi que les fonds que vous levez seront divisés en environ {Currency:100} actions, qui seront réparties entre vous et vos investisseurs.
+
+Sous ce panneau, vous verrez une liste d'actions que vous pouvez acheter et vendre, selon que l'entreprise est {H:Publicly listed}, c'est-à-dire si elle vend des actions ou non.
+
+Essayez d'ouvrir la fenêtre de détails d'une autre entreprise pour voir combien d'actions elle possède. Vous pouvez consulter la colonne {H:Listed} dans la fenêtre de l'entreprise pour voir quel pourcentage d'une entreprise est en vente."
+    STOCKS3                 "Posséder des parts dans une entreprise vous rapportera des {H:Dividends}, ce qui signifie que vous recevrez un pourcentage des bénéfices de l'entreprise chaque mois, en fonction de votre part de propriété. Notez que vous devez également verser des dividendes à vos actionnaires.
+
+Si vous détenez plus de {H:10%} d'une entreprise, vous pouvez utiliser ses recherches avant tout le monde et si vous détenez plus de {H:25%}, vous n'avez pas à payer de redevances lors de l'utilisation des outils, systèmes d'exploitation, frameworks ou brevets de cette entreprise. À l'inverse, cela fonctionne aussi dans l'autre sens.
+
+Lorsque vous détenez plus de {H:50%} d'une entreprise, vous avez une chance de la racheter. Le rachat d'une entreprise vous permet de reprendre tous ses actifs ou d'en faire une filiale. Les filiales continueront à fonctionner normalement, mais vous pourrez contrôler leurs sorties et leur demander d'effectuer certaines tâches pour vous.
+
+Si une autre entreprise détient plus de 50 % de votre entreprise, elle peut lancer une {H:Hostile takeover}, ce qui vous donne 6 mois pour la faire descendre sous les 25 % avant que votre entreprise ne soit dissoute.
+
+Lorsqu'une entreprise fait faillite, tous ses actifs sont répartis entre ses actionnaires majoritaires."
+    SUBSIDIARY1             "Pour commencer le tutoriel, assurez-vous d'avoir une filiale et d'ouvrir sa fenêtre de détails d'entreprise."
+    SUBSIDIARY2             "Vous contrôlez les filiales principalement dans la fenêtre de détails de l'entreprise.
+		
+Vous pouvez utiliser le curseur pour retirer et déposer de l'argent, tout comme votre compte d'épargne. Retirer tout l'argent d'une filiale entraînera la fermeture de l'entreprise, et vous récupérerez tous ses actifs.
+
+La fenêtre de détails vous donne également un aperçu de leurs sorties prévues et la possibilité de les annuler.
+
+Appuyez sur Continuer quand vous êtes prêt."
+    SUBSIDIARY3             "Le développement consomme des ressources pour une filiale ; si vous voulez qu'elle travaille sur des tâches spécifiques, ou si vous voulez contrôler son calendrier de sortie, vous pouvez désactiver son autonomie pour vous assurer qu'elle ne passe pas de temps sur d'autres choses.
+		
+Vous ne pouvez assigner que des projets que la filiale développe habituellement, alors faites attention à ses sorties passées et futures. Essayez d'ouvrir le document de conception et de choisir le type de logiciel sur lequel elle travaille normalement."
+    SUBSIDIARY4             "Certaines tâches peuvent également être confiées à des filiales. C'est coûteux et cela consomme beaucoup de ressources de la filiale. Gardez un œil sur l'option de l'entreprise lorsque vous sélectionnez des équipes pour une tâche.
+		
+Terminez le tutoriel quand vous êtes prêt"
+    SUPPORTWORK1            "Avant que le tutoriel sur le support puisse continuer, vous devez avoir un produit commercialisé et lancer le support pour celui-ci.
+
+Vous pouvez ouvrir la fenêtre {H:Your releases} et lancer le support à partir de là, si vous avez des produits."
+    SUPPORTWORK2            "Lorsque vous publiez un nouveau logiciel, cela crée un élément de travail de support. Via cet élément, vous recevrez des tickets de support de vos clients, si vous en avez.
+
+Le support d'un produit ne s'arrête jamais de lui-même, vous devrez donc y mettre fin lorsque vous estimerez que le support n'est plus nécessaire. Surveillez le nombre d'utilisateurs actifs pour vous guider."
     SUPPORTWORK3            "Support tickets should be answered as quickly as possible to avoid consumer backlash and a loss of market recognition.
 			
 An employee's {H:Service} skill determines how quickly they can answer support tickets and having at least one star in the {H:Support} specialization will allow them to report bugs.
 
 As bugs get verified by supporters, you'll want to fix them by releasing updates, which you can do by clicking the {H:Update} button on the task or from {H:Your releases}."
-    TEAMMANAGEMENT1         "Begin by opening the team window."
-    TEAMMANAGEMENT2         "In this window you can manage and create teams.
+    TEAMMANAGEMENT1         "Commencez par ouvrir la fenêtre d'équipe."
+    TEAMMANAGEMENT2         "Dans cette fenêtre, vous pouvez gérer et créer des équipes.
 		
-Rooms can be heated and cooled in two ways: Either on a room-by-room basis or using a distributed system of pipes and vents.
+Vous pouvez ajouter une nouvelle équipe en saisissant un nom et en cliquant sur le bouton en bas."
+    TEAMMANAGEMENT3         "Lorsque vous sélectionnez une ou plusieurs équipes dans la liste, vous pouvez voir la compétence moyenne et le nombre de chaque niveau de spécialisation de tous les employés des équipes sélectionnées.
+		
+Vous pouvez modifier les heures d'arrivée et de départ de vos équipes en saisissant les heures souhaitées dans les champs de saisie de gauche avec une ou plusieurs équipes sélectionnées."
+    TEAMMANAGEMENT4         "Vous pouvez définir quand les vacances commencent pour vos équipes et comment elles doivent être réparties. Une plage de vacances de 2 signifie que les vacances de tous les employés d'une équipe seront divisées en 2 sur 2 mois, de sorte que vous aurez toujours au moins la moitié des employés au travail.
 
-Since this is your first day, nothing is showing. If you click here, a window with an overview of your finances will open."
-    WELCOME9                "You can control how fast time moves by using these buttons or {KeyBind:Pause}, {KeyBind:Speed1}, {KeyBind:Speed2} and {KeyBind:Speed3}, which can also be configured in the options menu."
-    WELCOME10               "Important notifications will appear to the left.
+Vous pouvez activer le crunch sur une équipe pour forcer vos employés à travailler plus vite au détriment de leur bien-être."
+    TEAMMANAGEMENT5         "Pour obtenir un aperçu des affectations de rôles de vos équipes, vous pouvez cliquer sur le bouton {H:Manage roles}.
+			
+Vous pouvez également définir des {H:Secondary tasks} pour chaque équipe. Les employés ne travailleront sur les tâches secondaires que s'ils n'ont aucune tâche principale assignée, ce qui par défaut est le cas pour chaque tâche."
+    TEMPERATUREREGULATION1  "Commencez par entrer en {H:Build mode} en cliquant sur le bouton Construire."
+    TEMPERATUREREGULATION2  "Les bureaux et les zones de réception doivent bénéficier d'une régulation de la température pour garantir le confort des employés et des invités.
 
+Les pièces peuvent être chauffées et refroidies de deux manières : soit pièce par pièce, soit à l'aide d'un système distribué de tuyaux et de bouches d'aération.
+
+Pour réguler la température dans les petits bureaux, vous pouvez placer des {H: Small Heaters, Ceiling Fans, Electric Radiators and AC Units}, qui commenceront immédiatement à modifier la température d'une pièce. Réguler la température de cette manière nécessite beaucoup d'entretien et fera rapidement grimper les dépenses dans les grands bâtiments.
+
+Cliquez sur {H:Continue} pour en savoir plus sur la solution distribuée."
+    TEMPERATUREREGULATION3  "You can use {H:Central Heating} and {H:Roof ACs} to distribute hot and cold air throughout a building using {H:Radiators} and {H:Ventilation} in each room. Since Radiators and Ventilation don't require maintenance, it will heavily reduce the workload for your staff.
+
+When you've placed a central temperature unit, you can select it and click on the {H:Auto-buy temperature outputs} in the bottom left corner to place ventilation and radiators in offices and reception areas automatically."
+    UPDATES1                "Commencez par lancer une mise à jour de l'un de vos produits existants"
+    UPDATES2                "La mise à jour d'un produit peut consister à corriger les bugs vérifiés par votre équipe de support et/ou à augmenter les niveaux technologiques d'un produit pour attirer de nouveaux clients ou fidéliser les clients actuels.
+
+Il n'y a pas de limite à la fréquence de mise à jour de vos logiciels. Vous pouvez publier des correctifs quotidiens si vous le souhaitez.
+
+Cliquez sur le bouton {H:Update} quand vous êtes prêt."
+    WELCOME1                "Bienvenue dans Software Inc.
+
+Vous pouvez faire glisser cette fenêtre ailleurs si elle vous gêne, en cliquant et en faisant glisser la barre de titre.
+
+Appuyez sur Continuer pour avancer dans le tutoriel."
+    WELCOME2                "Vous pouvez déplacer la caméra avec {KeyBind:MoveUp}, {KeyBind:MoveLeft}, {KeyBind:MoveDown} et {KeyBind:MoveRight}, en maintenant {KeyBind:DragCamera} et en faisant glisser la souris, ou en déplaçant votre souris vers les bords de l'écran (si le défilement par bordure est activé dans le menu des options).
+
+Vous pouvez faire pivoter la caméra en maintenant {KeyBind:RotateCamera} et en déplaçant la souris ou en utilisant {KeyBind:TurnUp}, {KeyBind:TurnLeft}, {KeyBind:TurnDown} et {KeyBind:TurnRight}.
+
+Vous pouvez zoomer et dézoomer à l'aide de la molette de défilement ou de {KeyBind:ZoomIn} et {KeyBind:ZoomOut}."
+    WELCOME3                "Les touches peuvent être configurées dans le menu des options, que vous pouvez ouvrir en appuyant sur Échap ou sur le bouton dans le coin inférieur droit et en cliquant sur \"Options\"."
+    WELCOME4                "En haut, vous trouverez votre solde bancaire actuel. Si vous survolez le chiffre, vous obtiendrez le détail de la valeur de votre entreprise."
+    WELCOME5                "Vous pouvez consulter la date et l'heure actuelles en haut au milieu de votre écran.
+
+Vous pouvez obtenir un aperçu des horaires de vos employés et du personnel en cliquant sur la date."
+    WELCOME6                "Ici, le nombre indique votre nombre de fans.
+
+Vous pouvez survoler la barre pour voir votre reconnaissance sur chaque marché de logiciels. Pour vendre plus de produits dans chaque catégorie, vous devez gagner en reconnaissance sur le marché en créant de bons produits et en les commercialisant."
+    WELCOME7                "En dessous, les étoiles indiquent votre réputation commerciale actuelle.
+
+Vous pouvez survoler la barre pour voir ce qui affecte actuellement votre réputation, le cas échéant.
+
+Vous pouvez améliorer votre réputation commerciale en effectuant des contrats ou en acceptant des accords d'autres entreprises."
+    WELCOME8                "Ici, vous pouvez voir l'argent qui entre et sort de votre entreprise.
+
+Comme c'est votre premier jour, rien ne s'affiche. Si vous cliquez ici, une fenêtre avec un aperçu de vos finances s'ouvrira."
+    WELCOME9                "Vous pouvez contrôler la vitesse du temps à l'aide de ces boutons ou des touches {KeyBind:Pause}, {KeyBind:Speed1}, {KeyBind:Speed2} et {KeyBind:Speed3}, qui peuvent également être configurées dans le menu des options."
+    WELCOME10               "Les notifications importantes apparaîtront sur la gauche.
+
+Certaines notifications peuvent être cliquées pour voir les détails. Vous pouvez faire un clic droit sur les notifications pour les supprimer."
+    WELCOME11               "Toutes vos commandes et fenêtres se trouvent ici, dans le coin inférieur gauche."
+    WELCOME12               "Rappel : vous pouvez toujours recommencer n'importe quel tutoriel depuis le menu des options.
+
+Si vous ne savez pas quoi faire ensuite, n'hésitez pas à consulter les {H:Tasks} que vous pouvez accomplir pour débloquer de superbes récompenses.
+
+Quand vous serez prêt, commencez à construire votre bureau en passant en {H:Build mode}."
+    }
