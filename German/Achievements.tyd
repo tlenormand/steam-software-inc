@@ -1,0 +1,45 @@
+FULLMETAAchievement
+    [
+    "Wir müssen tiefer gehen"
+    "Erstelle das Spiel im Spiel mit der Firma und dem Entwickler"
+    ]
+
+FIREPERISHAchievement   [ "Alles bestens"; "Lasse jemanden in einem Feuer umkommen" ]
+
+MORETIMEAchievement     [ "Brauche mehr Zeit"; "Spiele 10 Jahre lang mit 8 Tagen pro Monat" ]
+
+LIFETIMEAchievement     [ "Ein Leben lang"; "Spiele 80 Jahre lang" ]
+
+FPSEASONAchievement     [ "Frames pro Saison"; "Habe mehr als 500 Mitarbeiter" ]
+
+EMPLOYEESUITAchievement [ "Schlechte Gesellschaft"; "Lasse dich von 10 Mitarbeitern in einer Sammelklage verklagen" ]
+
+SPIFFBREAKAchievement
+    [
+    "Das ist ja famos"
+    "Brich ein Projekt nach Erhalt einer Publisher-Finanzierung ab und gewinne den Rechtsstreit"
+    ]
+
+POLICEDRONEAchievement
+    [
+    "Oh yeah!"
+    "Lasse eine Polizeidrohne Wände durchbrechen, um Edelmetalle zu beschlagnahmen"
+    ]
+
+BUYPLAYERAchievement    [ PvPayout; "Kaufe die Firma eines anderen Spielers auf" ]
+
+PROPERCOOPAchievement
+    [
+    Co-optimized
+    "Veröffentliche ein Produkt mit annähernd gleichem Umsatzanteil wie andere Spieler"
+    ]
+
+DEDICATIONAchievement   [ "Die Zahl steigt"; "Veröffentliche 10 Fortsetzungen für dieselbe Marke" ]
+
+BUYOUTSTREAKAchievement [ "Meins!"; "Übernimm 5 Firmen in einem Jahr" ]
+
+COPYGOLDAchievement     [ "STRG-C STRG-$"; "Versuche, Edelmetalle im Baumodus zu duplizieren" ]
+
+PLATINUMAchievement [ "Der GOAT"; "Gewinne einen Platin-Award durch 5 Siege in Folge" ]
+
+FEATURECREEPAchievement     [ "Feature-Creep"; "Interagiere mit allen Spielfunktionen {FeaturesLeft}" ]
