@@ -1,0 +1,2 @@
+# LLM translation cache (per-language JSON under Localization/.cache)
+.cache/
